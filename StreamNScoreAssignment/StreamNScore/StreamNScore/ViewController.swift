@@ -45,6 +45,16 @@ class ViewController: UIViewController {
         europaSwitch.setOn(setting, animated: true)
     }
     
+//    @IBAction func switchOnePressed(_ sender: UISwitch) {
+ //       label.text = sender.isOn ? "UISwitch is ON" : "UISwitch is OFF"
+  //      switchTwo.setOn(!sender.isOn, animated: true)
+   // }
+    
+    //@IBAction func switchTwoPressed(_ sender: UISwitch) {
+      //  label.text = sender.isOn ? "UISwitch is ON" : "UISwitch is OFF"
+        //switchOne.setOn(!sender.isOn, animated: true)
+    //}
+    
     @IBAction func toggleSwitchesNButtons(_ sender: UISegmentedControl)
     {
         if sender.selectedSegmentIndex == 0
@@ -65,20 +75,24 @@ class ViewController: UIViewController {
     
     @IBAction func championsPressedButton(_ sender: UIButton)
     {
-        let controller = UIAlertController(title: "Are you sure you want to select Champions League?",
+        let controller = UIAlertController(title: "Are you sure you want to select Champions League or Europa League?",
                                            message:nil, preferredStyle: .actionSheet)
         
-        let yesAction = UIAlertAction(title: "Yes",
-                                      style: .destructive, handler: { action in
+        let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                                         let msg = self.fullNameText.text!.isEmpty
-                                            ? "You can breathe easy, everything went OK."
-                                        : "You can breathe easy "
+                                            ? "You will be notified"
+                                        : "You will be notified, \(self.fullNameText.text),"
+                                        + "everything went OK."
+            
                                         let controller2 = UIAlertController(
-                                            title:"Something Was Done",
+                                            title:"Done",
                                             message: msg, preferredStyle: .alert)
-                                        let cancelAction = UIAlertAction(title: "Phew!",
+            
+                                        let cancelAction = UIAlertAction(title: "Cancel",
                                                                          style: .cancel, handler: nil)
+            
                                         controller2.addAction(cancelAction)
+            
                                         self.present(controller2, animated: true,
                                                      completion: nil)
         })
