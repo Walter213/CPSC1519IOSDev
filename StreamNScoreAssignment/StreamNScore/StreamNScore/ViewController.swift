@@ -16,6 +16,8 @@ class ViewController: UIViewController
         // Do any additional setup after loading the view.
         championsSwitch.setOn(false, animated: false)
         europaSwitch.setOn(false, animated: false)
+        
+        fullNameText.placeholder = "Doesn't do anything at the moment"
     }
     
     @IBOutlet weak var fullNameText: UITextField!
@@ -23,7 +25,6 @@ class ViewController: UIViewController
     @IBOutlet weak var europaSwitch: UISwitch!
     @IBOutlet weak var championsSelect: UIButton!
     @IBOutlet weak var europaSelect: UIButton!
-    
     
     override func didReceiveMemoryWarning()
     {
@@ -72,7 +73,7 @@ class ViewController: UIViewController
             let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                 let msg = self.fullNameText.text!.isEmpty
                     ? "You will recieve notification when they are implemented"
-                    : "You will recieve notification when they are implemented, \(String(describing: self.fullNameText.text))"
+                    : "You will recieve notification when they are implemented"
                 
                 let controller2 = UIAlertController(
                     title:"Done",
@@ -112,7 +113,7 @@ class ViewController: UIViewController
             let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                 let msg = self.fullNameText.text!.isEmpty
                     ? "You will now not recieve any notifications when they are implemented"
-                    : "You will now not recieve any notifications when they are implemented, \(String(describing: self.fullNameText.text))"
+                    : "You will now not recieve any notifications when they are implemented"
                 
                 let controller2 = UIAlertController(
                     title:"Done",
@@ -157,7 +158,7 @@ class ViewController: UIViewController
             let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                 let msg = self.fullNameText.text!.isEmpty
                     ? "You will recieve notification when they are implemented"
-                    : " You will recieve notification when they are implemented, \(String(describing: self.fullNameText.text))"
+                    : " You will recieve notification when they are implemented"
                 
                 let controller2 = UIAlertController(
                     title:"Done",
@@ -197,7 +198,7 @@ class ViewController: UIViewController
             let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                 let msg = self.fullNameText.text!.isEmpty
                     ? "You will now not recieve any notifications when they are implemented"
-                    : " You will now not recieve any notifications when they are implemented, \(String(describing: self.fullNameText.text))"
+                    : " You will now not recieve any notifications when they are implemented"
                 
                 let controller2 = UIAlertController(
                     title:"Done",
@@ -255,7 +256,7 @@ class ViewController: UIViewController
         let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                                         let msg = self.fullNameText.text!.isEmpty
                                             ? "You will recieve notification when they are implemented"
-                                            : "You will recieve notification when they are implemented, \(String(describing: self.fullNameText.text))"
+                                            : "You will recieve notification when they are implemented"
             
                                         let controller2 = UIAlertController(
                                             title:"Done",
@@ -294,7 +295,7 @@ class ViewController: UIViewController
         let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
             let msg = self.fullNameText.text!.isEmpty
                 ? "You will recieve notification when they are implemented"
-                : " You will recieve notification when they are implemented, \(String(describing: self.fullNameText.text))"
+                : " You will recieve notification when they are implemented"
             
             let controller2 = UIAlertController(
                 title:"Done",
