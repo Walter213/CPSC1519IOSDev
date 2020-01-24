@@ -27,6 +27,25 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    // https://www.tutorialspoint.com/how-do-you-animate-the-change-of-background-color-of-a-view-on-ios
+    @IBAction func changeBackgroundClicked(_ sender: Any)
+    {
+        if self.view.backgroundColor == UIColor.red
+        {
+            UIView.animate(withDuration: 2)
+            {
+                self.view.backgroundColor = UIColor.lightGray
+            }
+        }
+        else
+        {
+            UIView.animate(withDuration: 2)
+            {
+                self.view.backgroundColor = UIColor.red
+            }
+        }
+    }
+    
     @IBAction func textFieldDoneEditing(sender: UITextField)
     {
         sender.resignFirstResponder()
@@ -41,12 +60,90 @@ class ViewController: UIViewController {
     {
         let setting = sender.isOn
         championsSwitch.setOn(setting, animated: true)
+        
+        if championsSwitch.isOn
+        {
+            let controller = UIAlertController(title: "Are you sure you want to select Champions League?",
+                                               message:nil, preferredStyle: .actionSheet)
+            
+            let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
+                let msg = self.fullNameText.text!.isEmpty
+                    ? "You will recieve notification when they are implemented"
+                    : "You will recieve notification when they are implemented, \(self.fullNameText.text),"
+                
+                let controller2 = UIAlertController(
+                    title:"Done",
+                    message: msg, preferredStyle: .alert)
+                
+                let cancelAction = UIAlertAction(title: "Ok",
+                                                 style: .cancel, handler: nil)
+                
+                controller2.addAction(cancelAction)
+                
+                self.present(controller2, animated: true,
+                             completion: nil)
+            })
+            
+            let noAction = UIAlertAction(title: "No",
+                                         style: .cancel, handler: nil)
+            
+            controller.addAction(yesAction)
+            controller.addAction(noAction)
+            
+            if let ppc = controller.popoverPresentationController
+            {
+                ppc.sourceView = sender
+                ppc.sourceRect = sender.bounds
+                ppc.permittedArrowDirections = .down
+            }
+            
+            present(controller, animated: true, completion: nil)
+        }
     }
     
     @IBAction func europaSwitchChanged(_ sender: UISwitch)
     {
         let setting = sender.isOn
         europaSwitch.setOn(setting, animated: true)
+        
+        if europaSwitch.isOn
+        {
+            let controller = UIAlertController(title: "Are you sure you want to select Europa League?",
+                                               message:nil, preferredStyle: .actionSheet)
+            
+            let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
+                let msg = self.fullNameText.text!.isEmpty
+                    ? "You will recieve notification when they are implemented"
+                    : " You will recieve notification when they are implemented, \(self.fullNameText.text),"
+                
+                let controller2 = UIAlertController(
+                    title:"Done",
+                    message: msg, preferredStyle: .alert)
+                
+                let cancelAction = UIAlertAction(title: "Ok",
+                                                 style: .cancel, handler: nil)
+                
+                controller2.addAction(cancelAction)
+                
+                self.present(controller2, animated: true,
+                             completion: nil)
+            })
+            
+            let noAction = UIAlertAction(title: "No",
+                                         style: .cancel, handler: nil)
+            
+            controller.addAction(yesAction)
+            controller.addAction(noAction)
+            
+            if let ppc = controller.popoverPresentationController
+            {
+                ppc.sourceView = sender
+                ppc.sourceRect = sender.bounds
+                ppc.permittedArrowDirections = .down
+            }
+            
+            present(controller, animated: true, completion: nil)
+        }
     }
     
     @IBAction func toggleSwitchesNButtons(_ sender: UISegmentedControl)
