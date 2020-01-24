@@ -64,14 +64,14 @@
                                 <rect key="frame" x="285" y="464" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="onSwitchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="c4J-5e-jEc"/>
+                                    <action selector="europaSwitchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="C3p-3d-gNs"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kdc-fr-l7X">
                                 <rect key="frame" x="285" y="401" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="onSwitchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Vuk-uq-cyb"/>
+                                    <action selector="championsSwitchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="oQ9-fS-I4q"/>
                                 </connections>
                             </switch>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioz-fM-4gl">

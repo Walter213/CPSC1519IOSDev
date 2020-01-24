@@ -38,22 +38,17 @@ class ViewController: UIViewController {
         fullNameText.resignFirstResponder()
     }
     
-    @IBAction func onSwitchChanged(_ sender: UISwitch)
+    @IBAction func championsSwitchChanged(_ sender: UISwitch)
     {
         let setting = sender.isOn
         championsSwitch.setOn(setting, animated: true)
-        europaSwitch.setOn(setting, animated: true)
     }
     
-//    @IBAction func switchOnePressed(_ sender: UISwitch) {
- //       label.text = sender.isOn ? "UISwitch is ON" : "UISwitch is OFF"
-  //      switchTwo.setOn(!sender.isOn, animated: true)
-   // }
-    
-    //@IBAction func switchTwoPressed(_ sender: UISwitch) {
-      //  label.text = sender.isOn ? "UISwitch is ON" : "UISwitch is OFF"
-        //switchOne.setOn(!sender.isOn, animated: true)
-    //}
+    @IBAction func europaSwitchChanged(_ sender: UISwitch)
+    {
+        let setting = sender.isOn
+        europaSwitch.setOn(setting, animated: true)
+    }
     
     @IBAction func toggleSwitchesNButtons(_ sender: UISegmentedControl)
     {
