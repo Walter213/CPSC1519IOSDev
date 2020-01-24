@@ -8,11 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        championsSwitch.setOn(false, animated: false)
+        europaSwitch.setOn(false, animated: false)
     }
     
     @IBOutlet weak var fullNameText: UITextField!
@@ -63,13 +66,53 @@ class ViewController: UIViewController {
         
         if championsSwitch.isOn
         {
-            let controller = UIAlertController(title: "Are you sure you want to select Champions League?",
+            let controller = UIAlertController(title: "Are you sure you want to turn on Champions League?",
                                                message:nil, preferredStyle: .actionSheet)
             
             let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                 let msg = self.fullNameText.text!.isEmpty
                     ? "You will recieve notification when they are implemented"
-                    : "You will recieve notification when they are implemented, \(self.fullNameText.text),"
+                    : "You will recieve notification when they are implemented, \(String(describing: self.fullNameText.text))"
+                
+                let controller2 = UIAlertController(
+                    title:"Done",
+                    message: msg, preferredStyle: .alert)
+                
+                let cancelAction = UIAlertAction(title: "Ok",
+                                                 style: .cancel, handler: nil)
+                
+                controller2.addAction(cancelAction)
+                
+                self.present(controller2, animated: true,
+                             completion: nil)
+            })
+            
+            let noAction = UIAlertAction(title: "No",
+                                         style: .cancel, handler: nil)
+            
+            controller.addAction(yesAction)
+            controller.addAction(noAction)
+            
+            if let ppc = controller.popoverPresentationController
+            {
+                ppc.sourceView = sender
+                ppc.sourceRect = sender.bounds
+                ppc.permittedArrowDirections = .down
+            }
+            
+            present(controller, animated: true, completion: nil)
+        }
+        // (else method), for switching it off, this is to confirm with user if he
+        // or she would like to turn it off
+        else
+        {
+            let controller = UIAlertController(title: "Are you sure you want to turn off Champions League?",
+                                               message:nil, preferredStyle: .actionSheet)
+            
+            let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
+                let msg = self.fullNameText.text!.isEmpty
+                    ? "You will now not recieve any notifications when they are implemented"
+                    : "You will now not recieve any notifications when they are implemented, \(String(describing: self.fullNameText.text))"
                 
                 let controller2 = UIAlertController(
                     title:"Done",
@@ -108,13 +151,53 @@ class ViewController: UIViewController {
         
         if europaSwitch.isOn
         {
-            let controller = UIAlertController(title: "Are you sure you want to select Europa League?",
+            let controller = UIAlertController(title: "Are you sure you want to turn on Europa League?",
                                                message:nil, preferredStyle: .actionSheet)
             
             let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                 let msg = self.fullNameText.text!.isEmpty
                     ? "You will recieve notification when they are implemented"
-                    : " You will recieve notification when they are implemented, \(self.fullNameText.text),"
+                    : " You will recieve notification when they are implemented, \(String(describing: self.fullNameText.text))"
+                
+                let controller2 = UIAlertController(
+                    title:"Done",
+                    message: msg, preferredStyle: .alert)
+                
+                let cancelAction = UIAlertAction(title: "Ok",
+                                                 style: .cancel, handler: nil)
+                
+                controller2.addAction(cancelAction)
+                
+                self.present(controller2, animated: true,
+                             completion: nil)
+            })
+            
+            let noAction = UIAlertAction(title: "No",
+                                         style: .cancel, handler: nil)
+            
+            controller.addAction(yesAction)
+            controller.addAction(noAction)
+            
+            if let ppc = controller.popoverPresentationController
+            {
+                ppc.sourceView = sender
+                ppc.sourceRect = sender.bounds
+                ppc.permittedArrowDirections = .down
+            }
+            
+            present(controller, animated: true, completion: nil)
+        }
+        // (else method), for switching it off, this is to confirm with user if he
+        // or she would like to turn it off
+        else
+        {
+            let controller = UIAlertController(title: "Are you sure you want to turn off Europa League?",
+                                               message:nil, preferredStyle: .actionSheet)
+            
+            let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
+                let msg = self.fullNameText.text!.isEmpty
+                    ? "You will now not recieve any notifications when they are implemented"
+                    : " You will now not recieve any notifications when they are implemented, \(String(describing: self.fullNameText.text))"
                 
                 let controller2 = UIAlertController(
                     title:"Done",
@@ -172,7 +255,7 @@ class ViewController: UIViewController {
         let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                                         let msg = self.fullNameText.text!.isEmpty
                                             ? "You will recieve notification when they are implemented"
-                                        : "You will recieve notification when they are implemented, \(self.fullNameText.text),"
+                                            : "You will recieve notification when they are implemented, \(String(describing: self.fullNameText.text))"
             
                                         let controller2 = UIAlertController(
                                             title:"Done",
@@ -211,7 +294,7 @@ class ViewController: UIViewController {
         let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
             let msg = self.fullNameText.text!.isEmpty
                 ? "You will recieve notification when they are implemented"
-                : " You will recieve notification when they are implemented, \(self.fullNameText.text),"
+                : " You will recieve notification when they are implemented, \(String(describing: self.fullNameText.text))"
             
             let controller2 = UIAlertController(
                 title:"Done",
