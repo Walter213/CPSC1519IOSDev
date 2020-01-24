@@ -52,6 +52,7 @@ class ViewController: UIViewController
     
     @IBAction func textFieldDoneEditing(sender: UITextField)
     {
+        // add connection by looking at chapter 4 example
         sender.resignFirstResponder()
     }
     
