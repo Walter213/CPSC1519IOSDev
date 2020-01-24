@@ -17,12 +17,12 @@ class ViewController: UIViewController
         championsSwitch.setOn(false, animated: false)
         europaSwitch.setOn(false, animated: false)
         
-        fullNameText.placeholder = "Doesn't do anything at the moment"
+        fullNameText.placeholder = "Enter Full Name Here"
     }
     
     @IBOutlet weak var fullNameText: UITextField!
     @IBOutlet weak var championsSwitch: UISwitch!
-    @IBOutlet weak var europaSwitch: UISwitch! 
+    @IBOutlet weak var europaSwitch: UISwitch!
     @IBOutlet weak var championsSelect: UIButton!
     @IBOutlet weak var europaSelect: UIButton!
     
@@ -63,6 +63,8 @@ class ViewController: UIViewController
     // For Next Assignment i would like to look and try to implement something for if you click no on any
     // alerts like the UIbuttons, when you hit no it should stay off and if you wish not to turn it off
     // then it should keep it on if you click no
+    
+    // maybe add a playable sound when click the select buttons just for fun
     
     @IBAction func championsSwitchChanged(_ sender: UISwitch)
     {
@@ -332,7 +334,7 @@ class ViewController: UIViewController
 }
 
 // Quiz 2 Example
-// This is a button, i put a label for the (Add 10 to the number) some reason
+// This is a button, i put a label for the (Add 10 to the number) for some reason
 // var num = Int(numberInput.text!)
 // num = num! + 10
 // numberOutput.text = string(num!)
