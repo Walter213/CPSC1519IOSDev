@@ -89,7 +89,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Select"/>
                                 <connections>
-                                    <action selector="championsPressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fk0-40-yds"/>
+                                    <action selector="europaButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1EO-cQ-N7N"/>
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="FSS-u9-Y9H">

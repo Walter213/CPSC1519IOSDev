@@ -75,20 +75,19 @@ class ViewController: UIViewController {
     
     @IBAction func championsPressedButton(_ sender: UIButton)
     {
-        let controller = UIAlertController(title: "Are you sure you want to select Champions League or Europa League?",
+        let controller = UIAlertController(title: "Are you sure you want to select Champions League?",
                                            message:nil, preferredStyle: .actionSheet)
         
         let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                                         let msg = self.fullNameText.text!.isEmpty
-                                            ? "You will be notified"
-                                        : "You will be notified, \(self.fullNameText.text),"
-                                        + "everything went OK."
+                                            ? "You will recieve notification when they are implemented"
+                                        : "You will recieve notification when they are implemented, \(self.fullNameText.text),"
             
                                         let controller2 = UIAlertController(
                                             title:"Done",
                                             message: msg, preferredStyle: .alert)
             
-                                        let cancelAction = UIAlertAction(title: "Cancel",
+                                        let cancelAction = UIAlertAction(title: "Ok",
                                                                          style: .cancel, handler: nil)
             
                                         controller2.addAction(cancelAction)
@@ -113,4 +112,42 @@ class ViewController: UIViewController {
         present(controller, animated: true, completion: nil)
     }
     
+    @IBAction func europaButtonPressed(_ sender: UIButton)
+    {
+        let controller = UIAlertController(title: "Are you sure you want to select Europa League?",
+                                           message:nil, preferredStyle: .actionSheet)
+        
+        let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
+            let msg = self.fullNameText.text!.isEmpty
+                ? "You will recieve notification when they are implemented"
+                : " You will recieve notification when they are implemented, \(self.fullNameText.text),"
+            
+            let controller2 = UIAlertController(
+                title:"Done",
+                message: msg, preferredStyle: .alert)
+            
+            let cancelAction = UIAlertAction(title: "Ok",
+                                             style: .cancel, handler: nil)
+            
+            controller2.addAction(cancelAction)
+            
+            self.present(controller2, animated: true,
+                         completion: nil)
+        })
+        
+        let noAction = UIAlertAction(title: "No",
+                                     style: .cancel, handler: nil)
+        
+        controller.addAction(yesAction)
+        controller.addAction(noAction)
+        
+        if let ppc = controller.popoverPresentationController
+        {
+            ppc.sourceView = sender
+            ppc.sourceRect = sender.bounds
+            ppc.permittedArrowDirections = .down
+        }
+        
+        present(controller, animated: true, completion: nil)
+    }
 }
