@@ -34,7 +34,6 @@ class ViewController: UIViewController {
     
     @IBAction func onTapGestureRecognized(_ sender: Any)
     {
-        // Need to Fix The Text
         fullNameText.resignFirstResponder()
     }
     
