@@ -22,7 +22,7 @@ class ViewController: UIViewController
     
     @IBOutlet weak var fullNameText: UITextField!
     @IBOutlet weak var championsSwitch: UISwitch!
-    @IBOutlet weak var europaSwitch: UISwitch!
+    @IBOutlet weak var europaSwitch: UISwitch! 
     @IBOutlet weak var championsSelect: UIButton!
     @IBOutlet weak var europaSelect: UIButton!
     
@@ -52,7 +52,6 @@ class ViewController: UIViewController
     
     @IBAction func textFieldDoneEditing(sender: UITextField)
     {
-        // add connection by looking at chapter 4 example
         sender.resignFirstResponder()
     }
     
@@ -60,6 +59,10 @@ class ViewController: UIViewController
     {
         fullNameText.resignFirstResponder()
     }
+    
+    // For Next Assignment i would like to look and try to implement something for if you click no on any
+    // alerts like the UIbuttons, when you hit no it should stay off and if you wish not to turn it off
+    // then it should keep it on if you click no
     
     @IBAction func championsSwitchChanged(_ sender: UISwitch)
     {
@@ -327,3 +330,9 @@ class ViewController: UIViewController
         present(controller, animated: true, completion: nil)
     }
 }
+
+// Quiz 2 Example
+// This is a button, i put a label for the (Add 10 to the number) some reason
+// var num = Int(numberInput.text!)
+// num = num! + 10
+// numberOutput.text = string(num!)
