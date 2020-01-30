@@ -1,0 +1,1 @@
+fullNameText.text?.isEmpty ?? true
