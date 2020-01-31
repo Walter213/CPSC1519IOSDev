@@ -17,28 +17,14 @@ class ViewController: UIViewController
         championsSwitch.setOn(false, animated: false)
         europaSwitch.setOn(false, animated: false)
         
-        championsSwitchR.setOn(false, animated: false)
-        europaSwitchR.setOn(false, animated: false)
-        
         fullNameText.placeholder = "Enter Full Name Here"
-        
-        fullnameText.placeholder = "Enter Full Name Here"
     }
     
-    // None Rotated Stuff
     @IBOutlet weak var fullNameText: UITextField!
     @IBOutlet weak var championsSwitch: UISwitch!
     @IBOutlet weak var europaSwitch: UISwitch!
     @IBOutlet weak var championsSelect: UIButton!
     @IBOutlet weak var europaSelect: UIButton!
-    
-    // Rotated Device Stuff
-    @IBOutlet weak var fullnameText: UITextField!
-    @IBOutlet weak var europaSwitchR: UISwitch!
-    @IBOutlet weak var championsSwitchR: UISwitch!
-    @IBOutlet weak var championsSelectR: UIButton!
-    @IBOutlet weak var europaSelectR: UIButton!
-    
     
     override func didReceiveMemoryWarning()
     {
@@ -258,11 +244,6 @@ class ViewController: UIViewController
             europaSwitch.isHidden = false
             championsSelect.isHidden = true
             europaSelect.isHidden = true
-            
-            championsSwitchR.isHidden = false
-            europaSwitchR.isHidden = false
-            championsSelectR.isHidden = true
-            europaSelectR.isHidden = true
         }
         else
         {
@@ -270,11 +251,6 @@ class ViewController: UIViewController
             europaSwitch.isHidden = true
             championsSelect.isHidden = false
             europaSelect.isHidden = false
-            
-            championsSwitchR.isHidden = true
-            europaSwitchR.isHidden = true
-            championsSelectR.isHidden = false
-            europaSelectR.isHidden = false
         }
     }
     
