@@ -18,6 +18,8 @@ class ViewController: UIViewController
         europaSwitch.setOn(false, animated: false)
         
         fullNameText.placeholder = "Enter Full Name Here"
+        
+        fullNameLabel.text = ""
     }
     
     @IBOutlet weak var fullNameText: UITextField!
@@ -25,6 +27,7 @@ class ViewController: UIViewController
     @IBOutlet weak var europaSwitch: UISwitch!
     @IBOutlet weak var championsSelect: UIButton!
     @IBOutlet weak var europaSelect: UIButton!
+    @IBOutlet weak var fullNameLabel: UILabel!
     
     override func didReceiveMemoryWarning()
     {
@@ -53,6 +56,16 @@ class ViewController: UIViewController
     @IBAction func textFieldDoneEditing(sender: UITextField)
     {
         sender.resignFirstResponder()
+        
+        if fullNameText.text?.isEmpty ?? true
+        {
+            fullNameLabel.text = ""
+        }
+        else
+        {
+            fullNameLabel.text = "Welcome " + fullNameText.text!
+            fullNameLabel.textAlignment = .center
+        }
     }
     
     @IBAction func onTapGestureRecognized(_ sender: Any)
