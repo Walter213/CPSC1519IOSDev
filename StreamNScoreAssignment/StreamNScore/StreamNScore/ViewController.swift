@@ -190,7 +190,9 @@ class ViewController: UIViewController
             })
             
             let noAction = UIAlertAction(title: "No",
-                                         style: .cancel, handler: nil)
+                style: .cancel, handler: { action in
+                    self.europaSwitch.setOn(setting, animated: true)
+            })
             
             controller.addAction(yesAction)
             controller.addAction(noAction)
@@ -228,7 +230,9 @@ class ViewController: UIViewController
             })
             
             let noAction = UIAlertAction(title: "No",
-                                         style: .cancel, handler: nil)
+                style: .cancel, handler: { action in
+                self.europaSwitch.setOn(setting, animated: false)
+            })
             
             controller.addAction(yesAction)
             controller.addAction(noAction)
