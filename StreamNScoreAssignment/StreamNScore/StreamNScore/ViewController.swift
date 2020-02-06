@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController
 {
+    // I will try this stuff when i get more time to play around with this code
+    // For Next Assignment i would like to look and try to implement something for if you click no on any
+    // alerts like the UIbuttons, when you hit no it should stay off and if you wish not to turn it off
+    // then it should keep it on if you click no
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -73,12 +78,6 @@ class ViewController: UIViewController
         fullNameText.resignFirstResponder()
     }
     
-    // For Next Assignment i would like to look and try to implement something for if you click no on any
-    // alerts like the UIbuttons, when you hit no it should stay off and if you wish not to turn it off
-    // then it should keep it on if you click no
-    
-    // maybe add a playable sound when click the select buttons just for fun
-    
     @IBAction func championsSwitchChanged(_ sender: UISwitch)
     {
         let setting = sender.isOn
@@ -122,8 +121,6 @@ class ViewController: UIViewController
             
             present(controller, animated: true, completion: nil)
         }
-        // (else method), for switching it off, this is to confirm with user if he
-        // or she would like to turn it off
         else
         {
             let controller = UIAlertController(title: "Are you sure you want to turn off Champions League?",
@@ -207,8 +204,6 @@ class ViewController: UIViewController
             
             present(controller, animated: true, completion: nil)
         }
-        // (else method), for switching it off, this is to confirm with user if he
-        // or she would like to turn it off
         else
         {
             let controller = UIAlertController(title: "Are you sure you want to turn off Europa League?",
@@ -345,9 +340,3 @@ class ViewController: UIViewController
         present(controller, animated: true, completion: nil)
     }
 }
-
-// Quiz 2 Example
-// This is a button, i put a label for the (Add 10 to the number) for some reason
-// var num = Int(numberInput.text!)
-// num = num! + 10
-// numberOutput.text = string(num!)

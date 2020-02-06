@@ -366,6 +366,16 @@
                                 <exclude reference="wRg-S9-ghs"/>
                                 <exclude reference="xxN-Fa-7F3"/>
                                 <exclude reference="zlT-Tb-Mxd"/>
+                                <exclude reference="nTq-Vx-md2"/>
+                                <exclude reference="v0X-Ul-UO2"/>
+                                <exclude reference="yBf-IW-rAQ"/>
+                                <exclude reference="ysX-OI-Bxa"/>
+                                <exclude reference="6lt-TC-DIX"/>
+                                <exclude reference="E2p-h7-lmp"/>
+                                <exclude reference="ITH-J9-33J"/>
+                                <exclude reference="WRy-Vk-QS6"/>
+                                <exclude reference="f3B-OD-1nq"/>
+                                <exclude reference="puh-Ex-hWJ"/>
                                 <exclude reference="B2q-oc-opb"/>
                                 <exclude reference="CDd-w3-bpw"/>
                                 <exclude reference="EVG-cz-YWx"/>
@@ -377,16 +387,6 @@
                                 <exclude reference="SUp-Ia-oKv"/>
                                 <exclude reference="fVd-RT-Ps5"/>
                                 <exclude reference="oB2-NU-toJ"/>
-                                <exclude reference="nTq-Vx-md2"/>
-                                <exclude reference="v0X-Ul-UO2"/>
-                                <exclude reference="yBf-IW-rAQ"/>
-                                <exclude reference="ysX-OI-Bxa"/>
-                                <exclude reference="6lt-TC-DIX"/>
-                                <exclude reference="E2p-h7-lmp"/>
-                                <exclude reference="ITH-J9-33J"/>
-                                <exclude reference="WRy-Vk-QS6"/>
-                                <exclude reference="f3B-OD-1nq"/>
-                                <exclude reference="puh-Ex-hWJ"/>
                                 <exclude reference="JRV-Ha-Bk4"/>
                                 <exclude reference="cLX-Zx-hav"/>
                                 <exclude reference="dTd-yz-WPl"/>
@@ -407,15 +407,15 @@
                                 <exclude reference="wdF-Vp-xz5"/>
                                 <exclude reference="xp7-8K-Mgm"/>
                                 <exclude reference="yEt-Vj-78e"/>
-                                <exclude reference="YVd-Ag-KVa"/>
-                                <exclude reference="gUQ-V9-FZ8"/>
-                                <exclude reference="qvI-YY-wrc"/>
                                 <exclude reference="4BB-br-vkD"/>
                                 <exclude reference="8UI-A1-uIm"/>
                                 <exclude reference="I2N-je-O9H"/>
                                 <exclude reference="cfs-YP-jzM"/>
                                 <exclude reference="js4-hb-zxw"/>
                                 <exclude reference="z71-Nu-lho"/>
+                                <exclude reference="YVd-Ag-KVa"/>
+                                <exclude reference="gUQ-V9-FZ8"/>
+                                <exclude reference="qvI-YY-wrc"/>
                                 <exclude reference="6yG-za-YhA"/>
                                 <exclude reference="9PM-13-QmS"/>
                                 <exclude reference="E5u-rZ-sIl"/>
@@ -456,6 +456,16 @@
                                 <exclude reference="oFw-fR-NxX"/>
                                 <exclude reference="v6E-4M-2g3"/>
                                 <include reference="wRg-S9-ghs"/>
+                                <exclude reference="e02-nP-pN7"/>
+                                <exclude reference="hRL-Qx-C02"/>
+                                <include reference="nTq-Vx-md2"/>
+                                <include reference="ysX-OI-Bxa"/>
+                                <exclude reference="7yu-52-5yo"/>
+                                <exclude reference="8PR-fM-aGd"/>
+                                <include reference="E2p-h7-lmp"/>
+                                <exclude reference="HG2-2L-cMW"/>
+                                <include reference="ITH-J9-33J"/>
+                                <include reference="puh-Ex-hWJ"/>
                                 <include reference="EVG-cz-YWx"/>
                                 <include reference="GwN-Ru-gLu"/>
                                 <exclude reference="TKn-yN-kDP"/>
@@ -467,16 +477,6 @@
                                 <include reference="fVd-RT-Ps5"/>
                                 <exclude reference="ir1-1m-cs9"/>
                                 <include reference="oB2-NU-toJ"/>
-                                <exclude reference="e02-nP-pN7"/>
-                                <exclude reference="hRL-Qx-C02"/>
-                                <include reference="nTq-Vx-md2"/>
-                                <include reference="ysX-OI-Bxa"/>
-                                <exclude reference="7yu-52-5yo"/>
-                                <exclude reference="8PR-fM-aGd"/>
-                                <include reference="E2p-h7-lmp"/>
-                                <exclude reference="HG2-2L-cMW"/>
-                                <include reference="ITH-J9-33J"/>
-                                <include reference="puh-Ex-hWJ"/>
                                 <include reference="JRV-Ha-Bk4"/>
                                 <include reference="cLX-Zx-hav"/>
                                 <include reference="dTd-yz-WPl"/>
@@ -494,13 +494,13 @@
                                 <include reference="wdF-Vp-xz5"/>
                                 <include reference="xp7-8K-Mgm"/>
                                 <include reference="yEt-Vj-78e"/>
-                                <include reference="gUQ-V9-FZ8"/>
-                                <exclude reference="k1U-t5-GpS"/>
                                 <include reference="8UI-A1-uIm"/>
                                 <include reference="I2N-je-O9H"/>
                                 <exclude reference="Rsr-mV-29m"/>
                                 <exclude reference="eT3-TK-dlw"/>
                                 <include reference="z71-Nu-lho"/>
+                                <include reference="gUQ-V9-FZ8"/>
+                                <exclude reference="k1U-t5-GpS"/>
                                 <include reference="9PM-13-QmS"/>
                                 <exclude reference="GNB-CR-iib"/>
                                 <exclude reference="R0C-Yr-Utc"/>
@@ -531,16 +531,6 @@
                                 <exclude reference="v6E-4M-2g3"/>
                                 <include reference="xxN-Fa-7F3"/>
                                 <include reference="zlT-Tb-Mxd"/>
-                                <include reference="B2q-oc-opb"/>
-                                <include reference="CDd-w3-bpw"/>
-                                <exclude reference="TKn-yN-kDP"/>
-                                <include reference="Utt-Zy-0mk"/>
-                                <exclude reference="e4o-qb-toj"/>
-                                <exclude reference="z7c-5T-xQd"/>
-                                <include reference="0tE-wG-Zr7"/>
-                                <include reference="IWz-O6-916"/>
-                                <exclude reference="dkC-0r-VxA"/>
-                                <exclude reference="ir1-1m-cs9"/>
                                 <exclude reference="e02-nP-pN7"/>
                                 <exclude reference="hRL-Qx-C02"/>
                                 <include reference="v0X-Ul-UO2"/>
@@ -551,6 +541,16 @@
                                 <exclude reference="HG2-2L-cMW"/>
                                 <include reference="WRy-Vk-QS6"/>
                                 <include reference="f3B-OD-1nq"/>
+                                <include reference="B2q-oc-opb"/>
+                                <include reference="CDd-w3-bpw"/>
+                                <exclude reference="TKn-yN-kDP"/>
+                                <include reference="Utt-Zy-0mk"/>
+                                <exclude reference="e4o-qb-toj"/>
+                                <exclude reference="z7c-5T-xQd"/>
+                                <include reference="0tE-wG-Zr7"/>
+                                <include reference="IWz-O6-916"/>
+                                <exclude reference="dkC-0r-VxA"/>
+                                <exclude reference="ir1-1m-cs9"/>
                                 <include reference="t2Z-4S-Khi"/>
                                 <include reference="uK3-dn-baY"/>
                                 <include reference="vxX-lE-qxO"/>
@@ -568,14 +568,14 @@
                                 <include reference="q7y-rg-tfI"/>
                                 <include reference="sPe-6y-xCl"/>
                                 <exclude reference="tvF-fk-pvT"/>
-                                <include reference="YVd-Ag-KVa"/>
-                                <exclude reference="k1U-t5-GpS"/>
-                                <include reference="qvI-YY-wrc"/>
                                 <include reference="4BB-br-vkD"/>
                                 <exclude reference="Rsr-mV-29m"/>
                                 <include reference="cfs-YP-jzM"/>
                                 <exclude reference="eT3-TK-dlw"/>
                                 <include reference="js4-hb-zxw"/>
+                                <include reference="YVd-Ag-KVa"/>
+                                <exclude reference="k1U-t5-GpS"/>
+                                <include reference="qvI-YY-wrc"/>
                                 <include reference="6yG-za-YhA"/>
                                 <include reference="E5u-rZ-sIl"/>
                                 <exclude reference="GNB-CR-iib"/>
@@ -591,13 +591,13 @@
                                 <exclude reference="bu8-49-ilP"/>
                                 <exclude reference="jfu-2K-ONL"/>
                                 <exclude reference="n7a-MP-mzF"/>
-                                <exclude reference="5h2-hS-cgc"/>
-                                <exclude reference="G0o-7e-qGQ"/>
-                                <exclude reference="Sni-EO-6Fa"/>
                                 <include reference="Azb-ry-RxB"/>
                                 <include reference="Ryq-j0-ZIF"/>
                                 <include reference="Zzj-MF-Em1"/>
                                 <include reference="mg3-h0-JdW"/>
+                                <exclude reference="5h2-hS-cgc"/>
+                                <exclude reference="G0o-7e-qGQ"/>
+                                <exclude reference="Sni-EO-6Fa"/>
                                 <include reference="DHt-It-Ub8"/>
                             </mask>
                         </variation>
@@ -631,13 +631,80 @@
                     <view key="view" contentMode="scaleToFill" id="OTn-Gd-V9q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Champions League" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3O-eo-TTY">
+                                <rect key="frame" x="61" y="64" width="226" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="br9-0g-Cz2">
+                                <rect key="frame" x="20" y="108" width="374" height="668"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">The UEFA Champions League (also known as the European Cup) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the best team in Europe. It is one of the most prestigious tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of the strongest UEFA national associations.
+
+Introduced in 1955 as the European Champion Clubs' Cup, it was initially a straight knockout tournament open only to the champion club of each national championship. The competition took on its current name in 1992, adding a round-robin group stage and allowing multiple entrants from certain countries. It has since been expanded, and while most of Europe's national leagues can still only enter their champion, the strongest leagues now provide up to five teams. Clubs that finish next-in-line in their national league, having not qualified for the Champions League, are eligible for the second-tier UEFA Europa League competition, and from 2021, teams not eligible for the UEFA Europa League will qualify for a new third-tier competition called the UEFA Europa Conference League.
+
+In its present format, the Champions League begins in late June with a preliminary round, three qualifying rounds and a play-off round, all played over two legs. The six surviving teams enter the group stage, joining 26 teams qualified in advance. The 32 teams are drawn into eight groups of four teams and play each other in a double round-robin system. The eight group winners and eight runners-up proceed to the knockout phase that culminates with the final match in late May or early June. The winner of the Champions League qualifies for the following year's Champions League, the UEFA Super Cup and the FIFA Club World Cup.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6el-TX-fCq">
+                                <rect key="frame" x="20" y="767" width="374" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">For Much More Infomation visit: https://en.wikipedia.org/wiki/UEFA_Champions_League  
+Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Champions League Anthem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqb-Yx-Sa1">
+                                <rect key="frame" x="20" y="844" width="224" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrg-fc-vRW">
+                                <rect key="frame" x="342" y="852" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="stopAudioButton:" destination="bLK-BR-ewX" eventType="touchUpInside" id="1J7-d3-O7z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWK-8n-MLw">
+                                <rect key="frame" x="20" y="32" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Go Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="rBP-wJ-E6I"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Champions League Logo" translatesAutoresizingMaskIntoConstraints="NO" id="rYn-B7-Woh">
+                                <rect key="frame" x="279" y="44" width="74" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgC-WP-W7S">
+                                <rect key="frame" x="252" y="852" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play Me"/>
+                                <connections>
+                                    <action selector="championsPlayButton:" destination="bLK-BR-ewX" eventType="touchUpInside" id="9T7-Qx-LfZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="7l2-bF-nLY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kbi-d1-ptV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926" y="137"/>
+            <point key="canvasLocation" x="923.1884057971015" y="135.9375"/>
         </scene>
         <!--Europa View Controller-->
         <scene sceneID="0qa-w4-hJo">
@@ -646,16 +713,89 @@
                     <view key="view" contentMode="scaleToFill" id="J2Y-ZC-Nqb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Europa League Anthem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BK7-kr-3Ma" userLabel="Europa League Anthem">
+                                <rect key="frame" x="20" y="779" width="185" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Qn-WV-8DQ">
+                                <rect key="frame" x="20" y="159" width="374" height="450.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">The UEFA Europa League (abbreviated as UEL) is an annual football club competition organised by UEFA since 1971 for eligible European football clubs. Clubs qualify for the competition based on their performance in their national leagues and cup competitions. It is the second-tier competition of European club football, ranking below the UEFA Champions League.
+
+Previously called the UEFA Cup, the competition has been known as the UEFA Europa League since the 2009–10 season, following a change in format. For UEFA footballing records purposes, the UEFA Cup and UEFA Europa League are considered the same competition, with the change of name being simply a rebranding.
+
+In 1999, the UEFA Cup Winners' Cup was abolished and merged with the UEFA Cup. For the 2004–05 competition a group stage was added prior to the knockout phase. The 2009 re-branding included a merge with the UEFA Intertoto Cup, producing an enlarged competition format, with an expanded group stage and a change in qualifying criteria. The winner of the UEFA Europa League qualifies for the UEFA Super Cup and, since the 2014–15 season, the following season's UEFA Champions League, entering at the group stage.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VLQ-yl-c2H">
+                                <rect key="frame" x="20" y="650" width="374" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">For Much More Infomation visit: https://en.wikipedia.org/wiki/UEFA_Europa_League
+Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLt-I5-Gq8">
+                                <rect key="frame" x="349" y="787" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="stopAudioButton:" destination="MZj-dy-H11" eventType="touchUpInside" id="mYK-Qf-f0d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJ0-PT-0uN">
+                                <rect key="frame" x="20" y="46" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Go Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="qt7-w4-ify"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Europa League Logo" translatesAutoresizingMaskIntoConstraints="NO" id="aQM-nD-Knb">
+                                <rect key="frame" x="245" y="72" width="66" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Europa League" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DE9-Qs-68f">
+                                <rect key="frame" x="61" y="95" width="176" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kU0-1p-OOV">
+                                <rect key="frame" x="244" y="787" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play Me"/>
+                                <connections>
+                                    <action selector="europaPlayButton:" destination="MZj-dy-H11" eventType="touchUpInside" id="StZ-0E-rUQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="afF-zJ-5Zu"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vcr-Kn-mxG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130" y="1035"/>
+            <point key="canvasLocation" x="128.98550724637681" y="1034.5982142857142"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Champions League Logo" width="40" height="40"/>
+        <image name="Europa League Logo" width="40" height="40"/>
         <image name="Title Image" width="40" height="40"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="qt7-w4-ify"/>
+    </inferredMetricsTieBreakers>
 </document>
