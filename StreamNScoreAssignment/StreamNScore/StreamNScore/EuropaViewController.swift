@@ -23,6 +23,8 @@ class EuropaViewController: UIViewController
         super.didReceiveMemoryWarning()
     }
     
+    //UIApplication.shared.open(URL(string:"link")) as URL, options: [:], completionHandler:nil)
+    
     @IBAction func europaPlayButton(_ sender: Any)
     {
         let url = Bundle.main.url(forResource: "UEFA Europa League Official Anthem 20192020 [FULL SONGFULL-LENGTH]", withExtension: "mp3")
