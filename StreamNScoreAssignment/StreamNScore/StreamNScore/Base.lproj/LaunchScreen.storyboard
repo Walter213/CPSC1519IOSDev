@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome to StreamNScore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKz-XI-ShV">
-                                <rect key="frame" x="13" y="278" width="388" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to StreamNScore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKz-XI-ShV">
+                                <rect key="frame" x="13" y="278" width="388" height="38"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -33,8 +33,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Title Image" translatesAutoresizingMaskIntoConstraints="NO" id="oKa-m2-9sK">
-                                <rect key="frame" x="123" y="389" width="168" height="119"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Title Image" translatesAutoresizingMaskIntoConstraints="NO" id="oKa-m2-9sK">
+                                <rect key="frame" x="123" y="388" width="168" height="120"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -46,7 +46,7 @@
                             <constraint firstItem="yKz-XI-ShV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="P2Y-nL-SsC"/>
                             <constraint firstItem="uHT-iP-FlU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="Q5E-mQ-o2p"/>
                             <constraint firstItem="yKz-XI-ShV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="UUz-iV-30g"/>
-                            <constraint firstItem="oKa-m2-9sK" firstAttribute="top" secondItem="yKz-XI-ShV" secondAttribute="bottom" constant="71" id="Ygj-64-g1u"/>
+                            <constraint firstItem="oKa-m2-9sK" firstAttribute="top" secondItem="yKz-XI-ShV" secondAttribute="bottom" constant="72" id="Ygj-64-g1u"/>
                             <constraint firstItem="oKa-m2-9sK" firstAttribute="centerX" secondItem="uHT-iP-FlU" secondAttribute="centerX" id="dJA-Qg-dzg"/>
                             <constraint firstItem="yKz-XI-ShV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="234" id="iu2-Vq-HD0"/>
                             <constraint firstItem="uHT-iP-FlU" firstAttribute="top" secondItem="oKa-m2-9sK" secondAttribute="bottom" constant="67" id="nq3-w6-QUx"/>
