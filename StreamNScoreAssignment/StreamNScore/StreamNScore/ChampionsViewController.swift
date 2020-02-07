@@ -11,6 +11,8 @@ import AVFoundation
 
 class ChampionsViewController: UIViewController
 {
+    // Going to make url clickable hopefully soon once i find out how to do that
+    // Did not have enough time to complete it for assignment 2
     var audioPlayer:AVAudioPlayer?
     
     override func viewDidLoad()
