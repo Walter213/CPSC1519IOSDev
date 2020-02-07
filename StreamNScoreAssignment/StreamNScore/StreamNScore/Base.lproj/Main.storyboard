@@ -377,6 +377,16 @@
                                 <exclude reference="wRg-S9-ghs"/>
                                 <exclude reference="xxN-Fa-7F3"/>
                                 <exclude reference="zlT-Tb-Mxd"/>
+                                <exclude reference="nTq-Vx-md2"/>
+                                <exclude reference="v0X-Ul-UO2"/>
+                                <exclude reference="yBf-IW-rAQ"/>
+                                <exclude reference="ysX-OI-Bxa"/>
+                                <exclude reference="6lt-TC-DIX"/>
+                                <exclude reference="E2p-h7-lmp"/>
+                                <exclude reference="ITH-J9-33J"/>
+                                <exclude reference="WRy-Vk-QS6"/>
+                                <exclude reference="f3B-OD-1nq"/>
+                                <exclude reference="puh-Ex-hWJ"/>
                                 <exclude reference="B2q-oc-opb"/>
                                 <exclude reference="CDd-w3-bpw"/>
                                 <exclude reference="EVG-cz-YWx"/>
@@ -388,16 +398,6 @@
                                 <exclude reference="SUp-Ia-oKv"/>
                                 <exclude reference="fVd-RT-Ps5"/>
                                 <exclude reference="oB2-NU-toJ"/>
-                                <exclude reference="nTq-Vx-md2"/>
-                                <exclude reference="v0X-Ul-UO2"/>
-                                <exclude reference="yBf-IW-rAQ"/>
-                                <exclude reference="ysX-OI-Bxa"/>
-                                <exclude reference="6lt-TC-DIX"/>
-                                <exclude reference="E2p-h7-lmp"/>
-                                <exclude reference="ITH-J9-33J"/>
-                                <exclude reference="WRy-Vk-QS6"/>
-                                <exclude reference="f3B-OD-1nq"/>
-                                <exclude reference="puh-Ex-hWJ"/>
                                 <exclude reference="JRV-Ha-Bk4"/>
                                 <exclude reference="cLX-Zx-hav"/>
                                 <exclude reference="dTd-yz-WPl"/>
@@ -418,15 +418,15 @@
                                 <exclude reference="wdF-Vp-xz5"/>
                                 <exclude reference="xp7-8K-Mgm"/>
                                 <exclude reference="yEt-Vj-78e"/>
-                                <exclude reference="YVd-Ag-KVa"/>
-                                <exclude reference="gUQ-V9-FZ8"/>
-                                <exclude reference="qvI-YY-wrc"/>
                                 <exclude reference="4BB-br-vkD"/>
                                 <exclude reference="8UI-A1-uIm"/>
                                 <exclude reference="I2N-je-O9H"/>
                                 <exclude reference="cfs-YP-jzM"/>
                                 <exclude reference="js4-hb-zxw"/>
                                 <exclude reference="z71-Nu-lho"/>
+                                <exclude reference="YVd-Ag-KVa"/>
+                                <exclude reference="gUQ-V9-FZ8"/>
+                                <exclude reference="qvI-YY-wrc"/>
                                 <exclude reference="6yG-za-YhA"/>
                                 <exclude reference="9PM-13-QmS"/>
                                 <exclude reference="E5u-rZ-sIl"/>
@@ -472,6 +472,16 @@
                                 <exclude reference="oFw-fR-NxX"/>
                                 <exclude reference="v6E-4M-2g3"/>
                                 <include reference="wRg-S9-ghs"/>
+                                <exclude reference="e02-nP-pN7"/>
+                                <exclude reference="hRL-Qx-C02"/>
+                                <include reference="nTq-Vx-md2"/>
+                                <include reference="ysX-OI-Bxa"/>
+                                <exclude reference="7yu-52-5yo"/>
+                                <exclude reference="8PR-fM-aGd"/>
+                                <include reference="E2p-h7-lmp"/>
+                                <exclude reference="HG2-2L-cMW"/>
+                                <include reference="ITH-J9-33J"/>
+                                <include reference="puh-Ex-hWJ"/>
                                 <include reference="EVG-cz-YWx"/>
                                 <include reference="GwN-Ru-gLu"/>
                                 <exclude reference="TKn-yN-kDP"/>
@@ -483,16 +493,6 @@
                                 <include reference="fVd-RT-Ps5"/>
                                 <exclude reference="ir1-1m-cs9"/>
                                 <include reference="oB2-NU-toJ"/>
-                                <exclude reference="e02-nP-pN7"/>
-                                <exclude reference="hRL-Qx-C02"/>
-                                <include reference="nTq-Vx-md2"/>
-                                <include reference="ysX-OI-Bxa"/>
-                                <exclude reference="7yu-52-5yo"/>
-                                <exclude reference="8PR-fM-aGd"/>
-                                <include reference="E2p-h7-lmp"/>
-                                <exclude reference="HG2-2L-cMW"/>
-                                <include reference="ITH-J9-33J"/>
-                                <include reference="puh-Ex-hWJ"/>
                                 <include reference="JRV-Ha-Bk4"/>
                                 <include reference="cLX-Zx-hav"/>
                                 <include reference="dTd-yz-WPl"/>
@@ -510,13 +510,13 @@
                                 <include reference="wdF-Vp-xz5"/>
                                 <include reference="xp7-8K-Mgm"/>
                                 <include reference="yEt-Vj-78e"/>
-                                <include reference="gUQ-V9-FZ8"/>
-                                <exclude reference="k1U-t5-GpS"/>
                                 <include reference="8UI-A1-uIm"/>
                                 <include reference="I2N-je-O9H"/>
                                 <exclude reference="Rsr-mV-29m"/>
                                 <exclude reference="eT3-TK-dlw"/>
                                 <include reference="z71-Nu-lho"/>
+                                <include reference="gUQ-V9-FZ8"/>
+                                <exclude reference="k1U-t5-GpS"/>
                                 <include reference="9PM-13-QmS"/>
                                 <exclude reference="GNB-CR-iib"/>
                                 <exclude reference="R0C-Yr-Utc"/>
@@ -551,16 +551,6 @@
                                 <exclude reference="v6E-4M-2g3"/>
                                 <include reference="xxN-Fa-7F3"/>
                                 <include reference="zlT-Tb-Mxd"/>
-                                <include reference="B2q-oc-opb"/>
-                                <include reference="CDd-w3-bpw"/>
-                                <exclude reference="TKn-yN-kDP"/>
-                                <include reference="Utt-Zy-0mk"/>
-                                <exclude reference="e4o-qb-toj"/>
-                                <exclude reference="z7c-5T-xQd"/>
-                                <include reference="0tE-wG-Zr7"/>
-                                <include reference="IWz-O6-916"/>
-                                <exclude reference="dkC-0r-VxA"/>
-                                <exclude reference="ir1-1m-cs9"/>
                                 <exclude reference="e02-nP-pN7"/>
                                 <exclude reference="hRL-Qx-C02"/>
                                 <include reference="v0X-Ul-UO2"/>
@@ -571,6 +561,16 @@
                                 <exclude reference="HG2-2L-cMW"/>
                                 <include reference="WRy-Vk-QS6"/>
                                 <include reference="f3B-OD-1nq"/>
+                                <include reference="B2q-oc-opb"/>
+                                <include reference="CDd-w3-bpw"/>
+                                <exclude reference="TKn-yN-kDP"/>
+                                <include reference="Utt-Zy-0mk"/>
+                                <exclude reference="e4o-qb-toj"/>
+                                <exclude reference="z7c-5T-xQd"/>
+                                <include reference="0tE-wG-Zr7"/>
+                                <include reference="IWz-O6-916"/>
+                                <exclude reference="dkC-0r-VxA"/>
+                                <exclude reference="ir1-1m-cs9"/>
                                 <include reference="t2Z-4S-Khi"/>
                                 <include reference="uK3-dn-baY"/>
                                 <include reference="vxX-lE-qxO"/>
@@ -588,14 +588,14 @@
                                 <include reference="q7y-rg-tfI"/>
                                 <include reference="sPe-6y-xCl"/>
                                 <exclude reference="tvF-fk-pvT"/>
-                                <include reference="YVd-Ag-KVa"/>
-                                <exclude reference="k1U-t5-GpS"/>
-                                <include reference="qvI-YY-wrc"/>
                                 <include reference="4BB-br-vkD"/>
                                 <exclude reference="Rsr-mV-29m"/>
                                 <include reference="cfs-YP-jzM"/>
                                 <exclude reference="eT3-TK-dlw"/>
                                 <include reference="js4-hb-zxw"/>
+                                <include reference="YVd-Ag-KVa"/>
+                                <exclude reference="k1U-t5-GpS"/>
+                                <include reference="qvI-YY-wrc"/>
                                 <include reference="6yG-za-YhA"/>
                                 <include reference="E5u-rZ-sIl"/>
                                 <exclude reference="GNB-CR-iib"/>
@@ -611,13 +611,13 @@
                                 <exclude reference="bu8-49-ilP"/>
                                 <exclude reference="jfu-2K-ONL"/>
                                 <exclude reference="n7a-MP-mzF"/>
-                                <exclude reference="5h2-hS-cgc"/>
-                                <exclude reference="G0o-7e-qGQ"/>
-                                <exclude reference="Sni-EO-6Fa"/>
                                 <include reference="Azb-ry-RxB"/>
                                 <include reference="Ryq-j0-ZIF"/>
                                 <include reference="Zzj-MF-Em1"/>
                                 <include reference="mg3-h0-JdW"/>
+                                <exclude reference="5h2-hS-cgc"/>
+                                <exclude reference="G0o-7e-qGQ"/>
+                                <exclude reference="Sni-EO-6Fa"/>
                                 <include reference="DHt-It-Ub8"/>
                             </mask>
                         </variation>
@@ -681,9 +681,9 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="br9-0g-Cz2">
                                 <rect key="frame" x="20" y="107" width="374" height="668"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">The UEFA Champions League (also known as the European Cup) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the best team in Europe. It is one of the most prestigious tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of the strongest UEFA national associations.
+                                <string key="text">The UEFA Champions League (also known as the European Cup) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the best team in Europe. It is one of the most prestigious tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of the strongest UEFA national associations.
 Introduced in 1955 as the European Champion Clubs' Cup, it was initially a straight knockout tournament open only to the champion club of each national championship. The competition took on its current name in 1992, adding a round-robin group stage and allowing multiple entrants from certain countries. It has since been expanded, and while most of Europe's national leagues can still only enter their champion, the strongest leagues now provide up to five teams. Clubs that finish next-in-line in their national league, having not qualified for the Champions League, are eligible for the second-tier UEFA Europa League competition, and from 2021, teams not eligible for the UEFA Europa League will qualify for a new third-tier competition called the UEFA Europa Conference League.
-In its present format, the Champions League begins in late June with a preliminary round, three qualifying rounds and a play-off round, all played over two legs. The six surviving teams enter the group stage, joining 26 teams qualified in advance. The 32 teams are drawn into eight groups of four teams and play each other in a double round-robin system. The eight group winners and eight runners-up proceed to the knockout phase that culminates with the final match in late May or early June. The winner of the Champions League qualifies for the following year's Champions League, the UEFA Super Cup and the FIFA Club World Cup.</mutableString>
+In its present format, the Champions League begins in late June with a preliminary round, three qualifying rounds and a play-off round, all played over two legs. The six surviving teams enter the group stage, joining 26 teams qualified in advance. The 32 teams are drawn into eight groups of four teams and play each other in a double round-robin system. The eight group winners and eight runners-up proceed to the knockout phase that culminates with the final match in late May or early June. The winner of the Champions League qualifies for the following year's Champions League, the UEFA Super Cup and the FIFA Club World Cup.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -878,11 +878,6 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                         <viewLayoutGuide key="safeArea" id="7l2-bF-nLY"/>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="6C8-uI-U9B"/>
-                                <exclude reference="Dbq-cM-Vtc"/>
-                                <exclude reference="LyD-a8-hxA"/>
-                                <exclude reference="eOu-zj-tev"/>
-                                <exclude reference="wAM-KV-SU7"/>
                                 <exclude reference="9oI-EZ-342"/>
                                 <exclude reference="B2k-A1-mtf"/>
                                 <exclude reference="CH1-fB-58H"/>
@@ -890,6 +885,17 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                                 <exclude reference="ZDd-t9-mja"/>
                                 <exclude reference="nYi-Cb-L3r"/>
                                 <exclude reference="v8K-gE-jtZ"/>
+                                <exclude reference="6C8-uI-U9B"/>
+                                <exclude reference="Dbq-cM-Vtc"/>
+                                <exclude reference="LyD-a8-hxA"/>
+                                <exclude reference="eOu-zj-tev"/>
+                                <exclude reference="wAM-KV-SU7"/>
+                                <exclude reference="JTA-ZB-mpI"/>
+                                <exclude reference="JVR-sx-O9o"/>
+                                <exclude reference="Rmx-vs-h5h"/>
+                                <exclude reference="cTg-Vn-SyV"/>
+                                <exclude reference="mxL-Cw-KkC"/>
+                                <exclude reference="svP-zA-Vf8"/>
                                 <exclude reference="0Y8-iX-agu"/>
                                 <exclude reference="9f5-RL-Ztq"/>
                                 <exclude reference="H82-Ea-55c"/>
@@ -897,21 +903,15 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                                 <exclude reference="sBw-up-Dgh"/>
                                 <exclude reference="sbK-F1-D6j"/>
                                 <exclude reference="zAh-L5-erv"/>
-                                <exclude reference="JTA-ZB-mpI"/>
-                                <exclude reference="JVR-sx-O9o"/>
-                                <exclude reference="Rmx-vs-h5h"/>
-                                <exclude reference="cTg-Vn-SyV"/>
-                                <exclude reference="mxL-Cw-KkC"/>
-                                <exclude reference="svP-zA-Vf8"/>
+                                <exclude reference="1lt-oT-hDu"/>
+                                <exclude reference="CGr-mC-8ql"/>
+                                <exclude reference="Hp5-fU-lg0"/>
                                 <exclude reference="0aV-IA-46s"/>
                                 <exclude reference="4Ty-vI-Yej"/>
                                 <exclude reference="7Pc-rc-BDJ"/>
                                 <exclude reference="bY1-cI-ynO"/>
                                 <exclude reference="dz5-iF-wZH"/>
                                 <exclude reference="njj-He-vc7"/>
-                                <exclude reference="1lt-oT-hDu"/>
-                                <exclude reference="CGr-mC-8ql"/>
-                                <exclude reference="Hp5-fU-lg0"/>
                                 <exclude reference="0aK-Fp-H5R"/>
                                 <exclude reference="DFJ-bw-Od7"/>
                                 <exclude reference="EFG-9g-YcC"/>
@@ -933,23 +933,23 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                         </variation>
                         <variation key="heightClass=compact-widthClass=regular">
                             <mask key="constraints">
-                                <include reference="LyD-a8-hxA"/>
-                                <include reference="eOu-zj-tev"/>
                                 <include reference="9oI-EZ-342"/>
                                 <include reference="B2k-A1-mtf"/>
                                 <include reference="ZDd-t9-mja"/>
                                 <include reference="v8K-gE-jtZ"/>
+                                <include reference="LyD-a8-hxA"/>
+                                <include reference="eOu-zj-tev"/>
+                                <include reference="cTg-Vn-SyV"/>
+                                <include reference="mxL-Cw-KkC"/>
+                                <include reference="svP-zA-Vf8"/>
                                 <include reference="9f5-RL-Ztq"/>
                                 <include reference="H82-Ea-55c"/>
                                 <include reference="YT3-7m-5Y8"/>
                                 <include reference="sBw-up-Dgh"/>
                                 <include reference="sbK-F1-D6j"/>
-                                <include reference="cTg-Vn-SyV"/>
-                                <include reference="mxL-Cw-KkC"/>
-                                <include reference="svP-zA-Vf8"/>
+                                <include reference="CGr-mC-8ql"/>
                                 <include reference="7Pc-rc-BDJ"/>
                                 <include reference="bY1-cI-ynO"/>
-                                <include reference="CGr-mC-8ql"/>
                                 <include reference="0aK-Fp-H5R"/>
                                 <include reference="DFJ-bw-Od7"/>
                                 <include reference="flj-RN-cUv"/>
@@ -964,23 +964,23 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
-                                <include reference="6C8-uI-U9B"/>
-                                <include reference="Dbq-cM-Vtc"/>
-                                <include reference="wAM-KV-SU7"/>
                                 <include reference="CH1-fB-58H"/>
                                 <include reference="TVU-VS-26g"/>
                                 <include reference="nYi-Cb-L3r"/>
-                                <include reference="0Y8-iX-agu"/>
-                                <include reference="zAh-L5-erv"/>
+                                <include reference="6C8-uI-U9B"/>
+                                <include reference="Dbq-cM-Vtc"/>
+                                <include reference="wAM-KV-SU7"/>
                                 <include reference="JTA-ZB-mpI"/>
                                 <include reference="JVR-sx-O9o"/>
                                 <include reference="Rmx-vs-h5h"/>
+                                <include reference="0Y8-iX-agu"/>
+                                <include reference="zAh-L5-erv"/>
+                                <include reference="1lt-oT-hDu"/>
+                                <include reference="Hp5-fU-lg0"/>
                                 <include reference="0aV-IA-46s"/>
                                 <include reference="4Ty-vI-Yej"/>
                                 <include reference="dz5-iF-wZH"/>
                                 <include reference="njj-He-vc7"/>
-                                <include reference="1lt-oT-hDu"/>
-                                <include reference="Hp5-fU-lg0"/>
                                 <include reference="EFG-9g-YcC"/>
                                 <include reference="QJI-PL-s9K"/>
                                 <include reference="lDQ-xt-AUp"/>
@@ -1230,17 +1230,23 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                         <viewLayoutGuide key="safeArea" id="afF-zJ-5Zu"/>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="F0S-gh-eEw"/>
+                                <exclude reference="Lin-dL-YTP"/>
+                                <exclude reference="Ybm-o5-B5D"/>
+                                <exclude reference="rsK-IK-MB5"/>
+                                <exclude reference="st8-SC-8uQ"/>
                                 <exclude reference="3j1-sv-xyU"/>
                                 <exclude reference="58i-A7-nAe"/>
                                 <exclude reference="OgQ-6A-k4o"/>
                                 <exclude reference="SJR-t9-axp"/>
                                 <exclude reference="iQC-na-MeI"/>
                                 <exclude reference="tYg-oq-rSh"/>
-                                <exclude reference="F0S-gh-eEw"/>
-                                <exclude reference="Lin-dL-YTP"/>
-                                <exclude reference="Ybm-o5-B5D"/>
-                                <exclude reference="rsK-IK-MB5"/>
-                                <exclude reference="st8-SC-8uQ"/>
+                                <exclude reference="Pwd-Nf-03v"/>
+                                <exclude reference="T9i-SU-JKa"/>
+                                <exclude reference="blZ-ST-APM"/>
+                                <exclude reference="jyg-dk-mVN"/>
+                                <exclude reference="xaP-hE-Sor"/>
+                                <exclude reference="zZ5-pD-KOC"/>
                                 <exclude reference="5UV-is-I1e"/>
                                 <exclude reference="NLP-Zg-Auw"/>
                                 <exclude reference="U0Z-3O-kyi"/>
@@ -1251,19 +1257,13 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                                 <exclude reference="rKM-bu-zME"/>
                                 <exclude reference="ygU-Dl-GXV"/>
                                 <exclude reference="z0n-46-JS2"/>
-                                <exclude reference="DMg-Ma-pTk"/>
-                                <exclude reference="Pwd-Nf-03v"/>
-                                <exclude reference="T9i-SU-JKa"/>
-                                <exclude reference="blZ-ST-APM"/>
-                                <exclude reference="jyg-dk-mVN"/>
-                                <exclude reference="xaP-hE-Sor"/>
-                                <exclude reference="zZ5-pD-KOC"/>
                                 <exclude reference="7aO-Md-ifF"/>
                                 <exclude reference="8JW-WP-D97"/>
                                 <exclude reference="Jvw-tC-AZd"/>
                                 <exclude reference="XXK-XJ-V4Y"/>
                                 <exclude reference="afN-ib-EuV"/>
                                 <exclude reference="nKX-ds-eTo"/>
+                                <exclude reference="DMg-Ma-pTk"/>
                                 <exclude reference="F9n-yi-b1m"/>
                                 <exclude reference="ID0-Dz-EcK"/>
                                 <exclude reference="MzN-jE-GHY"/>
@@ -1288,19 +1288,19 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                         </variation>
                         <variation key="heightClass=compact-widthClass=regular">
                             <mask key="constraints">
-                                <include reference="58i-A7-nAe"/>
-                                <include reference="tYg-oq-rSh"/>
                                 <include reference="F0S-gh-eEw"/>
                                 <include reference="Lin-dL-YTP"/>
                                 <include reference="Ybm-o5-B5D"/>
+                                <include reference="58i-A7-nAe"/>
+                                <include reference="tYg-oq-rSh"/>
+                                <include reference="T9i-SU-JKa"/>
+                                <include reference="xaP-hE-Sor"/>
+                                <include reference="zZ5-pD-KOC"/>
                                 <include reference="NLP-Zg-Auw"/>
                                 <include reference="U0Z-3O-kyi"/>
                                 <include reference="fAU-EY-zhO"/>
                                 <include reference="rKM-bu-zME"/>
                                 <include reference="z0n-46-JS2"/>
-                                <include reference="T9i-SU-JKa"/>
-                                <include reference="xaP-hE-Sor"/>
-                                <include reference="zZ5-pD-KOC"/>
                                 <include reference="Jvw-tC-AZd"/>
                                 <include reference="afN-ib-EuV"/>
                                 <include reference="nKX-ds-eTo"/>
@@ -1318,24 +1318,24 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
+                                <include reference="rsK-IK-MB5"/>
+                                <include reference="st8-SC-8uQ"/>
                                 <include reference="3j1-sv-xyU"/>
                                 <include reference="OgQ-6A-k4o"/>
                                 <include reference="SJR-t9-axp"/>
                                 <include reference="iQC-na-MeI"/>
-                                <include reference="rsK-IK-MB5"/>
-                                <include reference="st8-SC-8uQ"/>
+                                <include reference="Pwd-Nf-03v"/>
+                                <include reference="blZ-ST-APM"/>
+                                <include reference="jyg-dk-mVN"/>
                                 <include reference="5UV-is-I1e"/>
                                 <include reference="VGN-wd-ZNb"/>
                                 <include reference="aRe-wB-A5d"/>
                                 <include reference="bET-sp-3ug"/>
                                 <include reference="ygU-Dl-GXV"/>
-                                <include reference="DMg-Ma-pTk"/>
-                                <include reference="Pwd-Nf-03v"/>
-                                <include reference="blZ-ST-APM"/>
-                                <include reference="jyg-dk-mVN"/>
                                 <include reference="7aO-Md-ifF"/>
                                 <include reference="8JW-WP-D97"/>
                                 <include reference="XXK-XJ-V4Y"/>
+                                <include reference="DMg-Ma-pTk"/>
                                 <include reference="F9n-yi-b1m"/>
                                 <include reference="PIU-yB-S0A"/>
                                 <include reference="XSB-Ao-pL5"/>
@@ -1361,6 +1361,6 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
         <image name="Title Image" width="40" height="40"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qt7-w4-ify"/>
+        <segue reference="rBP-wJ-E6I"/>
     </inferredMetricsTieBreakers>
 </document>

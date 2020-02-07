@@ -13,6 +13,8 @@ class ChampionsViewController: UIViewController
 {
     // Going to make url clickable hopefully soon once i find out how to do that
     // Did not have enough time to complete it for assignment 2
+    
+    // I might as well do image animation as well (something like https://www.youtube.com/watch?v=oe8kJYLR-qQ)
     var audioPlayer:AVAudioPlayer?
     
     override func viewDidLoad()
