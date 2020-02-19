@@ -678,7 +678,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="br9-0g-Cz2">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="br9-0g-Cz2">
                                 <rect key="frame" x="20" y="107" width="374" height="668"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">The UEFA Champions League (also known as the European Cup) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the best team in Europe. It is one of the most prestigious tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of the strongest UEFA national associations.
@@ -737,7 +737,7 @@ In its present format, the Champions League begins in late June with a prelimina
                                     </mask>
                                 </variation>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6el-TX-fCq">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6el-TX-fCq">
                                 <rect key="frame" x="20" y="738" width="374" height="79"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -748,6 +748,7 @@ In its present format, the Champions League begins in late June with a prelimina
 Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="fdF-Ux-vm4"/>
@@ -991,6 +992,10 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="clickableTextView" destination="6el-TX-fCq" id="mlJ-Wg-cp2"/>
+                        <outletCollection property="clickableTextView" destination="6el-TX-fCq" collectionClass="NSMutableArray" id="UAX-xF-z2I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kbi-d1-ptV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1004,7 +1009,7 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Qn-WV-8DQ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Qn-WV-8DQ">
                                 <rect key="frame" x="20" y="159" width="374" height="451"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -1028,7 +1033,7 @@ In 1999, the UEFA Cup Winners' Cup was abolished and merged with the UEFA Cup. F
                                     </mask>
                                 </variation>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VLQ-yl-c2H">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VLQ-yl-c2H">
                                 <rect key="frame" x="20" y="650" width="374" height="83"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1040,6 +1045,7 @@ In 1999, the UEFA Cup Winners' Cup was abolished and merged with the UEFA Cup. F
 Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="AF2-kv-zdX"/>
@@ -1349,6 +1355,9 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="clickTextView" destination="VLQ-yl-c2H" id="7P4-8D-QVb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vcr-Kn-mxG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -16,10 +16,12 @@ class ChampionsViewController: UIViewController
     
     // I might as well do image animation as well (something like https://www.youtube.com/watch?v=oe8kJYLR-qQ)
     var audioPlayer:AVAudioPlayer?
+    @IBOutlet weak var clickableTextView: UITextView!
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        clickableLinkTextView()
     }
     
     override func didReceiveMemoryWarning()
@@ -52,5 +54,23 @@ class ChampionsViewController: UIViewController
     @IBAction func stopAudioButton(_ sender: Any)
     {
         audioPlayer?.stop()
+    }
+    
+    func clickableLinkTextView()
+    {
+        let path = "https://en.wikipedia.org/wiki/UEFA_Champions_League  "
+        let text = clickableTextView.text ?? ""
+        let attributedString = NSAttributedString.makeClickableLink(for: path, in: text, as: "https://en.wikipedia.org/wiki/UEFA_Champions_League  ")
+        
+        let path2 = "https://www.uefa.com/uefachampionsleague/"
+        let attributedString2 = NSAttributedString.makeClickableLink(for: path2, in: text, as: "https://www.uefa.com/uefachampionsleague/")
+        
+        let font = clickableTextView.font
+        let textColor = clickableTextView.textColor
+        
+        clickableTextView.attributedText = attributedString
+        clickableTextView.attributedText = attributedString2
+        clickableTextView.font = font
+        clickableTextView.textColor = textColor
     }
 }
