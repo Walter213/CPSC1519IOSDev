@@ -993,6 +993,7 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="championsLogo" destination="rYn-B7-Woh" id="oKc-xw-JGU"/>
                         <outlet property="clickableTextView" destination="6el-TX-fCq" id="mlJ-Wg-cp2"/>
                         <outletCollection property="clickableTextView" destination="6el-TX-fCq" collectionClass="NSMutableArray" id="UAX-xF-z2I"/>
                     </connections>

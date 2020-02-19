@@ -11,17 +11,15 @@ import AVFoundation
 
 class ChampionsViewController: UIViewController
 {
-    // Going to make url clickable hopefully soon once i find out how to do that
-    // Did not have enough time to complete it for assignment 2
-    
-    // I might as well do image animation as well (something like https://www.youtube.com/watch?v=oe8kJYLR-qQ)
     var audioPlayer:AVAudioPlayer?
+    @IBOutlet weak var championsLogo: UIImageView!
     @IBOutlet weak var clickableTextView: UITextView!
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         clickableLinkTextView()
+        championsLogoMove()
     }
     
     override func didReceiveMemoryWarning()
@@ -54,6 +52,20 @@ class ChampionsViewController: UIViewController
     @IBAction func stopAudioButton(_ sender: Any)
     {
         audioPlayer?.stop()
+    }
+    
+    // Cannot get image to bounce after it is loaded
+    func championsLogoMove()
+    {
+        UIView.animate(withDuration: 1, animations:
+        {
+            self.championsLogo.frame.origin.y -= 5
+        }){_ in
+            UIView.animateKeyframes(withDuration: 1, delay: 0.25, options: [.autoreverse, .repeat], animations:
+            {
+                self.championsLogo.frame.origin.y += 5
+            })
+        }
     }
     
     func clickableLinkTextView()

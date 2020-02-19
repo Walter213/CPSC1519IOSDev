@@ -18,14 +18,13 @@ class EuropaViewController: UIViewController
     {
         super.viewDidLoad()
         clickableTextView()
+        logoMovement()
     }
     
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
     }
-    
-    //UIApplication.shared.open(URL(string:"link")) as URL, options: [:], completionHandler:nil)
     
     @IBAction func europaPlayButton(_ sender: Any)
     {
@@ -51,6 +50,12 @@ class EuropaViewController: UIViewController
     @IBAction func stopAudioButton(_ sender: Any)
     {
         audioPlayer?.stop()
+    }
+    
+    // Need to find out how to do this, working on it on champions view controller
+    func logoMovement()
+    {
+        
     }
     
     func clickableTextView()

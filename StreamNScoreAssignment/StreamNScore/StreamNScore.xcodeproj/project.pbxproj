@@ -10,6 +10,8 @@
 		5B359AA423EB910700AD6B48 /* UEFA Europa League Official Anthem 20192020 [FULL SONGFULL-LENGTH].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B359AA223EB910700AD6B48 /* UEFA Europa League Official Anthem 20192020 [FULL SONGFULL-LENGTH].mp3 */; };
 		5B359AA523EB910700AD6B48 /* UEFA Champions League Theme Song [Lyrics On Screen].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B359AA323EB910700AD6B48 /* UEFA Champions League Theme Song [Lyrics On Screen].mp3 */; };
 		5B6ABC7823FDD539003CEF88 /* NSAttributedStringExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7723FDD539003CEF88 /* NSAttributedStringExtention.swift */; };
+		5B6ABC7C23FDF22D003CEF88 /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7B23FDF22D003CEF88 /* LaunchScreenController.swift */; };
+		5B6ABC7E23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */; };
 		E3CC0E4023D11B6500C55503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC0E3F23D11B6500C55503 /* AppDelegate.swift */; };
 		E3CC0E4223D11B6500C55503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC0E4123D11B6500C55503 /* ViewController.swift */; };
 		E3CC0E4523D11B6500C55503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CC0E4323D11B6500C55503 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 		5B359AA223EB910700AD6B48 /* UEFA Europa League Official Anthem 20192020 [FULL SONGFULL-LENGTH].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "UEFA Europa League Official Anthem 20192020 [FULL SONGFULL-LENGTH].mp3"; sourceTree = "<group>"; };
 		5B359AA323EB910700AD6B48 /* UEFA Champions League Theme Song [Lyrics On Screen].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "UEFA Champions League Theme Song [Lyrics On Screen].mp3"; sourceTree = "<group>"; };
 		5B6ABC7723FDD539003CEF88 /* NSAttributedStringExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtention.swift; sourceTree = "<group>"; };
+		5B6ABC7B23FDF22D003CEF88 /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
+		5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenStoryboard.storyboard; sourceTree = "<group>"; };
 		E3CC0E3C23D11B6500C55503 /* StreamNScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamNScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CC0E3F23D11B6500C55503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3CC0E4123D11B6500C55503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				E3DF7C7123EA30340050930A /* EuropaViewController.swift */,
 				E3DF7C7323EA30430050930A /* ChampionsViewController.swift */,
 				5B6ABC7723FDD539003CEF88 /* NSAttributedStringExtention.swift */,
+				5B6ABC7B23FDF22D003CEF88 /* LaunchScreenController.swift */,
+				5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */,
 			);
 			path = StreamNScore;
 			sourceTree = "<group>";
@@ -145,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6ABC7E23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard in Resources */,
 				E3CC0E4A23D11B6600C55503 /* LaunchScreen.storyboard in Resources */,
 				E3CC0E4723D11B6600C55503 /* Assets.xcassets in Resources */,
 				5B359AA423EB910700AD6B48 /* UEFA Europa League Official Anthem 20192020 [FULL SONGFULL-LENGTH].mp3 in Resources */,
@@ -160,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6ABC7C23FDF22D003CEF88 /* LaunchScreenController.swift in Sources */,
 				5B6ABC7823FDD539003CEF88 /* NSAttributedStringExtention.swift in Sources */,
 				E3CC0E4223D11B6500C55503 /* ViewController.swift in Sources */,
 				E3DF7C7423EA30430050930A /* ChampionsViewController.swift in Sources */,
