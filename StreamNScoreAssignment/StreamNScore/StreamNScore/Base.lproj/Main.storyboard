@@ -38,7 +38,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Champions League" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAH-eP-CLe">
-                                <rect key="frame" x="57" y="399" width="148" height="54"/>
+                                <rect key="frame" x="57" y="400" width="147" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="101" id="xR2-Lm-eaM"/>
                                 </constraints>
@@ -57,7 +57,7 @@
                                 </variation>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JgI-WD-MlX">
-                                <rect key="frame" x="119" y="219" width="255" height="31"/>
+                                <rect key="frame" x="119" y="219" width="255" height="32"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -66,10 +66,10 @@
                                 </connections>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="FSS-u9-Y9H">
-                                <rect key="frame" x="240" y="355" width="138" height="28"/>
+                                <rect key="frame" x="237" y="356" width="141" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="Gfj-0Y-dLP"/>
-                                    <constraint firstAttribute="height" constant="27" id="gb4-vI-tFD"/>
+                                    <constraint firstAttribute="height" constant="27" id="SFu-FR-Yxb"/>
                                     <constraint firstAttribute="height" constant="27" id="mDO-p1-tz5"/>
                                 </constraints>
                                 <segments>
@@ -78,7 +78,7 @@
                                 </segments>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="gb4-vI-tFD"/>
+                                        <exclude reference="SFu-FR-Yxb"/>
                                         <exclude reference="mDO-p1-tz5"/>
                                     </mask>
                                 </variation>
@@ -91,7 +91,7 @@
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <exclude reference="Gfj-0Y-dLP"/>
-                                        <include reference="gb4-vI-tFD"/>
+                                        <include reference="SFu-FR-Yxb"/>
                                     </mask>
                                 </variation>
                                 <connections>
@@ -133,16 +133,8 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyM-Zl-TKc">
-                                <rect key="frame" x="238" y="457" width="142" height="45"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="Select"/>
-                                <connections>
-                                    <action selector="europaButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1EO-cQ-N7N"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXa-HN-zzo">
-                                <rect key="frame" x="73" y="277" width="268" height="43"/>
+                                <rect key="frame" x="73" y="278" width="268" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="4X5-Fl-svy"/>
                                 </constraints>
@@ -211,36 +203,44 @@
                                 </variation>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kdc-fr-l7X">
-                                <rect key="frame" x="284.5" y="412" width="51" height="31"/>
+                                <rect key="frame" x="283" y="412.5" width="51" height="31"/>
                                 <connections>
                                     <action selector="championsSwitchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="oQ9-fS-I4q"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oEM-93-MPX">
-                                <rect key="frame" x="284.5" y="464" width="51" height="31"/>
+                                <rect key="frame" x="283" y="464" width="51" height="31"/>
                                 <connections>
                                     <action selector="europaSwitchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="C3p-3d-gNs"/>
                                 </connections>
                             </switch>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioz-fM-4gl">
-                                <rect key="frame" x="273" y="405" width="72" height="44"/>
+                                <rect key="frame" x="272" y="406" width="71" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="5Op-tg-IIo"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="71" id="tqg-hl-Ezm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Select"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="5Op-tg-IIo"/>
+                                        <exclude reference="tqg-hl-Ezm"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
+                                <variation key="heightClass=compact-widthClass=regular">
                                     <mask key="constraints">
-                                        <include reference="5Op-tg-IIo"/>
+                                        <include reference="tqg-hl-Ezm"/>
                                     </mask>
                                 </variation>
                                 <connections>
                                     <action selector="championsPressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qag-Zt-aYB"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyM-Zl-TKc">
+                                <rect key="frame" x="238" y="458" width="139" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Select"/>
+                                <connections>
+                                    <action selector="europaButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1EO-cQ-N7N"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -249,13 +249,14 @@
                         <constraints>
                             <constraint firstItem="JgI-WD-MlX" firstAttribute="top" secondItem="trC-jf-aqL" secondAttribute="bottom" constant="42" id="0tE-wG-Zr7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WyM-Zl-TKc" secondAttribute="trailing" constant="102" id="1EF-la-5Ts">
-                                <variation key="heightClass=compact-widthClass=regular" constant="66"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="100"/>
                             </constraint>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZOZ-iS-fXh" secondAttribute="trailing" constant="129" id="20U-hC-hjP"/>
                             <constraint firstItem="trC-jf-aqL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="455" id="2IP-23-IvT"/>
                             <constraint firstItem="Kdc-fr-l7X" firstAttribute="leading" secondItem="aAH-eP-CLe" secondAttribute="trailing" constant="8" symbolic="YES" id="2cI-YD-UcA">
                                 <variation key="heightClass=compact-widthClass=regular" constant="56"/>
                             </constraint>
+                            <constraint firstItem="ioz-fM-4gl" firstAttribute="top" secondItem="FSS-u9-Y9H" secondAttribute="bottom" constant="23" id="3de-PC-Yvq"/>
                             <constraint firstItem="aAH-eP-CLe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="3gU-G7-Hqw"/>
                             <constraint firstItem="aAH-eP-CLe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="4eJ-EP-azk"/>
                             <constraint firstItem="oEM-93-MPX" firstAttribute="top" secondItem="ioz-fM-4gl" secondAttribute="bottom" constant="26" id="5h2-hS-cgc">
@@ -266,6 +267,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oEM-93-MPX" secondAttribute="trailing" constant="114" id="7Kd-ba-Fxo">
                                 <variation key="heightClass=compact-widthClass=regular" constant="113"/>
                             </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FSS-u9-Y9H" secondAttribute="trailing" constant="36" id="7nQ-sm-ue6"/>
                             <constraint firstItem="ZOZ-iS-fXh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="7yu-52-5yo"/>
                             <constraint firstItem="iep-zY-Rc5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="844-KT-8Dh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kdc-fr-l7X" secondAttribute="trailing" constant="112" id="8F0-ds-Tal"/>
@@ -274,18 +276,14 @@
                             <constraint firstItem="ioz-fM-4gl" firstAttribute="centerY" secondItem="Kdc-fr-l7X" secondAttribute="centerY" id="9PM-13-QmS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aAH-eP-CLe" secondAttribute="bottom" constant="360" id="AYS-PZ-CbX"/>
                             <constraint firstItem="iep-zY-Rc5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="B2q-oc-opb"/>
-                            <constraint firstItem="WyM-Zl-TKc" firstAttribute="top" secondItem="ioz-fM-4gl" secondAttribute="bottom" constant="8" symbolic="YES" id="BB0-ga-3u1"/>
                             <constraint firstItem="Kdc-fr-l7X" firstAttribute="leading" secondItem="oEM-93-MPX" secondAttribute="leading" id="BCZ-Ay-yg0"/>
                             <constraint firstItem="iep-zY-Rc5" firstAttribute="top" secondItem="ZOZ-iS-fXh" secondAttribute="bottom" constant="62" id="CDd-w3-bpw"/>
-                            <constraint firstItem="FSS-u9-Y9H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="240" id="CUh-rm-Ro2"/>
-                            <constraint firstItem="ioz-fM-4gl" firstAttribute="centerX" secondItem="WyM-Zl-TKc" secondAttribute="centerX" id="CXT-W3-gSt"/>
                             <constraint firstItem="aAH-eP-CLe" firstAttribute="trailing" secondItem="dXE-Va-SN4" secondAttribute="trailing" id="CZ7-QQ-spv"/>
                             <constraint firstItem="trC-jf-aqL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="272" id="Cob-Cx-AK8"/>
                             <constraint firstItem="ZOZ-iS-fXh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="282" id="E2p-h7-lmp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JgI-WD-MlX" secondAttribute="trailing" constant="40" id="EPZ-77-EBF"/>
                             <constraint firstItem="aAH-eP-CLe" firstAttribute="centerY" secondItem="Kdc-fr-l7X" secondAttribute="centerY" id="Eh1-Je-o31"/>
                             <constraint firstItem="iep-zY-Rc5" firstAttribute="baseline" secondItem="JgI-WD-MlX" secondAttribute="baseline" id="Ep0-h8-Ywv"/>
-                            <constraint firstItem="ioz-fM-4gl" firstAttribute="top" secondItem="FSS-u9-Y9H" secondAttribute="bottom" constant="23" id="F2h-9G-9x8"/>
                             <constraint firstItem="oEM-93-MPX" firstAttribute="centerY" secondItem="dXE-Va-SN4" secondAttribute="centerY" id="G0o-7e-qGQ">
                                 <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
                             </constraint>
@@ -293,17 +291,20 @@
                             <constraint firstItem="ZOZ-iS-fXh" firstAttribute="centerY" secondItem="trC-jf-aqL" secondAttribute="centerY" id="HG2-2L-cMW"/>
                             <constraint firstItem="FSS-u9-Y9H" firstAttribute="centerX" secondItem="Kdc-fr-l7X" secondAttribute="centerX" id="I2N-je-O9H"/>
                             <constraint firstItem="ZOZ-iS-fXh" firstAttribute="top" secondItem="wM8-R1-I0n" secondAttribute="bottom" constant="16" id="ITH-J9-33J"/>
+                            <constraint firstItem="WyM-Zl-TKc" firstAttribute="top" secondItem="ioz-fM-4gl" secondAttribute="bottom" constant="8" symbolic="YES" id="IUy-Pp-1h7"/>
                             <constraint firstItem="JgI-WD-MlX" firstAttribute="leading" secondItem="iep-zY-Rc5" secondAttribute="trailing" constant="8" symbolic="YES" id="IWz-O6-916"/>
                             <constraint firstItem="Kdc-fr-l7X" firstAttribute="leading" secondItem="aAH-eP-CLe" secondAttribute="trailing" constant="42" id="Iuf-xe-586"/>
                             <constraint firstItem="dXa-HN-zzo" firstAttribute="top" secondItem="JgI-WD-MlX" secondAttribute="bottom" constant="18" id="JRV-Ha-Bk4"/>
                             <constraint firstItem="aAH-eP-CLe" firstAttribute="top" secondItem="FSS-u9-Y9H" secondAttribute="bottom" constant="8" symbolic="YES" id="Jp3-lo-fU1"/>
+                            <constraint firstItem="FSS-u9-Y9H" firstAttribute="centerX" secondItem="Kdc-fr-l7X" secondAttribute="centerX" id="K1d-wy-Enb"/>
+                            <constraint firstItem="FSS-u9-Y9H" firstAttribute="top" secondItem="dXa-HN-zzo" secondAttribute="bottom" constant="35" id="K7B-dm-cNp"/>
                             <constraint firstItem="dXE-Va-SN4" firstAttribute="top" secondItem="FSS-u9-Y9H" secondAttribute="bottom" constant="59" id="LCw-C8-brM"/>
                             <constraint firstItem="trC-jf-aqL" firstAttribute="top" secondItem="wM8-R1-I0n" secondAttribute="bottom" constant="22" id="LLk-sf-D67"/>
-                            <constraint firstItem="FSS-u9-Y9H" firstAttribute="top" secondItem="dXa-HN-zzo" secondAttribute="bottom" constant="35" id="MtQ-pd-WzV"/>
                             <constraint firstItem="trC-jf-aqL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="38" id="N3k-k6-MvU"/>
                             <constraint firstItem="aAH-eP-CLe" firstAttribute="centerY" secondItem="Kdc-fr-l7X" secondAttribute="centerY" id="OPo-H8-3PV">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-1.5"/>
                             </constraint>
+                            <constraint firstItem="ioz-fM-4gl" firstAttribute="centerX" secondItem="Kdc-fr-l7X" secondAttribute="centerX" id="ORM-ax-iVP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="FSS-u9-Y9H" secondAttribute="trailing" constant="66" id="PdC-Q3-xdw"/>
                             <constraint firstItem="aAH-eP-CLe" firstAttribute="top" secondItem="dXa-HN-zzo" secondAttribute="bottom" constant="80" id="PhJ-57-3PG">
                                 <variation key="heightClass=regular-widthClass=compact" constant="79"/>
@@ -315,7 +316,6 @@
                             <constraint firstItem="ioz-fM-4gl" firstAttribute="leading" secondItem="aAH-eP-CLe" secondAttribute="trailing" constant="30" id="R0C-Yr-Utc"/>
                             <constraint firstItem="FSS-u9-Y9H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="240" id="Rsr-mV-29m"/>
                             <constraint firstItem="JgI-WD-MlX" firstAttribute="top" secondItem="trC-jf-aqL" secondAttribute="bottom" constant="18" id="SUp-Ia-oKv"/>
-                            <constraint firstItem="ioz-fM-4gl" firstAttribute="centerX" secondItem="Kdc-fr-l7X" secondAttribute="centerX" id="Sk6-1h-Kre"/>
                             <constraint firstItem="oEM-93-MPX" firstAttribute="leading" secondItem="dXE-Va-SN4" secondAttribute="trailing" constant="7" id="Sni-EO-6Fa">
                                 <variation key="heightClass=compact-widthClass=regular" constant="22"/>
                             </constraint>
@@ -323,17 +323,21 @@
                                 <variation key="heightClass=regular-widthClass=compact" constant="238"/>
                             </constraint>
                             <constraint firstItem="iep-zY-Rc5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="TKn-yN-kDP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ioz-fM-4gl" secondAttribute="trailing" constant="69" id="Teb-W8-gEG"/>
+                            <constraint firstItem="ioz-fM-4gl" firstAttribute="centerX" secondItem="WyM-Zl-TKc" secondAttribute="centerX" id="UeE-7n-67E"/>
                             <constraint firstItem="iep-zY-Rc5" firstAttribute="baseline" secondItem="JgI-WD-MlX" secondAttribute="baseline" id="Utt-Zy-0mk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZOZ-iS-fXh" secondAttribute="trailing" constant="341" id="VQA-Yi-cmm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dXE-Va-SN4" secondAttribute="bottom" constant="307" id="VVj-Hz-Ohl"/>
                             <constraint firstItem="ZOZ-iS-fXh" firstAttribute="top" secondItem="wM8-R1-I0n" secondAttribute="bottom" constant="40" id="WRy-Vk-QS6"/>
                             <constraint firstItem="WyM-Zl-TKc" firstAttribute="leading" secondItem="dXE-Va-SN4" secondAttribute="trailing" constant="32" id="WfE-eO-49r"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JgI-WD-MlX" secondAttribute="trailing" constant="35" id="Yqk-q5-oUU"/>
+                            <constraint firstItem="ioz-fM-4gl" firstAttribute="centerY" secondItem="Kdc-fr-l7X" secondAttribute="centerY" id="ZNG-4E-fSw"/>
                             <constraint firstItem="Kdc-fr-l7X" firstAttribute="top" secondItem="FSS-u9-Y9H" secondAttribute="bottom" constant="20" id="Znn-eH-wAr"/>
-                            <constraint firstItem="ioz-fM-4gl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="405" id="aj2-Ic-qDs"/>
                             <constraint firstItem="trC-jf-aqL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="272" id="bB4-hr-FTt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JgI-WD-MlX" secondAttribute="trailing" constant="40" id="bV8-dS-gQc"/>
-                            <constraint firstItem="WyM-Zl-TKc" firstAttribute="centerX" secondItem="Kdc-fr-l7X" secondAttribute="centerX" id="bu8-49-ilP"/>
+                            <constraint firstItem="WyM-Zl-TKc" firstAttribute="centerX" secondItem="Kdc-fr-l7X" secondAttribute="centerX" id="bu8-49-ilP">
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
+                            </constraint>
                             <constraint firstItem="dXa-HN-zzo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="270" id="cLX-Zx-hav"/>
                             <constraint firstItem="dXE-Va-SN4" firstAttribute="leading" secondItem="aAH-eP-CLe" secondAttribute="leading" id="csd-gH-TF4"/>
                             <constraint firstItem="dXa-HN-zzo" firstAttribute="centerX" secondItem="wM8-R1-I0n" secondAttribute="centerX" id="dTd-yz-WPl"/>
@@ -348,10 +352,8 @@
                             <constraint firstItem="trC-jf-aqL" firstAttribute="leading" secondItem="aAH-eP-CLe" secondAttribute="leading" id="fm8-PK-M95">
                                 <variation key="heightClass=compact-widthClass=regular" constant="14"/>
                             </constraint>
-                            <constraint firstItem="ioz-fM-4gl" firstAttribute="leading" secondItem="aAH-eP-CLe" secondAttribute="trailing" constant="68" id="g0K-x0-krd"/>
                             <constraint firstItem="aAH-eP-CLe" firstAttribute="centerY" secondItem="Kdc-fr-l7X" secondAttribute="centerY" id="gdi-mr-mJD"/>
                             <constraint firstItem="wM8-R1-I0n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hRL-Qx-C02"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FSS-u9-Y9H" secondAttribute="trailing" constant="36" id="ibt-Uw-X5o"/>
                             <constraint firstItem="JgI-WD-MlX" firstAttribute="top" secondItem="trC-jf-aqL" secondAttribute="bottom" constant="42" id="ir1-1m-cs9"/>
                             <constraint firstItem="WyM-Zl-TKc" firstAttribute="top" secondItem="ioz-fM-4gl" secondAttribute="bottom" constant="19" id="jfu-2K-ONL">
                                 <variation key="heightClass=compact-widthClass=regular" constant="7"/>
@@ -365,20 +367,20 @@
                             <constraint firstItem="ioz-fM-4gl" firstAttribute="centerX" secondItem="Kdc-fr-l7X" secondAttribute="centerX" id="ngb-vp-8xT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZOZ-iS-fXh" secondAttribute="trailing" constant="129" id="oFw-fR-NxX"/>
                             <constraint firstItem="oEM-93-MPX" firstAttribute="leading" secondItem="dXE-Va-SN4" secondAttribute="trailing" constant="22" id="p9O-uI-wnC"/>
+                            <constraint firstItem="FSS-u9-Y9H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="240" id="pTJ-2k-gdc"/>
                             <constraint firstItem="ioz-fM-4gl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="635" id="pbP-LM-BBi">
                                 <variation key="heightClass=compact-widthClass=regular" constant="636"/>
                             </constraint>
                             <constraint firstItem="ZOZ-iS-fXh" firstAttribute="centerY" secondItem="trC-jf-aqL" secondAttribute="centerY" id="puh-Ex-hWJ"/>
                             <constraint firstItem="JgI-WD-MlX" firstAttribute="leading" secondItem="iep-zY-Rc5" secondAttribute="trailing" constant="8" symbolic="YES" id="rb8-6X-JQ3"/>
                             <constraint firstItem="dXa-HN-zzo" firstAttribute="centerX" secondItem="wM8-R1-I0n" secondAttribute="centerX" id="t2Z-4S-Khi"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ioz-fM-4gl" secondAttribute="trailing" constant="69" id="tjQ-W7-uiT"/>
                             <constraint firstItem="aAH-eP-CLe" firstAttribute="leading" secondItem="dXE-Va-SN4" secondAttribute="leading" id="tvF-fk-pvT"/>
                             <constraint firstItem="dXa-HN-zzo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="uK3-dn-baY"/>
                             <constraint firstItem="wM8-R1-I0n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v0X-Ul-UO2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dXE-Va-SN4" secondAttribute="bottom" constant="355" id="v6E-4M-2g3"/>
                             <constraint firstItem="dXa-HN-zzo" firstAttribute="top" secondItem="JgI-WD-MlX" secondAttribute="bottom" constant="27" id="vxX-lE-qxO"/>
-                            <constraint firstItem="FSS-u9-Y9H" firstAttribute="centerX" secondItem="Kdc-fr-l7X" secondAttribute="centerX" id="wPE-Ay-fh4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="trC-jf-aqL" secondAttribute="trailing" constant="282" id="wRg-S9-ghs"/>
+                            <constraint firstItem="ioz-fM-4gl" firstAttribute="leading" secondItem="aAH-eP-CLe" secondAttribute="trailing" constant="68" id="xNd-d9-z5f"/>
                             <constraint firstItem="aAH-eP-CLe" firstAttribute="top" secondItem="dXa-HN-zzo" secondAttribute="bottom" constant="20" id="xp7-8K-Mgm"/>
                             <constraint firstItem="wM8-R1-I0n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yBf-IW-rAQ"/>
                             <constraint firstItem="aAH-eP-CLe" firstAttribute="top" secondItem="FSS-u9-Y9H" secondAttribute="bottom" constant="8" symbolic="YES" id="yEt-Vj-78e"/>
@@ -390,15 +392,15 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="20U-hC-hjP"/>
+                                <exclude reference="7nQ-sm-ue6"/>
                                 <exclude reference="8F0-ds-Tal"/>
                                 <exclude reference="AYS-PZ-CbX"/>
                                 <exclude reference="EPZ-77-EBF"/>
                                 <exclude reference="PdC-Q3-xdw"/>
+                                <exclude reference="Teb-W8-gEG"/>
                                 <exclude reference="VQA-Yi-cmm"/>
                                 <exclude reference="VVj-Hz-Ohl"/>
                                 <exclude reference="Yqk-q5-oUU"/>
-                                <exclude reference="ibt-Uw-X5o"/>
-                                <exclude reference="tjQ-W7-uiT"/>
                                 <exclude reference="wRg-S9-ghs"/>
                                 <exclude reference="nTq-Vx-md2"/>
                                 <exclude reference="v0X-Ul-UO2"/>
@@ -438,30 +440,30 @@
                                 <exclude reference="xp7-8K-Mgm"/>
                                 <exclude reference="yEt-Vj-78e"/>
                                 <exclude reference="8UI-A1-uIm"/>
-                                <exclude reference="CUh-rm-Ro2"/>
                                 <exclude reference="I2N-je-O9H"/>
-                                <exclude reference="MtQ-pd-WzV"/>
-                                <exclude reference="wPE-Ay-fh4"/>
+                                <exclude reference="K1d-wy-Enb"/>
+                                <exclude reference="K7B-dm-cNp"/>
+                                <exclude reference="pTJ-2k-gdc"/>
                                 <exclude reference="z71-Nu-lho"/>
                                 <exclude reference="LCw-C8-brM"/>
                                 <exclude reference="QBm-U4-wQH"/>
                                 <exclude reference="QlX-5T-IrY"/>
                                 <exclude reference="csd-gH-TF4"/>
                                 <exclude reference="fAd-J2-Po8"/>
+                                <exclude reference="3de-PC-Yvq"/>
                                 <exclude reference="9PM-13-QmS"/>
-                                <exclude reference="CXT-W3-gSt"/>
-                                <exclude reference="F2h-9G-9x8"/>
-                                <exclude reference="Sk6-1h-Kre"/>
-                                <exclude reference="aj2-Ic-qDs"/>
-                                <exclude reference="g0K-x0-krd"/>
+                                <exclude reference="ORM-ax-iVP"/>
+                                <exclude reference="UeE-7n-67E"/>
+                                <exclude reference="ZNG-4E-fSw"/>
                                 <exclude reference="lXN-xp-75l"/>
                                 <exclude reference="ngb-vp-8xT"/>
                                 <exclude reference="pbP-LM-BBi"/>
+                                <exclude reference="xNd-d9-z5f"/>
                                 <exclude reference="2cI-YD-UcA"/>
                                 <exclude reference="BCZ-Ay-yg0"/>
                                 <exclude reference="Znn-eH-wAr"/>
                                 <exclude reference="6O2-5s-FIY"/>
-                                <exclude reference="BB0-ga-3u1"/>
+                                <exclude reference="IUy-Pp-1h7"/>
                                 <exclude reference="SsA-wG-75h"/>
                                 <exclude reference="WfE-eO-49r"/>
                                 <exclude reference="p9O-uI-wnC"/>
@@ -529,7 +531,7 @@
                                 <exclude reference="lNR-MR-Hh7"/>
                                 <include reference="lXN-xp-75l"/>
                                 <include reference="ngb-vp-8xT"/>
-                                <include reference="pbP-LM-BBi"/>
+                                <exclude reference="pbP-LM-BBi"/>
                                 <include reference="2cI-YD-UcA"/>
                                 <exclude reference="Iuf-xe-586"/>
                                 <include reference="Znn-eH-wAr"/>
@@ -543,14 +545,14 @@
                                 <exclude reference="1EF-la-5Ts"/>
                                 <include reference="20U-hC-hjP"/>
                                 <exclude reference="7Kd-ba-Fxo"/>
+                                <include reference="7nQ-sm-ue6"/>
                                 <include reference="AYS-PZ-CbX"/>
                                 <include reference="EPZ-77-EBF"/>
+                                <exclude reference="Teb-W8-gEG"/>
                                 <include reference="VVj-Hz-Ohl"/>
                                 <exclude reference="bV8-dS-gQc"/>
-                                <include reference="ibt-Uw-X5o"/>
                                 <exclude reference="jiY-Jb-Hth"/>
                                 <exclude reference="oFw-fR-NxX"/>
-                                <include reference="tjQ-W7-uiT"/>
                                 <exclude reference="v6E-4M-2g3"/>
                                 <exclude reference="e02-nP-pN7"/>
                                 <exclude reference="hRL-Qx-C02"/>
@@ -587,26 +589,26 @@
                                 <include reference="OPo-H8-3PV"/>
                                 <include reference="PhJ-57-3PG"/>
                                 <exclude reference="tvF-fk-pvT"/>
-                                <include reference="CUh-rm-Ro2"/>
-                                <include reference="MtQ-pd-WzV"/>
+                                <include reference="K1d-wy-Enb"/>
+                                <include reference="K7B-dm-cNp"/>
                                 <exclude reference="Rsr-mV-29m"/>
                                 <exclude reference="eT3-TK-dlw"/>
-                                <include reference="wPE-Ay-fh4"/>
+                                <exclude reference="pTJ-2k-gdc"/>
                                 <include reference="QBm-U4-wQH"/>
                                 <include reference="fAd-J2-Po8"/>
                                 <exclude reference="k1U-t5-GpS"/>
-                                <include reference="CXT-W3-gSt"/>
-                                <include reference="F2h-9G-9x8"/>
+                                <include reference="3de-PC-Yvq"/>
                                 <exclude reference="GNB-CR-iib"/>
+                                <include reference="ORM-ax-iVP"/>
                                 <exclude reference="R0C-Yr-Utc"/>
-                                <include reference="Sk6-1h-Kre"/>
-                                <include reference="aj2-Ic-qDs"/>
-                                <include reference="g0K-x0-krd"/>
+                                <include reference="UeE-7n-67E"/>
+                                <include reference="ZNG-4E-fSw"/>
                                 <exclude reference="lNR-MR-Hh7"/>
+                                <include reference="xNd-d9-z5f"/>
                                 <include reference="BCZ-Ay-yg0"/>
                                 <exclude reference="Iuf-xe-586"/>
                                 <include reference="6O2-5s-FIY"/>
-                                <include reference="BB0-ga-3u1"/>
+                                <include reference="IUy-Pp-1h7"/>
                                 <include reference="SsA-wG-75h"/>
                                 <include reference="WfE-eO-49r"/>
                                 <exclude reference="bu8-49-ilP"/>
@@ -621,7 +623,7 @@
                             <outletCollection property="gestureRecognizers" destination="ICJ-Yv-6dc" appends="YES" id="vRP-AK-i6p"/>
                         </connections>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="AIq-Ye-uad"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="HomeTab" id="AIq-Ye-uad"/>
                     <connections>
                         <outlet property="FullNameText" destination="JgI-WD-MlX" id="gcP-ga-FJj"/>
                         <outlet property="championsSelect" destination="ioz-fM-4gl" id="yBv-3W-Iba"/>
@@ -639,7 +641,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-13.043478260869566" y="134.59821428571428"/>
+            <point key="canvasLocation" x="-14" y="121"/>
         </scene>
         <!--Champions League Info-->
         <scene sceneID="7B9-ie-9qS">
@@ -649,8 +651,77 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6el-TX-fCq">
+                                <rect key="frame" x="20" y="678" width="374" height="76"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="Un9-3O-I1e"/>
+                                </constraints>
+                                <string key="text">For Much More Infomation visit: https://en.wikipedia.org/wiki/UEFA_Champions_League  
+Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Un9-3O-I1e"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Un9-3O-I1e"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Champions League Anthem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqb-Yx-Sa1">
+                                <rect key="frame" x="20" y="754" width="211" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrg-fc-vRW">
+                                <rect key="frame" x="342" y="763" width="52" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="pkx-gI-eUK"/>
+                                </constraints>
+                                <state key="normal" title="Stop"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="pkx-gI-eUK"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="pkx-gI-eUK"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="stopAudioButton:" destination="bLK-BR-ewX" eventType="touchUpInside" id="1J7-d3-O7z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgC-WP-W7S">
+                                <rect key="frame" x="239" y="763" width="85" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="FZL-jq-15f"/>
+                                </constraints>
+                                <state key="normal" title="Play Me"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="FZL-jq-15f"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="FZL-jq-15f"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="championsPlayButton:" destination="bLK-BR-ewX" eventType="touchUpInside" id="9T7-Qx-LfZ"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Champions League" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3O-eo-TTY">
-                                <rect key="frame" x="55" y="30.5" width="226" height="29"/>
+                                <rect key="frame" x="55" y="38.5" width="226" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="226" id="Mqn-2n-ipD"/>
                                     <constraint firstAttribute="height" constant="29" id="nP0-U8-Mki"/>
@@ -676,16 +747,16 @@
                                 </variation>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="br9-0g-Cz2">
-                                <rect key="frame" x="20" y="67.5" width="374" height="653.5"/>
+                                <rect key="frame" x="20" y="75" width="374" height="595"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">The UEFA Champions League (also known as the European Cup) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the best team in Europe. It is one of the most prestigious tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of the strongest UEFA national associations.
+                                <mutableString key="text">The UEFA Champions League (also known as the European Cup) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the best team in Europe. It is one of the most prestigious tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of the strongest UEFA national associations.
 Introduced in 1955 as the European Champion Clubs' Cup, it was initially a straight knockout tournament open only to the champion club of each national championship. The competition took on its current name in 1992, adding a round-robin group stage and allowing multiple entrants from certain countries. It has since been expanded, and while most of Europe's national leagues can still only enter their champion, the strongest leagues now provide up to five teams. Clubs that finish next-in-line in their national league, having not qualified for the Champions League, are eligible for the second-tier UEFA Europa League competition, and from 2021, teams not eligible for the UEFA Europa League will qualify for a new third-tier competition called the UEFA Europa Conference League.
-In its present format, the Champions League begins in late June with a preliminary round, three qualifying rounds and a play-off round, all played over two legs. The six surviving teams enter the group stage, joining 26 teams qualified in advance. The 32 teams are drawn into eight groups of four teams and play each other in a double round-robin system. The eight group winners and eight runners-up proceed to the knockout phase that culminates with the final match in late May or early June. The winner of the Champions League qualifies for the following year's Champions League, the UEFA Super Cup and the FIFA Club World Cup.</string>
+In its present format, the Champions League begins in late June with a preliminary round, three qualifying rounds and a play-off round, all played over two legs. The six surviving teams enter the group stage, joining 26 teams qualified in advance. The 32 teams are drawn into eight groups of four teams and play each other in a double round-robin system. The eight group winners and eight runners-up proceed to the knockout phase that culminates with the final match in late May or early June. </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Champions League Logo" translatesAutoresizingMaskIntoConstraints="NO" id="rYn-B7-Woh">
-                                <rect key="frame" x="277" y="25" width="82" height="40"/>
+                                <rect key="frame" x="277" y="33" width="82" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="74" id="kYK-Qe-U3k">
                                         <variation key="heightClass=compact-widthClass=regular" constant="82"/>
@@ -711,153 +782,50 @@ In its present format, the Champions League begins in late June with a prelimina
                                     </mask>
                                 </variation>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6el-TX-fCq">
-                                <rect key="frame" x="20" y="705" width="374" height="76"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="79" id="fdF-Ux-vm4">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="76"/>
-                                    </constraint>
-                                </constraints>
-                                <string key="text">For Much More Infomation visit: https://en.wikipedia.org/wiki/UEFA_Champions_League  
-Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="fdF-Ux-vm4"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="fdF-Ux-vm4"/>
-                                    </mask>
-                                </variation>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Champions League Anthem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqb-Yx-Sa1">
-                                <rect key="frame" x="20" y="771" width="211" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrg-fc-vRW">
-                                <rect key="frame" x="342" y="780" width="52" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="32" id="P8k-eI-bbI"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="pkx-gI-eUK"/>
-                                </constraints>
-                                <state key="normal" title="Stop"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="P8k-eI-bbI"/>
-                                        <exclude reference="pkx-gI-eUK"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="P8k-eI-bbI"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="pkx-gI-eUK"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <action selector="stopAudioButton:" destination="bLK-BR-ewX" eventType="touchUpInside" id="1J7-d3-O7z"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgC-WP-W7S">
-                                <rect key="frame" x="239" y="780" width="85" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="FZL-jq-15f"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="rTr-8s-hUL"/>
-                                </constraints>
-                                <state key="normal" title="Play Me"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="FZL-jq-15f"/>
-                                        <exclude reference="rTr-8s-hUL"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="rTr-8s-hUL"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="FZL-jq-15f"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <action selector="championsPlayButton:" destination="bLK-BR-ewX" eventType="touchUpInside" id="9T7-Qx-LfZ"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="br9-0g-Cz2" firstAttribute="trailing" secondItem="OTn-Gd-V9q" secondAttribute="trailingMargin" id="0Y8-iX-agu"/>
-                            <constraint firstAttribute="trailing" secondItem="zqb-Yx-Sa1" secondAttribute="trailing" constant="43" id="0aK-Fp-H5R">
-                                <variation key="heightClass=compact-widthClass=regular" constant="422"/>
-                            </constraint>
-                            <constraint firstItem="6el-TX-fCq" firstAttribute="trailing" secondItem="nrg-fc-vRW" secondAttribute="trailing" id="0aV-IA-46s"/>
                             <constraint firstItem="rYn-B7-Woh" firstAttribute="top" secondItem="7l2-bF-nLY" secondAttribute="top" id="1lt-oT-hDu">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-19"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="-11"/>
                             </constraint>
-                            <constraint firstItem="cgC-WP-W7S" firstAttribute="baseline" secondItem="nrg-fc-vRW" secondAttribute="baseline" id="222-ah-Tce"/>
-                            <constraint firstItem="6el-TX-fCq" firstAttribute="leading" secondItem="zqb-Yx-Sa1" secondAttribute="leading" id="4Ty-vI-Yej"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="cgC-WP-W7S" secondAttribute="bottom" constant="-9" id="5Ps-gU-Q0d">
-                                <variation key="heightClass=compact-widthClass=regular" constant="16"/>
-                            </constraint>
-                            <constraint firstItem="6el-TX-fCq" firstAttribute="centerY" secondItem="cgC-WP-W7S" secondAttribute="centerY" id="7Pc-rc-BDJ">
-                                <variation key="heightClass=compact-widthClass=regular" constant="-40"/>
-                            </constraint>
-                            <constraint firstItem="7l2-bF-nLY" firstAttribute="trailing" secondItem="nrg-fc-vRW" secondAttribute="trailing" constant="52" id="9oI-EZ-342">
-                                <variation key="heightClass=compact-widthClass=regular" constant="219"/>
-                            </constraint>
-                            <constraint firstItem="7l2-bF-nLY" firstAttribute="bottom" secondItem="zqb-Yx-Sa1" secondAttribute="bottom" constant="12" id="B2k-A1-mtf">
-                                <variation key="heightClass=compact-widthClass=regular" constant="20.5"/>
-                            </constraint>
+                            <constraint firstItem="cgC-WP-W7S" firstAttribute="baseline" secondItem="nrg-fc-vRW" secondAttribute="baseline" id="4YP-ZC-u6N"/>
+                            <constraint firstItem="cgC-WP-W7S" firstAttribute="top" secondItem="br9-0g-Cz2" secondAttribute="bottom" constant="2" id="4b6-nQ-LZ0"/>
+                            <constraint firstItem="6el-TX-fCq" firstAttribute="leading" secondItem="br9-0g-Cz2" secondAttribute="leading" id="6Kp-3d-tKQ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="6el-TX-fCq" secondAttribute="bottom" constant="-4" id="8ca-kN-eJc"/>
+                            <constraint firstItem="zqb-Yx-Sa1" firstAttribute="top" secondItem="7l2-bF-nLY" secondAttribute="top" constant="287" id="BuE-gK-EtY"/>
                             <constraint firstItem="rYn-B7-Woh" firstAttribute="top" secondItem="7l2-bF-nLY" secondAttribute="top" constant="7" id="CGr-mC-8ql">
-                                <variation key="heightClass=compact-widthClass=regular" constant="10"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
                             </constraint>
                             <constraint firstItem="7l2-bF-nLY" firstAttribute="trailing" secondItem="rYn-B7-Woh" secondAttribute="trailing" constant="61" id="CH1-fB-58H">
                                 <variation key="heightClass=regular-widthClass=compact" constant="55"/>
                             </constraint>
-                            <constraint firstItem="zqb-Yx-Sa1" firstAttribute="leading" secondItem="7l2-bF-nLY" secondAttribute="leading" constant="598" id="DFJ-bw-Od7">
-                                <variation key="heightClass=compact-widthClass=regular" constant="219"/>
-                            </constraint>
                             <constraint firstItem="Y3O-eo-TTY" firstAttribute="leading" secondItem="7l2-bF-nLY" secondAttribute="leading" constant="252" id="ECl-JJ-dXF"/>
                             <constraint firstItem="zqb-Yx-Sa1" firstAttribute="bottom" secondItem="7l2-bF-nLY" secondAttribute="bottom" id="EFG-9g-YcC">
-                                <variation key="heightClass=regular-widthClass=compact" constant="6"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="-11"/>
                             </constraint>
                             <constraint firstItem="br9-0g-Cz2" firstAttribute="leading" secondItem="7l2-bF-nLY" secondAttribute="leading" id="H82-Ea-55c">
                                 <variation key="heightClass=compact-widthClass=regular" constant="-34"/>
                             </constraint>
-                            <constraint firstItem="cgC-WP-W7S" firstAttribute="top" secondItem="6el-TX-fCq" secondAttribute="bottom" constant="6" id="IcO-R6-s9K">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-1"/>
-                            </constraint>
+                            <constraint firstItem="6el-TX-fCq" firstAttribute="centerY" secondItem="cgC-WP-W7S" secondAttribute="centerY" id="HgV-Sw-vff"/>
                             <constraint firstItem="Y3O-eo-TTY" firstAttribute="leading" secondItem="7l2-bF-nLY" secondAttribute="leading" constant="61" id="JVR-sx-O9o">
                                 <variation key="heightClass=regular-widthClass=compact" constant="55"/>
                             </constraint>
                             <constraint firstItem="cgC-WP-W7S" firstAttribute="baseline" secondItem="nrg-fc-vRW" secondAttribute="baseline" id="Jq8-8l-E7r"/>
-                            <constraint firstItem="cgC-WP-W7S" firstAttribute="leading" secondItem="7l2-bF-nLY" secondAttribute="leading" constant="631" id="Lfm-ku-yHl">
-                                <variation key="heightClass=compact-widthClass=regular" constant="451"/>
-                            </constraint>
-                            <constraint firstItem="cgC-WP-W7S" firstAttribute="top" secondItem="br9-0g-Cz2" secondAttribute="bottom" constant="8" symbolic="YES" id="MmJ-Xi-4f9">
-                                <variation key="heightClass=compact-widthClass=regular" constant="56"/>
-                            </constraint>
+                            <constraint firstItem="7l2-bF-nLY" firstAttribute="trailing" secondItem="nrg-fc-vRW" secondAttribute="trailing" constant="27" id="LIy-R5-Enr"/>
+                            <constraint firstItem="zqb-Yx-Sa1" firstAttribute="top" secondItem="6el-TX-fCq" secondAttribute="bottom" id="OEV-o5-VQM"/>
+                            <constraint firstItem="nrg-fc-vRW" firstAttribute="leading" secondItem="cgC-WP-W7S" secondAttribute="trailing" constant="51" id="Owa-6x-LVz"/>
+                            <constraint firstItem="6el-TX-fCq" firstAttribute="trailing" secondItem="nrg-fc-vRW" secondAttribute="trailing" id="PvD-MT-E9Q"/>
                             <constraint firstItem="zqb-Yx-Sa1" firstAttribute="top" secondItem="br9-0g-Cz2" secondAttribute="bottom" constant="39" id="QJI-PL-s9K">
-                                <variation key="heightClass=regular-widthClass=compact" constant="50"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="84"/>
                             </constraint>
+                            <constraint firstItem="6el-TX-fCq" firstAttribute="leading" secondItem="zqb-Yx-Sa1" secondAttribute="leading" id="R77-fV-P4d"/>
                             <constraint firstItem="Y3O-eo-TTY" firstAttribute="centerY" secondItem="rYn-B7-Woh" secondAttribute="centerY" id="Rmx-vs-h5h"/>
                             <constraint firstItem="7l2-bF-nLY" firstAttribute="bottom" secondItem="cgC-WP-W7S" secondAttribute="bottom" constant="9" id="TVU-VS-26g">
-                                <variation key="heightClass=regular-widthClass=compact" constant="3"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="20"/>
                             </constraint>
+                            <constraint firstItem="6el-TX-fCq" firstAttribute="trailing" secondItem="br9-0g-Cz2" secondAttribute="trailing" id="UK4-CW-u6k"/>
                             <constraint firstItem="br9-0g-Cz2" firstAttribute="top" secondItem="Y3O-eo-TTY" secondAttribute="bottom" constant="11" id="YT3-7m-5Y8">
                                 <variation key="heightClass=compact-widthClass=regular" constant="8"/>
                             </constraint>
@@ -865,14 +833,10 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                                 <variation key="heightClass=compact-widthClass=regular" constant="252"/>
                             </constraint>
                             <constraint firstItem="nrg-fc-vRW" firstAttribute="leading" secondItem="cgC-WP-W7S" secondAttribute="trailing" constant="18" id="Zlj-R1-Q1p"/>
-                            <constraint firstAttribute="bottom" secondItem="6el-TX-fCq" secondAttribute="bottom" id="bY1-cI-ynO">
-                                <variation key="heightClass=compact-widthClass=regular" constant="115"/>
-                            </constraint>
-                            <constraint firstItem="6el-TX-fCq" firstAttribute="leading" secondItem="br9-0g-Cz2" secondAttribute="leading" id="dz5-iF-wZH"/>
-                            <constraint firstItem="zqb-Yx-Sa1" firstAttribute="top" secondItem="7l2-bF-nLY" secondAttribute="top" constant="333" id="flj-RN-cUv">
-                                <variation key="heightClass=compact-widthClass=regular" constant="303"/>
-                            </constraint>
+                            <constraint firstItem="7l2-bF-nLY" firstAttribute="bottom" secondItem="cgC-WP-W7S" secondAttribute="bottom" constant="7" id="a8q-lE-sQw"/>
+                            <constraint firstItem="cgC-WP-W7S" firstAttribute="leading" secondItem="6el-TX-fCq" secondAttribute="trailing" constant="109" id="aoh-ge-ndQ"/>
                             <constraint firstItem="zqb-Yx-Sa1" firstAttribute="centerY" secondItem="cgC-WP-W7S" secondAttribute="centerY" id="lDQ-xt-AUp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zqb-Yx-Sa1" secondAttribute="trailing" constant="-30" id="laf-mK-Jbp"/>
                             <constraint firstItem="cgC-WP-W7S" firstAttribute="leading" secondItem="zqb-Yx-Sa1" secondAttribute="trailing" constant="8" symbolic="YES" id="ljm-A8-iSB"/>
                             <constraint firstItem="Y3O-eo-TTY" firstAttribute="centerY" secondItem="rYn-B7-Woh" secondAttribute="centerY" id="mxL-Cw-KkC">
                                 <variation key="heightClass=compact-widthClass=regular" constant="2"/>
@@ -880,26 +844,18 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                             <constraint firstItem="7l2-bF-nLY" firstAttribute="trailing" secondItem="Y3O-eo-TTY" secondAttribute="trailing" constant="127" id="nYi-Cb-L3r">
                                 <variation key="heightClass=regular-widthClass=compact" constant="133"/>
                             </constraint>
-                            <constraint firstItem="6el-TX-fCq" firstAttribute="trailing" secondItem="br9-0g-Cz2" secondAttribute="trailing" id="njj-He-vc7"/>
-                            <constraint firstItem="nrg-fc-vRW" firstAttribute="leading" secondItem="6el-TX-fCq" secondAttribute="trailing" constant="70" id="nwt-1R-37a">
-                                <variation key="heightClass=compact-widthClass=regular" constant="-132"/>
-                            </constraint>
+                            <constraint firstItem="6el-TX-fCq" firstAttribute="leading" secondItem="br9-0g-Cz2" secondAttribute="leading" id="qHT-o9-H8H"/>
                             <constraint firstAttribute="trailingMargin" secondItem="br9-0g-Cz2" secondAttribute="trailing" constant="-53" id="sBw-up-Dgh">
                                 <variation key="heightClass=compact-widthClass=regular" constant="-54"/>
                             </constraint>
-                            <constraint firstItem="br9-0g-Cz2" firstAttribute="leading" secondItem="6el-TX-fCq" secondAttribute="leading" id="sbK-F1-D6j">
-                                <variation key="heightClass=compact-widthClass=regular" constant="-154"/>
+                            <constraint firstItem="Y3O-eo-TTY" firstAttribute="top" secondItem="7l2-bF-nLY" secondAttribute="top" constant="26" id="svP-zA-Vf8">
+                                <variation key="heightClass=compact-widthClass=regular" constant="16"/>
                             </constraint>
-                            <constraint firstItem="Y3O-eo-TTY" firstAttribute="top" secondItem="7l2-bF-nLY" secondAttribute="top" constant="26" id="svP-zA-Vf8"/>
                             <constraint firstItem="7l2-bF-nLY" firstAttribute="trailing" secondItem="Y3O-eo-TTY" secondAttribute="trailing" constant="324" id="v8K-gE-jtZ">
                                 <variation key="heightClass=compact-widthClass=regular" constant="330"/>
                             </constraint>
-                            <constraint firstItem="zqb-Yx-Sa1" firstAttribute="top" secondItem="7l2-bF-nLY" secondAttribute="top" constant="333" id="yp2-0Q-K5Y">
-                                <variation key="heightClass=compact-widthClass=regular" constant="303"/>
-                            </constraint>
-                            <constraint firstItem="nrg-fc-vRW" firstAttribute="leading" secondItem="cgC-WP-W7S" secondAttribute="trailing" constant="8" symbolic="YES" id="yt4-Zj-sgc">
-                                <variation key="heightClass=compact-widthClass=regular" constant="21"/>
-                            </constraint>
+                            <constraint firstItem="zqb-Yx-Sa1" firstAttribute="leading" secondItem="6el-TX-fCq" secondAttribute="trailing" constant="72" id="vab-kN-J7y"/>
+                            <constraint firstItem="7l2-bF-nLY" firstAttribute="bottom" secondItem="cgC-WP-W7S" secondAttribute="bottom" constant="7" id="xRW-Nm-ygG"/>
                             <constraint firstItem="br9-0g-Cz2" firstAttribute="top" secondItem="Y3O-eo-TTY" secondAttribute="bottom" constant="15" id="zAh-L5-erv">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
@@ -907,77 +863,73 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                         <viewLayoutGuide key="safeArea" id="7l2-bF-nLY"/>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="9oI-EZ-342"/>
-                                <exclude reference="B2k-A1-mtf"/>
                                 <exclude reference="CH1-fB-58H"/>
+                                <exclude reference="LIy-R5-Enr"/>
                                 <exclude reference="TVU-VS-26g"/>
                                 <exclude reference="ZDd-t9-mja"/>
+                                <exclude reference="a8q-lE-sQw"/>
                                 <exclude reference="nYi-Cb-L3r"/>
                                 <exclude reference="v8K-gE-jtZ"/>
-                                <exclude reference="0Y8-iX-agu"/>
-                                <exclude reference="H82-Ea-55c"/>
-                                <exclude reference="YT3-7m-5Y8"/>
-                                <exclude reference="sBw-up-Dgh"/>
-                                <exclude reference="sbK-F1-D6j"/>
-                                <exclude reference="zAh-L5-erv"/>
-                                <exclude reference="0aV-IA-46s"/>
-                                <exclude reference="4Ty-vI-Yej"/>
-                                <exclude reference="7Pc-rc-BDJ"/>
-                                <exclude reference="bY1-cI-ynO"/>
-                                <exclude reference="dz5-iF-wZH"/>
-                                <exclude reference="njj-He-vc7"/>
+                                <exclude reference="xRW-Nm-ygG"/>
                                 <exclude reference="ECl-JJ-dXF"/>
                                 <exclude reference="JVR-sx-O9o"/>
                                 <exclude reference="Rmx-vs-h5h"/>
                                 <exclude reference="mxL-Cw-KkC"/>
                                 <exclude reference="svP-zA-Vf8"/>
-                                <exclude reference="0aK-Fp-H5R"/>
-                                <exclude reference="DFJ-bw-Od7"/>
-                                <exclude reference="EFG-9g-YcC"/>
-                                <exclude reference="QJI-PL-s9K"/>
-                                <exclude reference="flj-RN-cUv"/>
-                                <exclude reference="lDQ-xt-AUp"/>
-                                <exclude reference="yp2-0Q-K5Y"/>
+                                <exclude reference="0Y8-iX-agu"/>
+                                <exclude reference="H82-Ea-55c"/>
+                                <exclude reference="YT3-7m-5Y8"/>
+                                <exclude reference="sBw-up-Dgh"/>
+                                <exclude reference="zAh-L5-erv"/>
                                 <exclude reference="1lt-oT-hDu"/>
                                 <exclude reference="CGr-mC-8ql"/>
-                                <exclude reference="222-ah-Tce"/>
-                                <exclude reference="5Ps-gU-Q0d"/>
-                                <exclude reference="IcO-R6-s9K"/>
+                                <exclude reference="6Kp-3d-tKQ"/>
+                                <exclude reference="8ca-kN-eJc"/>
+                                <exclude reference="HgV-Sw-vff"/>
+                                <exclude reference="PvD-MT-E9Q"/>
+                                <exclude reference="R77-fV-P4d"/>
+                                <exclude reference="UK4-CW-u6k"/>
+                                <exclude reference="qHT-o9-H8H"/>
+                                <exclude reference="BuE-gK-EtY"/>
+                                <exclude reference="EFG-9g-YcC"/>
+                                <exclude reference="OEV-o5-VQM"/>
+                                <exclude reference="QJI-PL-s9K"/>
+                                <exclude reference="lDQ-xt-AUp"/>
+                                <exclude reference="laf-mK-Jbp"/>
+                                <exclude reference="vab-kN-J7y"/>
+                                <exclude reference="4YP-ZC-u6N"/>
+                                <exclude reference="4b6-nQ-LZ0"/>
                                 <exclude reference="Jq8-8l-E7r"/>
-                                <exclude reference="Lfm-ku-yHl"/>
-                                <exclude reference="MmJ-Xi-4f9"/>
+                                <exclude reference="aoh-ge-ndQ"/>
                                 <exclude reference="ljm-A8-iSB"/>
+                                <exclude reference="Owa-6x-LVz"/>
                                 <exclude reference="Zlj-R1-Q1p"/>
-                                <exclude reference="nwt-1R-37a"/>
-                                <exclude reference="yt4-Zj-sgc"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=regular">
                             <mask key="constraints">
-                                <include reference="9oI-EZ-342"/>
-                                <include reference="B2k-A1-mtf"/>
+                                <include reference="LIy-R5-Enr"/>
                                 <include reference="ZDd-t9-mja"/>
+                                <include reference="a8q-lE-sQw"/>
                                 <include reference="v8K-gE-jtZ"/>
-                                <include reference="H82-Ea-55c"/>
-                                <include reference="YT3-7m-5Y8"/>
-                                <include reference="sBw-up-Dgh"/>
-                                <include reference="sbK-F1-D6j"/>
-                                <include reference="7Pc-rc-BDJ"/>
-                                <include reference="bY1-cI-ynO"/>
+                                <include reference="xRW-Nm-ygG"/>
                                 <include reference="ECl-JJ-dXF"/>
                                 <include reference="mxL-Cw-KkC"/>
                                 <include reference="svP-zA-Vf8"/>
-                                <include reference="0aK-Fp-H5R"/>
-                                <include reference="DFJ-bw-Od7"/>
-                                <include reference="flj-RN-cUv"/>
-                                <include reference="yp2-0Q-K5Y"/>
+                                <include reference="H82-Ea-55c"/>
+                                <include reference="YT3-7m-5Y8"/>
+                                <include reference="sBw-up-Dgh"/>
                                 <include reference="CGr-mC-8ql"/>
-                                <include reference="222-ah-Tce"/>
-                                <include reference="5Ps-gU-Q0d"/>
-                                <include reference="Lfm-ku-yHl"/>
-                                <include reference="MmJ-Xi-4f9"/>
-                                <include reference="nwt-1R-37a"/>
-                                <include reference="yt4-Zj-sgc"/>
+                                <include reference="6Kp-3d-tKQ"/>
+                                <include reference="8ca-kN-eJc"/>
+                                <include reference="HgV-Sw-vff"/>
+                                <include reference="BuE-gK-EtY"/>
+                                <include reference="laf-mK-Jbp"/>
+                                <include reference="vab-kN-J7y"/>
+                                <include reference="4YP-ZC-u6N"/>
+                                <include reference="4b6-nQ-LZ0"/>
+                                <include reference="aoh-ge-ndQ"/>
+                                <include reference="Owa-6x-LVz"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -985,26 +937,26 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                                 <include reference="CH1-fB-58H"/>
                                 <include reference="TVU-VS-26g"/>
                                 <include reference="nYi-Cb-L3r"/>
-                                <include reference="0Y8-iX-agu"/>
-                                <include reference="zAh-L5-erv"/>
-                                <include reference="0aV-IA-46s"/>
-                                <include reference="4Ty-vI-Yej"/>
-                                <include reference="dz5-iF-wZH"/>
-                                <include reference="njj-He-vc7"/>
                                 <include reference="JVR-sx-O9o"/>
                                 <include reference="Rmx-vs-h5h"/>
+                                <include reference="0Y8-iX-agu"/>
+                                <include reference="zAh-L5-erv"/>
+                                <include reference="1lt-oT-hDu"/>
+                                <include reference="PvD-MT-E9Q"/>
+                                <include reference="R77-fV-P4d"/>
+                                <include reference="UK4-CW-u6k"/>
+                                <include reference="qHT-o9-H8H"/>
                                 <include reference="EFG-9g-YcC"/>
+                                <include reference="OEV-o5-VQM"/>
                                 <include reference="QJI-PL-s9K"/>
                                 <include reference="lDQ-xt-AUp"/>
-                                <include reference="1lt-oT-hDu"/>
-                                <include reference="IcO-R6-s9K"/>
                                 <include reference="Jq8-8l-E7r"/>
                                 <include reference="ljm-A8-iSB"/>
                                 <include reference="Zlj-R1-Q1p"/>
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Champions League Info" id="Ylf-fn-aqH"/>
+                    <tabBarItem key="tabBarItem" title="Champions League Info" image="ChampionsTab" id="Ylf-fn-aqH"/>
                     <connections>
                         <outlet property="championsLogo" destination="rYn-B7-Woh" id="oKc-xw-JGU"/>
                         <outlet property="clickableTextView" destination="6el-TX-fCq" id="mlJ-Wg-cp2"/>
@@ -1013,7 +965,7 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kbi-d1-ptV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13.392857142857142" y="-671.01449275362324"/>
+            <point key="canvasLocation" x="-14.492753623188406" y="-671.65178571428567"/>
         </scene>
         <!--Europa League Info-->
         <scene sceneID="0qa-w4-hJo">
@@ -1128,22 +1080,42 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLt-I5-Gq8">
-                                <rect key="frame" x="349" y="721" width="45" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kU0-1p-OOV">
+                                <rect key="frame" x="251" y="719" width="54" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="52" id="H2X-l2-9FN"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="PNh-0p-hkA"/>
+                                    <constraint firstAttribute="height" constant="31" id="vMv-i4-Irz"/>
                                 </constraints>
-                                <state key="normal" title="Stop"/>
+                                <state key="normal" title="Play Me"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="H2X-l2-9FN"/>
-                                        <exclude reference="PNh-0p-hkA"/>
+                                        <exclude reference="vMv-i4-Irz"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact-widthClass=regular">
                                     <mask key="constraints">
-                                        <include reference="H2X-l2-9FN"/>
+                                        <include reference="vMv-i4-Irz"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="europaPlayButton:" destination="MZj-dy-H11" eventType="touchUpInside" id="StZ-0E-rUQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLt-I5-Gq8">
+                                <rect key="frame" x="349" y="719" width="45" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="PNh-0p-hkA"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="mUs-Xw-pnv"/>
+                                </constraints>
+                                <state key="normal" title="Stop"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="PNh-0p-hkA"/>
+                                        <exclude reference="mUs-Xw-pnv"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="mUs-Xw-pnv"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
@@ -1155,36 +1127,16 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                                     <action selector="stopAudioButton:" destination="MZj-dy-H11" eventType="touchUpInside" id="mYK-Qf-f0d"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kU0-1p-OOV">
-                                <rect key="frame" x="251" y="719" width="54" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="PDX-95-e2n"/>
-                                </constraints>
-                                <state key="normal" title="Play Me"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="PDX-95-e2n"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="PDX-95-e2n"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <action selector="europaPlayButton:" destination="MZj-dy-H11" eventType="touchUpInside" id="StZ-0E-rUQ"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
-                            <constraint firstItem="VLt-I5-Gq8" firstAttribute="top" secondItem="kU0-1p-OOV" secondAttribute="top" id="1a9-CB-aIt"/>
                             <constraint firstItem="kU0-1p-OOV" firstAttribute="top" secondItem="VLt-I5-Gq8" secondAttribute="top" id="1zM-2Z-BRa">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-2"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
+                            <constraint firstItem="kU0-1p-OOV" firstAttribute="top" secondItem="VLt-I5-Gq8" secondAttribute="top" id="2jv-xi-T5u"/>
                             <constraint firstItem="kU0-1p-OOV" firstAttribute="baseline" secondItem="VLt-I5-Gq8" secondAttribute="firstBaseline" id="2wE-5u-64v">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-2"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
                             <constraint firstItem="8Qn-WV-8DQ" firstAttribute="top" secondItem="DE9-Qs-68f" secondAttribute="bottom" constant="32" id="5UV-is-I1e">
                                 <variation key="heightClass=regular-widthClass=compact" constant="22"/>
@@ -1192,7 +1144,6 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                             <constraint firstItem="aQM-nD-Knb" firstAttribute="top" secondItem="afF-zJ-5Zu" secondAttribute="top" constant="28" id="7aO-Md-ifF">
                                 <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="kU0-1p-OOV" firstAttribute="leading" secondItem="VLQ-yl-c2H" secondAttribute="trailing" constant="75" id="8AA-fR-u6C"/>
                             <constraint firstItem="aQM-nD-Knb" firstAttribute="leading" secondItem="DE9-Qs-68f" secondAttribute="trailing" constant="8" symbolic="YES" id="8JW-WP-D97"/>
                             <constraint firstItem="kU0-1p-OOV" firstAttribute="centerX" secondItem="aQM-nD-Knb" secondAttribute="centerX" id="Bfn-Mq-46X">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-21"/>
@@ -1200,10 +1151,11 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                             <constraint firstItem="VLQ-yl-c2H" firstAttribute="top" secondItem="8Qn-WV-8DQ" secondAttribute="bottom" constant="40" id="DMg-Ma-pTk">
                                 <variation key="heightClass=regular-widthClass=compact" constant="10"/>
                             </constraint>
+                            <constraint firstItem="kU0-1p-OOV" firstAttribute="baseline" secondItem="VLt-I5-Gq8" secondAttribute="firstBaseline" id="EgE-F7-0xc"/>
                             <constraint firstItem="afF-zJ-5Zu" firstAttribute="trailing" secondItem="aQM-nD-Knb" secondAttribute="trailing" constant="279" id="F0S-gh-eEw"/>
                             <constraint firstItem="BK7-kr-3Ma" firstAttribute="leading" secondItem="VLQ-yl-c2H" secondAttribute="leading" id="F9n-yi-b1m"/>
                             <constraint firstItem="aQM-nD-Knb" firstAttribute="top" secondItem="afF-zJ-5Zu" secondAttribute="top" id="Jvw-tC-AZd"/>
-                            <constraint firstItem="VLt-I5-Gq8" firstAttribute="firstBaseline" secondItem="kU0-1p-OOV" secondAttribute="baseline" id="Kb5-oy-9lg"/>
+                            <constraint firstItem="kU0-1p-OOV" firstAttribute="bottom" secondItem="VLQ-yl-c2H" secondAttribute="bottom" id="K62-aj-ibk"/>
                             <constraint firstItem="afF-zJ-5Zu" firstAttribute="trailing" secondItem="VLQ-yl-c2H" secondAttribute="trailing" constant="159" id="Lin-dL-YTP">
                                 <variation key="heightClass=compact-widthClass=regular" constant="279"/>
                             </constraint>
@@ -1225,10 +1177,8 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                             <constraint firstItem="8Qn-WV-8DQ" firstAttribute="top" secondItem="DE9-Qs-68f" secondAttribute="bottom" constant="19" id="U0Z-3O-kyi">
                                 <variation key="heightClass=compact-widthClass=regular" constant="16"/>
                             </constraint>
-                            <constraint firstItem="afF-zJ-5Zu" firstAttribute="trailing" secondItem="VLt-I5-Gq8" secondAttribute="trailing" constant="59" id="Uiw-Dw-QrN"/>
                             <constraint firstItem="8Qn-WV-8DQ" firstAttribute="trailing" secondItem="VLQ-yl-c2H" secondAttribute="trailing" id="VGN-wd-ZNb"/>
                             <constraint firstItem="VLQ-yl-c2H" firstAttribute="leading" secondItem="J2Y-ZC-Nqb" secondAttribute="leadingMargin" id="WW2-o5-MrZ"/>
-                            <constraint firstItem="kU0-1p-OOV" firstAttribute="bottom" secondItem="VLQ-yl-c2H" secondAttribute="bottom" id="Wn1-6S-dNx"/>
                             <constraint firstItem="BK7-kr-3Ma" firstAttribute="centerY" secondItem="kU0-1p-OOV" secondAttribute="centerY" id="XSB-Ao-pL5">
                                 <variation key="heightClass=regular-widthClass=compact" constant="1"/>
                             </constraint>
@@ -1245,16 +1195,17 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                                 <variation key="heightClass=regular-widthClass=compact" constant="-2"/>
                             </constraint>
                             <constraint firstItem="DE9-Qs-68f" firstAttribute="centerY" secondItem="aQM-nD-Knb" secondAttribute="centerY" id="blZ-ST-APM"/>
-                            <constraint firstItem="VLt-I5-Gq8" firstAttribute="leading" secondItem="kU0-1p-OOV" secondAttribute="trailing" constant="25" id="eDn-Hw-vCq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8Qn-WV-8DQ" secondAttribute="trailing" constant="-52" id="fAU-EY-zhO">
                                 <variation key="heightClass=compact-widthClass=regular" constant="-38"/>
                             </constraint>
                             <constraint firstItem="BK7-kr-3Ma" firstAttribute="leading" secondItem="VLQ-yl-c2H" secondAttribute="trailing" constant="58" id="hTb-Wg-l9j"/>
                             <constraint firstItem="VLt-I5-Gq8" firstAttribute="trailing" secondItem="VLQ-yl-c2H" secondAttribute="trailing" id="hUD-Ac-Zdc"/>
-                            <constraint firstItem="kU0-1p-OOV" firstAttribute="top" secondItem="8Qn-WV-8DQ" secondAttribute="bottom" constant="16" id="hYO-m2-kON"/>
                             <constraint firstItem="VLQ-yl-c2H" firstAttribute="leading" secondItem="8Qn-WV-8DQ" secondAttribute="leading" id="lRE-cN-6lu"/>
                             <constraint firstItem="afF-zJ-5Zu" firstAttribute="trailing" secondItem="BK7-kr-3Ma" secondAttribute="trailing" constant="42" id="mu0-gF-0an"/>
                             <constraint firstItem="aQM-nD-Knb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DE9-Qs-68f" secondAttribute="trailing" constant="8" symbolic="YES" id="nKX-ds-eTo"/>
+                            <constraint firstItem="kU0-1p-OOV" firstAttribute="leading" secondItem="VLQ-yl-c2H" secondAttribute="trailing" constant="76" id="pTw-Yz-pS6"/>
+                            <constraint firstItem="afF-zJ-5Zu" firstAttribute="trailing" secondItem="VLt-I5-Gq8" secondAttribute="trailing" constant="60" id="pWp-Lc-vEa"/>
+                            <constraint firstItem="VLt-I5-Gq8" firstAttribute="leading" secondItem="kU0-1p-OOV" secondAttribute="trailing" constant="44" id="qzF-dN-58V"/>
                             <constraint firstItem="8Qn-WV-8DQ" firstAttribute="leading" secondItem="VLQ-yl-c2H" secondAttribute="leading" id="rKM-bu-zME"/>
                             <constraint firstItem="afF-zJ-5Zu" firstAttribute="bottom" secondItem="BK7-kr-3Ma" secondAttribute="bottom" constant="36" id="rsK-IK-MB5">
                                 <variation key="heightClass=regular-widthClass=compact" constant="56"/>
@@ -1265,16 +1216,17 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                             <constraint firstItem="8Qn-WV-8DQ" firstAttribute="trailing" secondItem="J2Y-ZC-Nqb" secondAttribute="trailingMargin" id="ygU-Dl-GXV"/>
                             <constraint firstItem="VLt-I5-Gq8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kU0-1p-OOV" secondAttribute="trailing" constant="37" id="yyl-Ys-3qB"/>
                             <constraint firstItem="DE9-Qs-68f" firstAttribute="centerY" secondItem="aQM-nD-Knb" secondAttribute="centerY" id="zZ5-pD-KOC"/>
+                            <constraint firstItem="kU0-1p-OOV" firstAttribute="top" secondItem="8Qn-WV-8DQ" secondAttribute="bottom" constant="16" id="ztM-Ex-3cN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="afF-zJ-5Zu"/>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="F0S-gh-eEw"/>
                                 <exclude reference="Lin-dL-YTP"/>
-                                <exclude reference="Uiw-Dw-QrN"/>
                                 <exclude reference="XUg-CH-it3"/>
                                 <exclude reference="Ybm-o5-B5D"/>
                                 <exclude reference="mu0-gF-0an"/>
+                                <exclude reference="pWp-Lc-vEa"/>
                                 <exclude reference="rsK-IK-MB5"/>
                                 <exclude reference="st8-SC-8uQ"/>
                                 <exclude reference="5UV-is-I1e"/>
@@ -1305,17 +1257,17 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                                 <exclude reference="XSB-Ao-pL5"/>
                                 <exclude reference="hTb-Wg-l9j"/>
                                 <exclude reference="1zM-2Z-BRa"/>
+                                <exclude reference="2jv-xi-T5u"/>
                                 <exclude reference="2wE-5u-64v"/>
-                                <exclude reference="8AA-fR-u6C"/>
                                 <exclude reference="Bfn-Mq-46X"/>
+                                <exclude reference="EgE-F7-0xc"/>
+                                <exclude reference="K62-aj-ibk"/>
                                 <exclude reference="Mt3-FD-lxG"/>
-                                <exclude reference="Wn1-6S-dNx"/>
                                 <exclude reference="aPX-ri-QcY"/>
-                                <exclude reference="hYO-m2-kON"/>
-                                <exclude reference="1a9-CB-aIt"/>
-                                <exclude reference="Kb5-oy-9lg"/>
-                                <exclude reference="eDn-Hw-vCq"/>
+                                <exclude reference="pTw-Yz-pS6"/>
+                                <exclude reference="ztM-Ex-3cN"/>
                                 <exclude reference="hUD-Ac-Zdc"/>
+                                <exclude reference="qzF-dN-58V"/>
                                 <exclude reference="yyl-Ys-3qB"/>
                             </mask>
                         </variation>
@@ -1323,10 +1275,10 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                             <mask key="constraints">
                                 <include reference="F0S-gh-eEw"/>
                                 <include reference="Lin-dL-YTP"/>
-                                <include reference="Uiw-Dw-QrN"/>
                                 <include reference="XUg-CH-it3"/>
                                 <include reference="Ybm-o5-B5D"/>
                                 <include reference="mu0-gF-0an"/>
+                                <include reference="pWp-Lc-vEa"/>
                                 <include reference="NLP-Zg-Auw"/>
                                 <include reference="U0Z-3O-kyi"/>
                                 <include reference="fAU-EY-zhO"/>
@@ -1339,12 +1291,12 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                                 <include reference="nKX-ds-eTo"/>
                                 <include reference="Sef-wU-jmz"/>
                                 <include reference="hTb-Wg-l9j"/>
-                                <include reference="8AA-fR-u6C"/>
-                                <include reference="Wn1-6S-dNx"/>
-                                <include reference="hYO-m2-kON"/>
-                                <include reference="1a9-CB-aIt"/>
-                                <include reference="Kb5-oy-9lg"/>
-                                <include reference="eDn-Hw-vCq"/>
+                                <include reference="2jv-xi-T5u"/>
+                                <include reference="EgE-F7-0xc"/>
+                                <include reference="K62-aj-ibk"/>
+                                <include reference="pTw-Yz-pS6"/>
+                                <include reference="ztM-Ex-3cN"/>
+                                <include reference="qzF-dN-58V"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -1376,19 +1328,22 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Europa League Info" id="HyG-Tp-kCr"/>
+                    <tabBarItem key="tabBarItem" title="Europa League Info" image="EuropaTab" id="HyG-Tp-kCr"/>
                     <connections>
                         <outlet property="clickTextView" destination="VLQ-yl-c2H" id="7P4-8D-QVb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vcr-Kn-mxG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13.392857142857142" y="879.71014492753625"/>
+            <point key="canvasLocation" x="-14" y="1129"/>
         </scene>
     </scenes>
     <resources>
         <image name="Champions League Logo" width="40" height="40"/>
+        <image name="ChampionsTab" width="29" height="29"/>
         <image name="Europa League Logo" width="40" height="40"/>
+        <image name="EuropaTab" width="29" height="29"/>
+        <image name="HomeTab" width="26" height="26"/>
         <image name="Title Image" width="40" height="40"/>
     </resources>
 </document>
