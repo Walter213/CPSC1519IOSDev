@@ -747,11 +747,11 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                                 </variation>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="br9-0g-Cz2">
-                                <rect key="frame" x="20" y="75" width="374" height="595"/>
+                                <rect key="frame" x="20" y="75.5" width="374" height="594.5"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">The UEFA Champions League (also known as the European Cup) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the best team in Europe. It is one of the most prestigious tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of the strongest UEFA national associations.
+                                <string key="text">The UEFA Champions League (also known as the European Cup) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the best team in Europe. It is one of the most prestigious tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of the strongest UEFA national associations.
 Introduced in 1955 as the European Champion Clubs' Cup, it was initially a straight knockout tournament open only to the champion club of each national championship. The competition took on its current name in 1992, adding a round-robin group stage and allowing multiple entrants from certain countries. It has since been expanded, and while most of Europe's national leagues can still only enter their champion, the strongest leagues now provide up to five teams. Clubs that finish next-in-line in their national league, having not qualified for the Champions League, are eligible for the second-tier UEFA Europa League competition, and from 2021, teams not eligible for the UEFA Europa League will qualify for a new third-tier competition called the UEFA Europa Conference League.
-In its present format, the Champions League begins in late June with a preliminary round, three qualifying rounds and a play-off round, all played over two legs. The six surviving teams enter the group stage, joining 26 teams qualified in advance. The 32 teams are drawn into eight groups of four teams and play each other in a double round-robin system. The eight group winners and eight runners-up proceed to the knockout phase that culminates with the final match in late May or early June. </mutableString>
+In its present format, the Champions League begins in late June with a preliminary round, three qualifying rounds and a play-off round, all played over two legs. The six surviving teams enter the group stage, joining 26 teams qualified in advance. The 32 teams are drawn into eight groups of four teams and play each other in a double round-robin system. The eight group winners and eight runners-up proceed to the knockout phase that culminates with the final match in late May or early June. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1229,6 +1229,11 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                                 <exclude reference="pWp-Lc-vEa"/>
                                 <exclude reference="rsK-IK-MB5"/>
                                 <exclude reference="st8-SC-8uQ"/>
+                                <exclude reference="Pi6-vU-V01"/>
+                                <exclude reference="Pwd-Nf-03v"/>
+                                <exclude reference="T9i-SU-JKa"/>
+                                <exclude reference="blZ-ST-APM"/>
+                                <exclude reference="zZ5-pD-KOC"/>
                                 <exclude reference="5UV-is-I1e"/>
                                 <exclude reference="NLP-Zg-Auw"/>
                                 <exclude reference="U0Z-3O-kyi"/>
@@ -1238,19 +1243,14 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                                 <exclude reference="fAU-EY-zhO"/>
                                 <exclude reference="rKM-bu-zME"/>
                                 <exclude reference="ygU-Dl-GXV"/>
-                                <exclude reference="DMg-Ma-pTk"/>
-                                <exclude reference="WW2-o5-MrZ"/>
-                                <exclude reference="lRE-cN-6lu"/>
-                                <exclude reference="Pi6-vU-V01"/>
-                                <exclude reference="Pwd-Nf-03v"/>
-                                <exclude reference="T9i-SU-JKa"/>
-                                <exclude reference="blZ-ST-APM"/>
-                                <exclude reference="zZ5-pD-KOC"/>
                                 <exclude reference="7aO-Md-ifF"/>
                                 <exclude reference="8JW-WP-D97"/>
                                 <exclude reference="Jvw-tC-AZd"/>
                                 <exclude reference="afN-ib-EuV"/>
                                 <exclude reference="nKX-ds-eTo"/>
+                                <exclude reference="DMg-Ma-pTk"/>
+                                <exclude reference="WW2-o5-MrZ"/>
+                                <exclude reference="lRE-cN-6lu"/>
                                 <exclude reference="F9n-yi-b1m"/>
                                 <exclude reference="PIU-yB-S0A"/>
                                 <exclude reference="Sef-wU-jmz"/>
@@ -1279,13 +1279,13 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                                 <include reference="Ybm-o5-B5D"/>
                                 <include reference="mu0-gF-0an"/>
                                 <include reference="pWp-Lc-vEa"/>
+                                <include reference="Pi6-vU-V01"/>
+                                <include reference="T9i-SU-JKa"/>
+                                <include reference="zZ5-pD-KOC"/>
                                 <include reference="NLP-Zg-Auw"/>
                                 <include reference="U0Z-3O-kyi"/>
                                 <include reference="fAU-EY-zhO"/>
                                 <include reference="rKM-bu-zME"/>
-                                <include reference="Pi6-vU-V01"/>
-                                <include reference="T9i-SU-JKa"/>
-                                <include reference="zZ5-pD-KOC"/>
                                 <include reference="Jvw-tC-AZd"/>
                                 <include reference="afN-ib-EuV"/>
                                 <include reference="nKX-ds-eTo"/>
@@ -1303,18 +1303,18 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                             <mask key="constraints">
                                 <include reference="rsK-IK-MB5"/>
                                 <include reference="st8-SC-8uQ"/>
+                                <include reference="Pwd-Nf-03v"/>
+                                <include reference="blZ-ST-APM"/>
                                 <include reference="5UV-is-I1e"/>
                                 <include reference="VGN-wd-ZNb"/>
                                 <include reference="aRe-wB-A5d"/>
                                 <include reference="bET-sp-3ug"/>
                                 <include reference="ygU-Dl-GXV"/>
+                                <include reference="7aO-Md-ifF"/>
+                                <include reference="8JW-WP-D97"/>
                                 <include reference="DMg-Ma-pTk"/>
                                 <include reference="WW2-o5-MrZ"/>
                                 <include reference="lRE-cN-6lu"/>
-                                <include reference="Pwd-Nf-03v"/>
-                                <include reference="blZ-ST-APM"/>
-                                <include reference="7aO-Md-ifF"/>
-                                <include reference="8JW-WP-D97"/>
                                 <include reference="F9n-yi-b1m"/>
                                 <include reference="PIU-yB-S0A"/>
                                 <include reference="XSB-Ao-pL5"/>
