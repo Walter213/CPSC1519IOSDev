@@ -23,6 +23,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Lu2-Ki-6uR"/>
                         <segue destination="MZj-dy-H11" kind="relationship" relationship="viewControllers" id="kcs-1v-Si0"/>
                         <segue destination="bLK-BR-ewX" kind="relationship" relationship="viewControllers" id="zN0-Om-p1P"/>
+                        <segue destination="qED-Ai-ei9" kind="relationship" relationship="viewControllers" id="Uo0-jl-bHT"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dKt-93-v7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -643,6 +644,22 @@
             </objects>
             <point key="canvasLocation" x="-14" y="121"/>
         </scene>
+        <!--Settings-->
+        <scene sceneID="epd-vF-FXB">
+            <objects>
+                <viewController id="qED-Ai-ei9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v4p-kh-NJh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Vim-cS-Q7p"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="SettingsTab" id="Pcf-0O-qnB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kXO-8n-F6t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1042" y="-672"/>
+        </scene>
         <!--Champions League Info-->
         <scene sceneID="7B9-ie-9qS">
             <objects>
@@ -674,6 +691,67 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                                     </mask>
                                 </variation>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Champions League" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3O-eo-TTY">
+                                <rect key="frame" x="55" y="38.5" width="226" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="226" id="Mqn-2n-ipD"/>
+                                    <constraint firstAttribute="height" constant="29" id="nP0-U8-Mki"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Mqn-2n-ipD"/>
+                                        <exclude reference="nP0-U8-Mki"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="Mqn-2n-ipD"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="nP0-U8-Mki"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="br9-0g-Cz2">
+                                <rect key="frame" x="20" y="75.5" width="374" height="594.5"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">The UEFA Champions League (also known as the European Cup) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the best team in Europe. It is one of the most prestigious tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of the strongest UEFA national associations.
+Introduced in 1955 as the European Champion Clubs' Cup, it was initially a straight knockout tournament open only to the champion club of each national championship. The competition took on its current name in 1992, adding a round-robin group stage and allowing multiple entrants from certain countries. It has since been expanded, and while most of Europe's national leagues can still only enter their champion, the strongest leagues now provide up to five teams. Clubs that finish next-in-line in their national league, having not qualified for the Champions League, are eligible for the second-tier UEFA Europa League competition, and from 2021, teams not eligible for the UEFA Europa League will qualify for a new third-tier competition called the UEFA Europa Conference League. In its present format, the Champions League begins in late June with a preliminary round, three qualifying rounds and a play-off round, all played over two legs. The six surviving teams enter the group stage, joining 26 teams qualified in advance. The 32 teams are drawn into eight groups of four teams and play each other in a double round-robin system. The eight group winners and eight runners-up proceed to the knockout phase that culminates with the final match in late May or early June. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Champions League Logo" translatesAutoresizingMaskIntoConstraints="NO" id="rYn-B7-Woh">
+                                <rect key="frame" x="277" y="33" width="82" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="kYK-Qe-U3k">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="82"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="74" id="y8A-vf-Unv">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="82"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="kYK-Qe-U3k"/>
+                                        <exclude reference="y8A-vf-Unv"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="kYK-Qe-U3k"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="y8A-vf-Unv"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Champions League Anthem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqb-Yx-Sa1">
                                 <rect key="frame" x="20" y="754" width="211" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -720,68 +798,6 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                                     <action selector="championsPlayButton:" destination="bLK-BR-ewX" eventType="touchUpInside" id="9T7-Qx-LfZ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Champions League" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3O-eo-TTY">
-                                <rect key="frame" x="55" y="38.5" width="226" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="226" id="Mqn-2n-ipD"/>
-                                    <constraint firstAttribute="height" constant="29" id="nP0-U8-Mki"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="Mqn-2n-ipD"/>
-                                        <exclude reference="nP0-U8-Mki"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="Mqn-2n-ipD"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="nP0-U8-Mki"/>
-                                    </mask>
-                                </variation>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="br9-0g-Cz2">
-                                <rect key="frame" x="20" y="75.5" width="374" height="594.5"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">The UEFA Champions League (also known as the European Cup) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the best team in Europe. It is one of the most prestigious tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of the strongest UEFA national associations.
-Introduced in 1955 as the European Champion Clubs' Cup, it was initially a straight knockout tournament open only to the champion club of each national championship. The competition took on its current name in 1992, adding a round-robin group stage and allowing multiple entrants from certain countries. It has since been expanded, and while most of Europe's national leagues can still only enter their champion, the strongest leagues now provide up to five teams. Clubs that finish next-in-line in their national league, having not qualified for the Champions League, are eligible for the second-tier UEFA Europa League competition, and from 2021, teams not eligible for the UEFA Europa League will qualify for a new third-tier competition called the UEFA Europa Conference League.
-In its present format, the Champions League begins in late June with a preliminary round, three qualifying rounds and a play-off round, all played over two legs. The six surviving teams enter the group stage, joining 26 teams qualified in advance. The 32 teams are drawn into eight groups of four teams and play each other in a double round-robin system. The eight group winners and eight runners-up proceed to the knockout phase that culminates with the final match in late May or early June. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Champions League Logo" translatesAutoresizingMaskIntoConstraints="NO" id="rYn-B7-Woh">
-                                <rect key="frame" x="277" y="33" width="82" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="74" id="kYK-Qe-U3k">
-                                        <variation key="heightClass=compact-widthClass=regular" constant="82"/>
-                                    </constraint>
-                                    <constraint firstAttribute="width" constant="74" id="y8A-vf-Unv">
-                                        <variation key="heightClass=regular-widthClass=compact" constant="82"/>
-                                    </constraint>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="kYK-Qe-U3k"/>
-                                        <exclude reference="y8A-vf-Unv"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="kYK-Qe-U3k"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="y8A-vf-Unv"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -791,10 +807,16 @@ In its present format, the Champions League begins in late June with a prelimina
                                 <variation key="heightClass=regular-widthClass=compact" constant="-11"/>
                             </constraint>
                             <constraint firstItem="cgC-WP-W7S" firstAttribute="baseline" secondItem="nrg-fc-vRW" secondAttribute="baseline" id="4YP-ZC-u6N"/>
-                            <constraint firstItem="cgC-WP-W7S" firstAttribute="top" secondItem="br9-0g-Cz2" secondAttribute="bottom" constant="2" id="4b6-nQ-LZ0"/>
-                            <constraint firstItem="6el-TX-fCq" firstAttribute="leading" secondItem="br9-0g-Cz2" secondAttribute="leading" id="6Kp-3d-tKQ"/>
+                            <constraint firstItem="cgC-WP-W7S" firstAttribute="top" secondItem="br9-0g-Cz2" secondAttribute="bottom" constant="2" id="4b6-nQ-LZ0">
+                                <variation key="heightClass=compact-widthClass=regular" constant="7"/>
+                            </constraint>
+                            <constraint firstItem="6el-TX-fCq" firstAttribute="leading" secondItem="br9-0g-Cz2" secondAttribute="leading" id="6Kp-3d-tKQ">
+                                <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
+                            </constraint>
                             <constraint firstAttribute="bottomMargin" secondItem="6el-TX-fCq" secondAttribute="bottom" constant="-4" id="8ca-kN-eJc"/>
-                            <constraint firstItem="zqb-Yx-Sa1" firstAttribute="top" secondItem="7l2-bF-nLY" secondAttribute="top" constant="287" id="BuE-gK-EtY"/>
+                            <constraint firstItem="zqb-Yx-Sa1" firstAttribute="top" secondItem="7l2-bF-nLY" secondAttribute="top" constant="287" id="BuE-gK-EtY">
+                                <variation key="heightClass=compact-widthClass=regular" constant="303"/>
+                            </constraint>
                             <constraint firstItem="rYn-B7-Woh" firstAttribute="top" secondItem="7l2-bF-nLY" secondAttribute="top" constant="7" id="CGr-mC-8ql">
                                 <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
                             </constraint>
@@ -806,9 +828,11 @@ In its present format, the Champions League begins in late June with a prelimina
                                 <variation key="heightClass=regular-widthClass=compact" constant="-11"/>
                             </constraint>
                             <constraint firstItem="br9-0g-Cz2" firstAttribute="leading" secondItem="7l2-bF-nLY" secondAttribute="leading" id="H82-Ea-55c">
-                                <variation key="heightClass=compact-widthClass=regular" constant="-34"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="-13"/>
                             </constraint>
-                            <constraint firstItem="6el-TX-fCq" firstAttribute="centerY" secondItem="cgC-WP-W7S" secondAttribute="centerY" id="HgV-Sw-vff"/>
+                            <constraint firstItem="6el-TX-fCq" firstAttribute="centerY" secondItem="cgC-WP-W7S" secondAttribute="centerY" id="HgV-Sw-vff">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-7"/>
+                            </constraint>
                             <constraint firstItem="Y3O-eo-TTY" firstAttribute="leading" secondItem="7l2-bF-nLY" secondAttribute="leading" constant="61" id="JVR-sx-O9o">
                                 <variation key="heightClass=regular-widthClass=compact" constant="55"/>
                             </constraint>
@@ -827,16 +851,22 @@ In its present format, the Champions League begins in late June with a prelimina
                             </constraint>
                             <constraint firstItem="6el-TX-fCq" firstAttribute="trailing" secondItem="br9-0g-Cz2" secondAttribute="trailing" id="UK4-CW-u6k"/>
                             <constraint firstItem="br9-0g-Cz2" firstAttribute="top" secondItem="Y3O-eo-TTY" secondAttribute="bottom" constant="11" id="YT3-7m-5Y8">
-                                <variation key="heightClass=compact-widthClass=regular" constant="8"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="0.5"/>
                             </constraint>
                             <constraint firstItem="7l2-bF-nLY" firstAttribute="trailing" secondItem="rYn-B7-Woh" secondAttribute="trailing" constant="258" id="ZDd-t9-mja">
                                 <variation key="heightClass=compact-widthClass=regular" constant="252"/>
                             </constraint>
                             <constraint firstItem="nrg-fc-vRW" firstAttribute="leading" secondItem="cgC-WP-W7S" secondAttribute="trailing" constant="18" id="Zlj-R1-Q1p"/>
-                            <constraint firstItem="7l2-bF-nLY" firstAttribute="bottom" secondItem="cgC-WP-W7S" secondAttribute="bottom" constant="7" id="a8q-lE-sQw"/>
-                            <constraint firstItem="cgC-WP-W7S" firstAttribute="leading" secondItem="6el-TX-fCq" secondAttribute="trailing" constant="109" id="aoh-ge-ndQ"/>
+                            <constraint firstItem="7l2-bF-nLY" firstAttribute="bottom" secondItem="cgC-WP-W7S" secondAttribute="bottom" constant="7" id="a8q-lE-sQw">
+                                <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="cgC-WP-W7S" firstAttribute="leading" secondItem="6el-TX-fCq" secondAttribute="trailing" constant="109" id="aoh-ge-ndQ">
+                                <variation key="heightClass=compact-widthClass=regular" constant="88"/>
+                            </constraint>
                             <constraint firstItem="zqb-Yx-Sa1" firstAttribute="centerY" secondItem="cgC-WP-W7S" secondAttribute="centerY" id="lDQ-xt-AUp"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="zqb-Yx-Sa1" secondAttribute="trailing" constant="-30" id="laf-mK-Jbp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zqb-Yx-Sa1" secondAttribute="trailing" constant="-30" id="laf-mK-Jbp">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-34"/>
+                            </constraint>
                             <constraint firstItem="cgC-WP-W7S" firstAttribute="leading" secondItem="zqb-Yx-Sa1" secondAttribute="trailing" constant="8" symbolic="YES" id="ljm-A8-iSB"/>
                             <constraint firstItem="Y3O-eo-TTY" firstAttribute="centerY" secondItem="rYn-B7-Woh" secondAttribute="centerY" id="mxL-Cw-KkC">
                                 <variation key="heightClass=compact-widthClass=regular" constant="2"/>
@@ -846,7 +876,7 @@ In its present format, the Champions League begins in late June with a prelimina
                             </constraint>
                             <constraint firstItem="6el-TX-fCq" firstAttribute="leading" secondItem="br9-0g-Cz2" secondAttribute="leading" id="qHT-o9-H8H"/>
                             <constraint firstAttribute="trailingMargin" secondItem="br9-0g-Cz2" secondAttribute="trailing" constant="-53" id="sBw-up-Dgh">
-                                <variation key="heightClass=compact-widthClass=regular" constant="-54"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="-34"/>
                             </constraint>
                             <constraint firstItem="Y3O-eo-TTY" firstAttribute="top" secondItem="7l2-bF-nLY" secondAttribute="top" constant="26" id="svP-zA-Vf8">
                                 <variation key="heightClass=compact-widthClass=regular" constant="16"/>
@@ -854,8 +884,12 @@ In its present format, the Champions League begins in late June with a prelimina
                             <constraint firstItem="7l2-bF-nLY" firstAttribute="trailing" secondItem="Y3O-eo-TTY" secondAttribute="trailing" constant="324" id="v8K-gE-jtZ">
                                 <variation key="heightClass=compact-widthClass=regular" constant="330"/>
                             </constraint>
-                            <constraint firstItem="zqb-Yx-Sa1" firstAttribute="leading" secondItem="6el-TX-fCq" secondAttribute="trailing" constant="72" id="vab-kN-J7y"/>
-                            <constraint firstItem="7l2-bF-nLY" firstAttribute="bottom" secondItem="cgC-WP-W7S" secondAttribute="bottom" constant="7" id="xRW-Nm-ygG"/>
+                            <constraint firstItem="zqb-Yx-Sa1" firstAttribute="leading" secondItem="6el-TX-fCq" secondAttribute="trailing" constant="72" id="vab-kN-J7y">
+                                <variation key="heightClass=compact-widthClass=regular" constant="55"/>
+                            </constraint>
+                            <constraint firstItem="7l2-bF-nLY" firstAttribute="bottom" secondItem="cgC-WP-W7S" secondAttribute="bottom" constant="7" id="xRW-Nm-ygG">
+                                <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
+                            </constraint>
                             <constraint firstItem="br9-0g-Cz2" firstAttribute="top" secondItem="Y3O-eo-TTY" secondAttribute="bottom" constant="15" id="zAh-L5-erv">
                                 <variation key="heightClass=regular-widthClass=compact" constant="8"/>
                             </constraint>
@@ -965,7 +999,7 @@ In its present format, the Champions League begins in late June with a prelimina
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kbi-d1-ptV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14.492753623188406" y="-671.65178571428567"/>
+            <point key="canvasLocation" x="-14.732142857142856" y="-672.46376811594212"/>
         </scene>
         <!--Europa League Info-->
         <scene sceneID="0qa-w4-hJo">
@@ -998,36 +1032,6 @@ In 1999, the UEFA Cup Winners' Cup was abolished and merged with the UEFA Cup. F
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="bCu-0y-C0G"/>
-                                    </mask>
-                                </variation>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VLQ-yl-c2H">
-                                <rect key="frame" x="20" y="581" width="374" height="83"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="AF2-kv-zdX"/>
-                                    <constraint firstAttribute="height" constant="47" id="UC5-El-pEV"/>
-                                </constraints>
-                                <string key="text">For Much More Infomation visit: https://en.wikipedia.org/wiki/UEFA_Europa_League
-Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="AF2-kv-zdX"/>
-                                        <exclude reference="UC5-El-pEV"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="UC5-El-pEV"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="AF2-kv-zdX"/>
                                     </mask>
                                 </variation>
                             </textView>
@@ -1127,6 +1131,36 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                                     <action selector="stopAudioButton:" destination="MZj-dy-H11" eventType="touchUpInside" id="mYK-Qf-f0d"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VLQ-yl-c2H">
+                                <rect key="frame" x="20" y="581" width="374" height="83"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="AF2-kv-zdX"/>
+                                    <constraint firstAttribute="height" constant="47" id="UC5-El-pEV"/>
+                                </constraints>
+                                <string key="text">For Much More Infomation visit: https://en.wikipedia.org/wiki/UEFA_Europa_League
+Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="AF2-kv-zdX"/>
+                                        <exclude reference="UC5-El-pEV"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="UC5-El-pEV"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="AF2-kv-zdX"/>
+                                    </mask>
+                                </variation>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1157,13 +1191,13 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                             <constraint firstItem="aQM-nD-Knb" firstAttribute="top" secondItem="afF-zJ-5Zu" secondAttribute="top" id="Jvw-tC-AZd"/>
                             <constraint firstItem="kU0-1p-OOV" firstAttribute="bottom" secondItem="VLQ-yl-c2H" secondAttribute="bottom" id="K62-aj-ibk"/>
                             <constraint firstItem="afF-zJ-5Zu" firstAttribute="trailing" secondItem="VLQ-yl-c2H" secondAttribute="trailing" constant="159" id="Lin-dL-YTP">
-                                <variation key="heightClass=compact-widthClass=regular" constant="279"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="267"/>
                             </constraint>
                             <constraint firstItem="kU0-1p-OOV" firstAttribute="top" secondItem="VLQ-yl-c2H" secondAttribute="bottom" constant="54" id="Mt3-FD-lxG">
                                 <variation key="heightClass=regular-widthClass=compact" constant="55"/>
                             </constraint>
                             <constraint firstItem="8Qn-WV-8DQ" firstAttribute="leading" secondItem="J2Y-ZC-Nqb" secondAttribute="leadingMargin" constant="-23" id="NLP-Zg-Auw">
-                                <variation key="heightClass=compact-widthClass=regular" constant="-37"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="-25"/>
                             </constraint>
                             <constraint firstItem="BK7-kr-3Ma" firstAttribute="top" secondItem="VLQ-yl-c2H" secondAttribute="bottom" constant="46" id="PIU-yB-S0A">
                                 <variation key="heightClass=regular-widthClass=compact" constant="49"/>
@@ -1196,14 +1230,18 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                             </constraint>
                             <constraint firstItem="DE9-Qs-68f" firstAttribute="centerY" secondItem="aQM-nD-Knb" secondAttribute="centerY" id="blZ-ST-APM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8Qn-WV-8DQ" secondAttribute="trailing" constant="-52" id="fAU-EY-zhO">
-                                <variation key="heightClass=compact-widthClass=regular" constant="-38"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="-26"/>
                             </constraint>
-                            <constraint firstItem="BK7-kr-3Ma" firstAttribute="leading" secondItem="VLQ-yl-c2H" secondAttribute="trailing" constant="58" id="hTb-Wg-l9j"/>
+                            <constraint firstItem="BK7-kr-3Ma" firstAttribute="leading" secondItem="VLQ-yl-c2H" secondAttribute="trailing" constant="58" id="hTb-Wg-l9j">
+                                <variation key="heightClass=compact-widthClass=regular" constant="46"/>
+                            </constraint>
                             <constraint firstItem="VLt-I5-Gq8" firstAttribute="trailing" secondItem="VLQ-yl-c2H" secondAttribute="trailing" id="hUD-Ac-Zdc"/>
                             <constraint firstItem="VLQ-yl-c2H" firstAttribute="leading" secondItem="8Qn-WV-8DQ" secondAttribute="leading" id="lRE-cN-6lu"/>
                             <constraint firstItem="afF-zJ-5Zu" firstAttribute="trailing" secondItem="BK7-kr-3Ma" secondAttribute="trailing" constant="42" id="mu0-gF-0an"/>
                             <constraint firstItem="aQM-nD-Knb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DE9-Qs-68f" secondAttribute="trailing" constant="8" symbolic="YES" id="nKX-ds-eTo"/>
-                            <constraint firstItem="kU0-1p-OOV" firstAttribute="leading" secondItem="VLQ-yl-c2H" secondAttribute="trailing" constant="76" id="pTw-Yz-pS6"/>
+                            <constraint firstItem="kU0-1p-OOV" firstAttribute="leading" secondItem="VLQ-yl-c2H" secondAttribute="trailing" constant="76" id="pTw-Yz-pS6">
+                                <variation key="heightClass=compact-widthClass=regular" constant="64"/>
+                            </constraint>
                             <constraint firstItem="afF-zJ-5Zu" firstAttribute="trailing" secondItem="VLt-I5-Gq8" secondAttribute="trailing" constant="60" id="pWp-Lc-vEa"/>
                             <constraint firstItem="VLt-I5-Gq8" firstAttribute="leading" secondItem="kU0-1p-OOV" secondAttribute="trailing" constant="44" id="qzF-dN-58V"/>
                             <constraint firstItem="8Qn-WV-8DQ" firstAttribute="leading" secondItem="VLQ-yl-c2H" secondAttribute="leading" id="rKM-bu-zME"/>
@@ -1335,7 +1373,7 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vcr-Kn-mxG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14" y="1129"/>
+            <point key="canvasLocation" x="-14.0625" y="1128.985507246377"/>
         </scene>
     </scenes>
     <resources>
@@ -1344,6 +1382,7 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
         <image name="Europa League Logo" width="40" height="40"/>
         <image name="EuropaTab" width="29" height="29"/>
         <image name="HomeTab" width="26" height="26"/>
+        <image name="SettingsTab" width="26" height="26"/>
         <image name="Title Image" width="40" height="40"/>
     </resources>
 </document>
