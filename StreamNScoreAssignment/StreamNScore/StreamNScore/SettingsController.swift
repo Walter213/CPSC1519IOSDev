@@ -19,5 +19,4 @@ class SettingsController: UIViewController
     {
         super.didReceiveMemoryWarning()
     }
-
 }
