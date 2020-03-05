@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Seria A (Italy)</key>
+	<array>
+		<string>Lazio</string>
+		<string>Juventus</string>
+		<string>Inter Milan</string>
+		<string>Atalanta</string>
+		<string>Roma</string>
+		<string>Napoli</string>
+		<string>AC Milan</string>
+		<string>Hellas Verona</string>
+		<string>Parma</string>
+		<string>Bologna</string>
+		<string>Cagliari</string>
+		<string>Sassuolo</string>
+		<string>Florentina</string>
+		<string>Udinese</string>
+		<string>Torino</string>
+		<string>Leece</string>
+		<string>Sampdoria</string>
+		<string>Genoa</string>
+		<string>Brescia</string>
+		<string>SPAL</string>
+	</array>
+	<key>Premier League (England)</key>
+	<array>
+		<string>Liverpool</string>
+		<string>Manchester City</string>
+		<string>Leicester City</string>
+		<string>Chelsea</string>
+		<string>Manchester United</string>
+		<string>Wolves</string>
+		<string>Tottenham</string>
+		<string>Sheffied United</string>
+		<string>Burnley FC</string>
+		<string>Arsenal</string>
+		<string>Everton</string>
+		<string>Crystal Palace</string>
+		<string>Southhampton</string>
+		<string>Newcastle</string>
+		<string>Brighton</string>
+		<string>West Ham</string>
+		<string>Watford</string>
+		<string>Bournemouth</string>
+		<string>Aston Villa</string>
+		<string>Norwich City</string>
+	</array>
+	<key>La Liga (Spain)</key>
+	<array>
+		<string>Real Madrid</string>
+		<string>Barcelona</string>
+		<string>Sevilla</string>
+		<string>Getafe CF</string>
+		<string>Atletico Madrid</string>
+		<string>Real Sociedad</string>
+		<string>Valencia</string>
+		<string>Villarreal</string>
+		<string>Granada</string>
+		<string>Athletic Bilbao</string>
+		<string>Levante</string>
+		<string>Osasuna</string>
+		<string>Alaves</string>
+		<string>Real Betis</string>
+		<string>Valladolid</string>
+		<string>Eibar</string>
+		<string>Celta Vigo</string>
+		<string>Mallorca</string>
+		<string>Leganes</string>
+		<string>Espanyol</string>
+	</array>
+	<key>Ligue 1 (France)</key>
+	<array>
+		<string>Paris Saint Germain</string>
+		<string>Olympique de Marseille</string>
+		<string>Stade Rennais F.C.</string>
+		<string>Lille OSC</string>
+		<string>Olympique Lyonnais</string>
+		<string>Montpellier HSC</string>
+		<string>AS Monaco</string>
+		<string>Stade de Reims</string>
+		<string>OGC Nice</string>
+		<string>RC Strasbourg Alsace</string>
+		<string>FC Nantes</string>
+		<string>Bordeaux</string>
+		<string>Angers SCO</string>
+		<string>Stade</string>
+		<string>FC Metz</string>
+		<string>AS Saint-Etienne</string>
+		<string>Dijon FCO</string>
+		<string>Nimes Olympique</string>
+		<string>Amiens SC</string>
+		<string>Toulouse FC</string>
+	</array>
+	<key>Bundesliga (Germany)</key>
+	<array>
+		<string>Bayern Munich</string>
+		<string>RB Leipzig</string>
+		<string>Borussia Dortmund</string>
+		<string>Borussia Monchengladbach</string>
+		<string>Bayer Leverkusen</string>
+		<string>Schalke 04</string>
+		<string>Wolfsburg</string>
+		<string>Hoffenheim</string>
+		<string>SC Freiburg</string>
+		<string>Union Berlin</string>
+		<string>1. FC Koln</string>
+		<string>Eintracht Frankfurt</string>
+		<string>FC Augsburg</string>
+		<string>Herta BSC</string>
+		<string>1. FSV Mainz 05</string>
+		<string>Fortuna Dusseldorf</string>
+		<string>Werder Bremen</string>
+		<string>SC Paderborn 07</string>
+	</array>
+</dict>
+</plist>

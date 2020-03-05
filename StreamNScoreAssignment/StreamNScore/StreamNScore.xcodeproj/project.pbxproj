@@ -13,13 +13,14 @@
 		5B6ABC7C23FDF22D003CEF88 /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7B23FDF22D003CEF88 /* LaunchScreenController.swift */; };
 		5B6ABC7E23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */; };
 		E343A8C62409D366007BDEF4 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E343A8C52409D366007BDEF4 /* SettingsController.swift */; };
+		E370D8192411B0C6008AA835 /* SoccerTeamList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E370D8182411B0C6008AA835 /* SoccerTeamList.plist */; };
+		E370D81B2411B733008AA835 /* ShowTeamTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E370D81A2411B733008AA835 /* ShowTeamTableController.swift */; };
 		E3CC0E4023D11B6500C55503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC0E3F23D11B6500C55503 /* AppDelegate.swift */; };
 		E3CC0E4223D11B6500C55503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC0E4123D11B6500C55503 /* ViewController.swift */; };
 		E3CC0E4523D11B6500C55503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CC0E4323D11B6500C55503 /* Main.storyboard */; };
 		E3CC0E4723D11B6600C55503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CC0E4623D11B6600C55503 /* Assets.xcassets */; };
 		E3CC0E4A23D11B6600C55503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CC0E4823D11B6600C55503 /* LaunchScreen.storyboard */; };
 		E3D852F1240F11E300D4D6DB /* FavoriteTeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D852F0240F11E300D4D6DB /* FavoriteTeamList.swift */; };
-		E3D852F3240F1A2000D4D6DB /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D852F2240F1A2000D4D6DB /* TeamViewController.swift */; };
 		E3DF7C7223EA30340050930A /* EuropaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF7C7123EA30340050930A /* EuropaViewController.swift */; };
 		E3DF7C7423EA30430050930A /* ChampionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF7C7323EA30430050930A /* ChampionsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,8 @@
 		5B6ABC7B23FDF22D003CEF88 /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
 		5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenStoryboard.storyboard; sourceTree = "<group>"; };
 		E343A8C52409D366007BDEF4 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		E370D8182411B0C6008AA835 /* SoccerTeamList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SoccerTeamList.plist; sourceTree = "<group>"; };
+		E370D81A2411B733008AA835 /* ShowTeamTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTeamTableController.swift; sourceTree = "<group>"; };
 		E3CC0E3C23D11B6500C55503 /* StreamNScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamNScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CC0E3F23D11B6500C55503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3CC0E4123D11B6500C55503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +42,6 @@
 		E3CC0E4923D11B6600C55503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3CC0E4B23D11B6600C55503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3D852F0240F11E300D4D6DB /* FavoriteTeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTeamList.swift; sourceTree = "<group>"; };
-		E3D852F2240F1A2000D4D6DB /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		E3DF7C7123EA30340050930A /* EuropaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropaViewController.swift; sourceTree = "<group>"; };
 		E3DF7C7323EA30430050930A /* ChampionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +99,8 @@
 				5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */,
 				E343A8C52409D366007BDEF4 /* SettingsController.swift */,
 				E3D852F0240F11E300D4D6DB /* FavoriteTeamList.swift */,
-				E3D852F2240F1A2000D4D6DB /* TeamViewController.swift */,
+				E370D8182411B0C6008AA835 /* SoccerTeamList.plist */,
+				E370D81A2411B733008AA835 /* ShowTeamTableController.swift */,
 			);
 			path = StreamNScore;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				5B6ABC7E23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard in Resources */,
 				E3CC0E4A23D11B6600C55503 /* LaunchScreen.storyboard in Resources */,
+				E370D8192411B0C6008AA835 /* SoccerTeamList.plist in Resources */,
 				E3CC0E4723D11B6600C55503 /* Assets.xcassets in Resources */,
 				5B359AA423EB910700AD6B48 /* UEFA Europa League Official Anthem 20192020 [FULL SONGFULL-LENGTH].mp3 in Resources */,
 				E3CC0E4523D11B6500C55503 /* Main.storyboard in Resources */,
@@ -183,7 +187,7 @@
 				E343A8C62409D366007BDEF4 /* SettingsController.swift in Sources */,
 				E3DF7C7423EA30430050930A /* ChampionsViewController.swift in Sources */,
 				E3DF7C7223EA30340050930A /* EuropaViewController.swift in Sources */,
-				E3D852F3240F1A2000D4D6DB /* TeamViewController.swift in Sources */,
+				E370D81B2411B733008AA835 /* ShowTeamTableController.swift in Sources */,
 				E3CC0E4023D11B6500C55503 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
