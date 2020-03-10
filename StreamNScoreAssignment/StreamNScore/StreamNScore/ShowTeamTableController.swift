@@ -11,20 +11,27 @@ import UIKit
 class ShowTeamTableController: UIViewController, UITableViewDataSource
 {
     let sectionsTableIdentifier = "SectionsTableIndentifier"
-    var leagueNames: [String: [String]]!
+    var names: [String: [String]]!
     var keys: [String]! 
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        tableView.register(UITableViewCell.self,
+                           forCellReuseIdentifier: sectionsTableIdentifier)
         
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: sectionsTableIdentifier)
-        
-        let path = Bundle.main.path(forResource: "SoccerTeamList", ofType: "plist")
-        let teamDict = NSDictionary(contentsOfFile: path!)
-        leagueNames = (teamDict as! [String: [String]])
-        keys = (teamDict!.allKeys as! [String]).sorted()
+        let path = Bundle.main.path(forResource:
+            "SoccerTeamList", ofType: "plist")
+        let namesDict = NSDictionary(contentsOfFile: path!)
+        names = (namesDict as! [String: [String]])
+        keys = (namesDict!.allKeys as! [String]).sorted()
+    }
+    
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask
+    {
+        return UIInterfaceOrientationMask(rawValue:
+            (UIInterfaceOrientationMask.portrait.rawValue))
     }
     
     override func didReceiveMemoryWarning()
@@ -40,7 +47,7 @@ class ShowTeamTableController: UIViewController, UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         let key = keys[section]
-        let nameSection = leagueNames[key]!
+        let nameSection = names[key]!
         return nameSection.count
     }
     
@@ -53,10 +60,17 @@ class ShowTeamTableController: UIViewController, UITableViewDataSource
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: sectionsTableIdentifier, for: indexPath)
             as UITableViewCell
+        
         let key = keys[indexPath.section]
-        let nameSection = leagueNames[key]!
+        let nameSection = names[key]!
         cell.textLabel?.text = nameSection[indexPath.row]
         
         return cell
     }
+    
+    // Display Titles on the right side of the screen (The Keys)
+//    func sectionIndexTitles(for tableView: UITableView) -> [String]?
+//    {
+//        return keys
+//    }
 }

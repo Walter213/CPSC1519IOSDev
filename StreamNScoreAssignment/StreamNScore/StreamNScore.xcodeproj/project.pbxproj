@@ -12,6 +12,8 @@
 		5B6ABC7823FDD539003CEF88 /* NSAttributedStringExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7723FDD539003CEF88 /* NSAttributedStringExtention.swift */; };
 		5B6ABC7C23FDF22D003CEF88 /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7B23FDF22D003CEF88 /* LaunchScreenController.swift */; };
 		5B6ABC7E23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */; };
+		E32AA72024183ADE00ECBACB /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = E32AA71F24183ADE00ECBACB /* sortednames.plist */; };
+		E32AA72224184D9800ECBACB /* SearchTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32AA72124184D9800ECBACB /* SearchTeamViewController.swift */; };
 		E343A8C62409D366007BDEF4 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E343A8C52409D366007BDEF4 /* SettingsController.swift */; };
 		E370D8192411B0C6008AA835 /* SoccerTeamList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E370D8182411B0C6008AA835 /* SoccerTeamList.plist */; };
 		E370D81B2411B733008AA835 /* ShowTeamTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E370D81A2411B733008AA835 /* ShowTeamTableController.swift */; };
@@ -31,6 +33,8 @@
 		5B6ABC7723FDD539003CEF88 /* NSAttributedStringExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtention.swift; sourceTree = "<group>"; };
 		5B6ABC7B23FDF22D003CEF88 /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
 		5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenStoryboard.storyboard; sourceTree = "<group>"; };
+		E32AA71F24183ADE00ECBACB /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
+		E32AA72124184D9800ECBACB /* SearchTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTeamViewController.swift; sourceTree = "<group>"; };
 		E343A8C52409D366007BDEF4 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		E370D8182411B0C6008AA835 /* SoccerTeamList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SoccerTeamList.plist; sourceTree = "<group>"; };
 		E370D81A2411B733008AA835 /* ShowTeamTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTeamTableController.swift; sourceTree = "<group>"; };
@@ -99,8 +103,10 @@
 				5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */,
 				E343A8C52409D366007BDEF4 /* SettingsController.swift */,
 				E3D852F0240F11E300D4D6DB /* FavoriteTeamList.swift */,
+				E32AA71F24183ADE00ECBACB /* sortednames.plist */,
 				E370D8182411B0C6008AA835 /* SoccerTeamList.plist */,
 				E370D81A2411B733008AA835 /* ShowTeamTableController.swift */,
+				E32AA72124184D9800ECBACB /* SearchTeamViewController.swift */,
 			);
 			path = StreamNScore;
 			sourceTree = "<group>";
@@ -163,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32AA72024183ADE00ECBACB /* sortednames.plist in Resources */,
 				5B6ABC7E23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard in Resources */,
 				E3CC0E4A23D11B6600C55503 /* LaunchScreen.storyboard in Resources */,
 				E370D8192411B0C6008AA835 /* SoccerTeamList.plist in Resources */,
@@ -185,6 +192,7 @@
 				E3D852F1240F11E300D4D6DB /* FavoriteTeamList.swift in Sources */,
 				E3CC0E4223D11B6500C55503 /* ViewController.swift in Sources */,
 				E343A8C62409D366007BDEF4 /* SettingsController.swift in Sources */,
+				E32AA72224184D9800ECBACB /* SearchTeamViewController.swift in Sources */,
 				E3DF7C7423EA30430050930A /* ChampionsViewController.swift in Sources */,
 				E3DF7C7223EA30340050930A /* EuropaViewController.swift in Sources */,
 				E370D81B2411B733008AA835 /* ShowTeamTableController.swift in Sources */,

@@ -19,4 +19,10 @@ class SettingsController: UIViewController
     {
         super.didReceiveMemoryWarning()
     }
+    
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask
+    {
+        return UIInterfaceOrientationMask(rawValue:
+            (UIInterfaceOrientationMask.portrait.rawValue))
+    }
 }

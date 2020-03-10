@@ -723,14 +723,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ust-C9-r2u">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Ust-C9-r2u">
+                                <rect key="frame" x="0.0" y="33" width="414" height="863"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="hWY-Ek-GHj" id="iZS-2y-E33"/>
+                                    <outlet property="delegate" destination="hWY-Ek-GHj" id="Wdm-cK-NjQ"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ust-C9-r2u" secondAttribute="trailing" id="7qY-Ef-dGh"/>
+                            <constraint firstItem="Ust-C9-r2u" firstAttribute="leading" secondItem="KcS-Gt-Nk4" secondAttribute="leading" id="JaK-KP-ieT"/>
+                            <constraint firstItem="Ust-C9-r2u" firstAttribute="top" secondItem="KcS-Gt-Nk4" secondAttribute="topMargin" constant="-11" id="g5Q-QP-nnP"/>
+                            <constraint firstAttribute="bottom" secondItem="Ust-C9-r2u" secondAttribute="bottom" id="zJo-8P-Va2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="5Me-TY-8qA"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7qY-Ef-dGh"/>
+                                <exclude reference="JaK-KP-ieT"/>
+                                <exclude reference="g5Q-QP-nnP"/>
+                                <exclude reference="zJo-8P-Va2"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="7qY-Ef-dGh"/>
+                                <include reference="JaK-KP-ieT"/>
+                                <include reference="g5Q-QP-nnP"/>
+                                <include reference="zJo-8P-Va2"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="tableView" destination="Ust-C9-r2u" id="aok-RU-r1A"/>
@@ -748,8 +773,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9j7-RR-9cb">
-                                <rect key="frame" x="20" y="44" width="374" height="769"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9j7-RR-9cb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -762,7 +787,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Vim-cS-Q7p"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="SettingsTab" id="Pcf-0O-qnB"/>
+                    <tabBarItem key="tabBarItem" enabled="NO" title="Settings" image="SettingsTab" id="Pcf-0O-qnB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kXO-8n-F6t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
