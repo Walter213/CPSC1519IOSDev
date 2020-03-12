@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SearchTeamViewController: UIViewController, UISearchResultsUpdating {
+class SearchTeamViewController: UITableViewController, UISearchResultsUpdating {
 
     private static let longNameSize = 6
     private static let shortNamesButtonIndex = 1
@@ -57,7 +57,7 @@ class SearchTeamViewController: UIViewController, UISearchResultsUpdating {
                 let filter: (String) -> Bool = { name in
                     // Filter out long or short names depending on which
                     // scope button is selected.
-                    let nameLength = name.characters.count
+                    let nameLength = name.count
                     if (buttonIndex == SearchTeamViewController.shortNamesButtonIndex
                         && nameLength >= SearchTeamViewController.longNameSize)
                         || (buttonIndex == SearchTeamViewController.longNamesButtonIndex
