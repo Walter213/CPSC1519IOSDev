@@ -43,6 +43,8 @@ class ShowTeamTableController: UIViewController, UITableViewDataSource
         
     }
     
+    // This is how to add a UIswitch to the table
+    // https://stackoverflow.com/questions/47038673/add-switch-in-uitableview-cell-in-swift/47038747
     override var supportedInterfaceOrientations : UIInterfaceOrientationMask
     {
         return UIInterfaceOrientationMask(rawValue:
