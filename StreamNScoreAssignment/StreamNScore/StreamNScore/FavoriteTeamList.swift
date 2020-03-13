@@ -32,8 +32,7 @@ class FavoriteTeamList
     
     func removeFavorite(teamName: String)
     {
-        // if let index = favorites.index(of: teamName)
-        if let index = favorites.firstIndex(of: teamName)
+        if let index = favorites.index(of: teamName)
         {
             favorites.remove(at: index)
             saveFavorites()
@@ -45,14 +44,5 @@ class FavoriteTeamList
         let defaults = UserDefaults.standard
         defaults.set(favorites, forKey: "favorites")
         defaults.synchronize()
-    }
-    
-    // added later on in chapter 9
-    func moveItem(fromIndex from: Int, toIndex to: Int)
-    {
-        let item = favorites[from]
-        favorites.remove(at: from)
-        favorites.insert(item, at: to)
-        saveFavorites()
     }
 }

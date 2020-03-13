@@ -10,9 +10,9 @@ import UIKit
 
 class SearchTeamViewController: UITableViewController, UISearchResultsUpdating {
 
-    private static let longNameSize = 6
-    private static let shortNamesButtonIndex = 1
-    private static let longNamesButtonIndex = 2
+    private static let longNameSize = 10
+    private static let shortNamesButtonIndex = 2
+    private static let longNamesButtonIndex = 4
     
     let sectionsTableIdentifier = "SectionsTableIdentifier"
     var names:[String: [String]] = [String: [String]]()

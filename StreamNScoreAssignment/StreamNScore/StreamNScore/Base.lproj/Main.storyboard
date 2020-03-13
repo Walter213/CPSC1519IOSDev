@@ -724,7 +724,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Ust-C9-r2u">
-                                <rect key="frame" x="0.0" y="33" width="414" height="863"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="hWY-Ek-GHj" id="iZS-2y-E33"/>
@@ -736,7 +736,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Ust-C9-r2u" secondAttribute="trailing" id="7qY-Ef-dGh"/>
                             <constraint firstItem="Ust-C9-r2u" firstAttribute="leading" secondItem="KcS-Gt-Nk4" secondAttribute="leading" id="JaK-KP-ieT"/>
-                            <constraint firstItem="Ust-C9-r2u" firstAttribute="top" secondItem="KcS-Gt-Nk4" secondAttribute="topMargin" constant="-11" id="g5Q-QP-nnP"/>
+                            <constraint firstItem="Ust-C9-r2u" firstAttribute="top" secondItem="KcS-Gt-Nk4" secondAttribute="topMargin" id="g5Q-QP-nnP"/>
                             <constraint firstAttribute="bottom" secondItem="Ust-C9-r2u" secondAttribute="bottom" id="zJo-8P-Va2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5Me-TY-8qA"/>
