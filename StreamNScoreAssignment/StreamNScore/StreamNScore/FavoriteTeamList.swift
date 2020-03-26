@@ -32,7 +32,7 @@ class FavoriteTeamList
     
     func removeFavorite(teamName: String)
     {
-        if let index = favorites.index(of: teamName)
+        if let index = favorites.firstIndex(of: teamName)
         {
             favorites.remove(at: index)
             saveFavorites()
