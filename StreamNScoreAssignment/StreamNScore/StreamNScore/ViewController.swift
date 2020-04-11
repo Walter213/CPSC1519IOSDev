@@ -9,12 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController
-{
-    // I will try this stuff when i get more time to play around with this code
-    // For Next Assignment i would like to look and try to implement something for if you click no on any
-    // alerts like the UIbuttons, when you hit no it should stay off and if you wish not to turn it off
-    // then it should keep it on if you click no
-    
+{   
     override func viewDidLoad()
     {
         super.viewDidLoad()

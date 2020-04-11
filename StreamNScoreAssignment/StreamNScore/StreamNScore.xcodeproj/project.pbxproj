@@ -15,7 +15,6 @@
 		5B6ABC7C23FDF22D003CEF88 /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7B23FDF22D003CEF88 /* LaunchScreenController.swift */; };
 		5B6ABC7E23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */; };
 		5BEC283C2441233F00B87114 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC283B2441233F00B87114 /* Constants.swift */; };
-		E32AA72024183ADE00ECBACB /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = E32AA71F24183ADE00ECBACB /* sortednames.plist */; };
 		E32AA72224184D9800ECBACB /* SearchTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32AA72124184D9800ECBACB /* SearchTeamViewController.swift */; };
 		E343A8C62409D366007BDEF4 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E343A8C52409D366007BDEF4 /* SettingsController.swift */; };
 		E370D8192411B0C6008AA835 /* SoccerTeamList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E370D8182411B0C6008AA835 /* SoccerTeamList.plist */; };
@@ -39,7 +38,6 @@
 		5B6ABC7B23FDF22D003CEF88 /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
 		5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenStoryboard.storyboard; sourceTree = "<group>"; };
 		5BEC283B2441233F00B87114 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		E32AA71F24183ADE00ECBACB /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 		E32AA72124184D9800ECBACB /* SearchTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTeamViewController.swift; sourceTree = "<group>"; };
 		E343A8C52409D366007BDEF4 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		E370D8182411B0C6008AA835 /* SoccerTeamList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SoccerTeamList.plist; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */,
 				E343A8C52409D366007BDEF4 /* SettingsController.swift */,
 				E3D852F0240F11E300D4D6DB /* FavoriteTeamList.swift */,
-				E32AA71F24183ADE00ECBACB /* sortednames.plist */,
 				E370D8182411B0C6008AA835 /* SoccerTeamList.plist */,
 				E370D81A2411B733008AA835 /* ShowTeamTableController.swift */,
 				E32AA72124184D9800ECBACB /* SearchTeamViewController.swift */,
@@ -178,7 +175,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E32AA72024183ADE00ECBACB /* sortednames.plist in Resources */,
 				5B6ABC7E23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard in Resources */,
 				E3CC0E4A23D11B6600C55503 /* LaunchScreen.storyboard in Resources */,
 				E370D8192411B0C6008AA835 /* SoccerTeamList.plist in Resources */,
