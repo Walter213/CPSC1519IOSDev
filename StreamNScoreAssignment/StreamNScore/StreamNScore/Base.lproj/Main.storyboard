@@ -10,6 +10,67 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="XYK-WY-Pqt">
+            <objects>
+                <viewController id="BMF-Rr-sQn" customClass="CameraViewController" customModule="StreamNScore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gcz-cj-y5m">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sPm-3C-crj">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ain-mv-eZ6">
+                                <rect key="frame" x="183" y="814" width="48" height="48"/>
+                                <state key="normal" image="circle-xl.png"/>
+                                <connections>
+                                    <action selector="imageCapture:" destination="BMF-Rr-sQn" eventType="touchUpInside" id="1yK-aj-9Cl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlC-lv-LLo">
+                                <rect key="frame" x="343" y="814" width="50" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="LvQ-W9-fl5"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="camera-4-xl.png"/>
+                                <connections>
+                                    <action selector="rotateCamera:" destination="BMF-Rr-sQn" eventType="touchUpInside" id="KQp-30-z5Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1aP-w8-uzZ">
+                                <rect key="frame" x="20" y="44" width="48" height="48"/>
+                                <state key="normal" image="bolt-xl.png"/>
+                                <connections>
+                                    <action selector="flashButton:" destination="BMF-Rr-sQn" eventType="touchUpInside" id="qHf-rR-oOg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="G6e-Tb-Cc2" firstAttribute="trailing" secondItem="YlC-lv-LLo" secondAttribute="trailing" constant="21" id="6lz-CH-IKo"/>
+                            <constraint firstItem="sPm-3C-crj" firstAttribute="bottom" secondItem="G6e-Tb-Cc2" secondAttribute="bottom" id="FB9-fr-mwQ"/>
+                            <constraint firstItem="YlC-lv-LLo" firstAttribute="top" secondItem="ain-mv-eZ6" secondAttribute="top" id="LnP-Q4-eXl"/>
+                            <constraint firstItem="1aP-w8-uzZ" firstAttribute="top" secondItem="G6e-Tb-Cc2" secondAttribute="top" id="Nmt-vB-VFQ"/>
+                            <constraint firstItem="sPm-3C-crj" firstAttribute="top" secondItem="G6e-Tb-Cc2" secondAttribute="top" id="S6D-jq-XDs"/>
+                            <constraint firstItem="YlC-lv-LLo" firstAttribute="leading" secondItem="ain-mv-eZ6" secondAttribute="trailing" constant="112" id="VeU-Jw-msx"/>
+                            <constraint firstItem="sPm-3C-crj" firstAttribute="leading" secondItem="G6e-Tb-Cc2" secondAttribute="leading" id="gZN-aW-KNH"/>
+                            <constraint firstItem="sPm-3C-crj" firstAttribute="trailing" secondItem="G6e-Tb-Cc2" secondAttribute="trailing" id="j9g-fC-cNJ"/>
+                            <constraint firstItem="1aP-w8-uzZ" firstAttribute="leading" secondItem="gcz-cj-y5m" secondAttribute="leadingMargin" id="taq-Hc-Y3Q"/>
+                            <constraint firstItem="ain-mv-eZ6" firstAttribute="bottom" secondItem="sPm-3C-crj" secondAttribute="bottom" id="tkF-1E-oXg"/>
+                            <constraint firstItem="ain-mv-eZ6" firstAttribute="centerX" secondItem="sPm-3C-crj" secondAttribute="centerX" id="v6W-1O-ZUQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="G6e-Tb-Cc2"/>
+                    </view>
+                    <connections>
+                        <outlet property="cameraView" destination="sPm-3C-crj" id="TlC-f8-sxB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gDH-Ve-uU5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1042.0289855072465" y="925.44642857142856"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="eLg-Qx-OTe">
             <objects>
@@ -106,7 +167,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Title Image" translatesAutoresizingMaskIntoConstraints="NO" id="trC-jf-aqL">
-                                <rect key="frame" x="272" y="106" width="16" height="71"/>
+                                <rect key="frame" x="272" y="106" width="40" height="71"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="StreamNScore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOZ-iS-fXh">
                                 <rect key="frame" x="99" y="124" width="186" height="35"/>
@@ -322,6 +383,13 @@
                                     <segue destination="Byt-25-xi1" kind="presentation" id="yVk-qO-nI0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJA-Ic-Vhp">
+                                <rect key="frame" x="180" y="585" width="54" height="30"/>
+                                <state key="normal" title="Camera"/>
+                                <connections>
+                                    <segue destination="BMF-Rr-sQn" kind="presentation" id="0GK-w5-PcY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -426,6 +494,7 @@
                             <constraint firstItem="wM8-R1-I0n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e02-nP-pN7"/>
                             <constraint firstItem="N3w-1h-8uT" firstAttribute="firstBaseline" secondItem="95q-lH-2is" secondAttribute="firstBaseline" id="e0d-4s-nNf"/>
                             <constraint firstItem="iep-zY-Rc5" firstAttribute="baseline" secondItem="JgI-WD-MlX" secondAttribute="baseline" id="e4o-qb-toj"/>
+                            <constraint firstItem="wJA-Ic-Vhp" firstAttribute="centerX" secondItem="dXa-HN-zzo" secondAttribute="centerX" id="e6r-rd-GWL"/>
                             <constraint firstItem="trC-jf-aqL" firstAttribute="leading" secondItem="ioz-fM-4gl" secondAttribute="leading" id="eGe-pQ-d2M"/>
                             <constraint firstItem="ZOZ-iS-fXh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="eHs-32-DXn"/>
                             <constraint firstItem="N3w-1h-8uT" firstAttribute="top" secondItem="kUa-U9-hhH" secondAttribute="bottom" constant="27" id="ePg-UW-cTG"/>
@@ -457,6 +526,7 @@
                             <constraint firstItem="vTX-c3-ejS" firstAttribute="leading" secondItem="kUa-U9-hhH" secondAttribute="trailing" constant="8" symbolic="YES" id="oJg-4w-OAd"/>
                             <constraint firstItem="WyM-Zl-TKc" firstAttribute="centerX" secondItem="oEM-93-MPX" secondAttribute="centerX" id="owr-3V-aZF"/>
                             <constraint firstItem="oEM-93-MPX" firstAttribute="leading" secondItem="dXE-Va-SN4" secondAttribute="trailing" constant="22" id="p9O-uI-wnC"/>
+                            <constraint firstItem="wJA-Ic-Vhp" firstAttribute="top" secondItem="dXE-Va-SN4" secondAttribute="bottom" constant="79" id="pNS-7Y-J3D"/>
                             <constraint firstItem="FSS-u9-Y9H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="240" id="pTJ-2k-gdc"/>
                             <constraint firstItem="ioz-fM-4gl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="635" id="pbP-LM-BBi">
                                 <variation key="heightClass=compact-widthClass=regular" constant="636"/>
@@ -1174,7 +1244,7 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                                 </variation>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Champions League" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3O-eo-TTY">
-                                <rect key="frame" x="55" y="26.5" width="226" height="29"/>
+                                <rect key="frame" x="55" y="38.5" width="226" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="226" id="Mqn-2n-ipD"/>
                                     <constraint firstAttribute="height" constant="29" id="nP0-U8-Mki"/>
@@ -1200,7 +1270,7 @@ Champions League Home Page: https://www.uefa.com/uefachampionsleague/</string>
                                 </variation>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="br9-0g-Cz2">
-                                <rect key="frame" x="20" y="63.5" width="374" height="606.5"/>
+                                <rect key="frame" x="20" y="75.5" width="374" height="594.5"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">The UEFA Champions League (also known as the European Cup) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the best team in Europe. It is one of the most prestigious tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of the strongest UEFA national associations.
 Introduced in 1955 as the European Champion Clubs' Cup, it was initially a straight knockout tournament open only to the champion club of each national championship. The competition took on its current name in 1992, adding a round-robin group stage and allowing multiple entrants from certain countries. It has since been expanded, and while most of Europe's national leagues can still only enter their champion, the strongest leagues now provide up to five teams. Clubs that finish next-in-line in their national league, having not qualified for the Champions League, are eligible for the second-tier UEFA Europa League competition, and from 2021, teams not eligible for the UEFA Europa League will qualify for a new third-tier competition called the UEFA Europa Conference League. In its present format, the Champions League begins in late June with a preliminary round, three qualifying rounds and a play-off round, all played over two legs. The six surviving teams enter the group stage, joining 26 teams qualified in advance. The 32 teams are drawn into eight groups of four teams and play each other in a double round-robin system. The eight group winners and eight runners-up proceed to the knockout phase that culminates with the final match in late May or early June. </string>
@@ -1208,7 +1278,7 @@ Introduced in 1955 as the European Champion Clubs' Cup, it was initially a strai
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Champions League Logo" translatesAutoresizingMaskIntoConstraints="NO" id="rYn-B7-Woh">
-                                <rect key="frame" x="277" y="33" width="82" height="16"/>
+                                <rect key="frame" x="277" y="33" width="82" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="74" id="kYK-Qe-U3k">
                                         <variation key="heightClass=compact-widthClass=regular" constant="82"/>
@@ -1866,5 +1936,8 @@ Europa League Home Page: https://www.uefa.com/uefaeuropaleague/</string>
         <image name="HomeTab" width="26" height="26"/>
         <image name="SettingsTab" width="26" height="26"/>
         <image name="Title Image" width="40" height="40"/>
+        <image name="bolt-xl.png" width="48" height="48"/>
+        <image name="camera-4-xl.png" width="48" height="48"/>
+        <image name="circle-xl.png" width="48" height="48"/>
     </resources>
 </document>
