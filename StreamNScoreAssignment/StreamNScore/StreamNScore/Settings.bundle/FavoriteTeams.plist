@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>Favorite Teams</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Favorite Premier League Team</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>DefaultValue</key>
+			<string>Arsenal</string>
+			<key>Key</key>
+			<string>premier</string>
+			<key>Values</key>
+			<array>
+				<string>Arsenal</string>
+				<string>Aston Villa</string>
+				<string>AFC Bournemouth</string>
+				<string>Brighton and Hove Albion</string>
+				<string>Burnley</string>
+				<string>Chelsea</string>
+				<string>Crystal Palace</string>
+				<string>Everton</string>
+				<string>Leicester City</string>
+				<string>Liverpool</string>
+				<string>Manchester City</string>
+				<string>Manchester United</string>
+				<string>Newcastle United</string>
+				<string>Norwich City</string>
+				<string>Sheffield United</string>
+				<string>Southampton</string>
+				<string>Tottenham Hotspur</string>
+				<string>Watford</string>
+				<string>West Ham United</string>
+				<string>Wolverhampton Wanderers</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Arsenal</string>
+				<string>Aston Villa</string>
+				<string>AFC Bournemouth</string>
+				<string>Brighton and Hove Albion</string>
+				<string>Burnley</string>
+				<string>Chelsea</string>
+				<string>Crystal Palace</string>
+				<string>Everton</string>
+				<string>Leicester City</string>
+				<string>Liverpool</string>
+				<string>Manchester City</string>
+				<string>Manchester United</string>
+				<string>Newcastle United</string>
+				<string>Norwich City</string>
+				<string>Sheffield United</string>
+				<string>Southampton</string>
+				<string>Tottenham Hotspur</string>
+				<string>Watford</string>
+				<string>West Ham United</string>
+				<string>Wolverhampton Wanderers</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Favorite La Liga Team</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Key</key>
+			<string>laLiga</string>
+			<key>DefaultValue</key>
+			<string>Alaves</string>
+			<key>Values</key>
+			<array>
+				<string>Alaves</string>
+				<string>Athletic Bilbao</string>
+				<string>Atletico Madrid</string>
+				<string>Barcelona</string>
+				<string>Celta Vigo</string>
+				<string>Eibar</string>
+				<string>Espanyol</string>
+				<string>Getafe</string>
+				<string>Granada</string>
+				<string>Leganes</string>
+				<string>Levante</string>
+				<string>Mallorca</string>
+				<string>Osasuna</string>
+				<string>Real Betis</string>
+				<string>Real Madrid</string>
+				<string>Real Sociedad</string>
+				<string>Sevilla</string>
+				<string>Valencia</string>
+				<string>Valladolid</string>
+				<string>Villarreal</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Alaves</string>
+				<string>Athletic Bilbao</string>
+				<string>Atletico Madrid</string>
+				<string>Barcelona</string>
+				<string>Celta Vigo</string>
+				<string>Eibar</string>
+				<string>Espanyol</string>
+				<string>Getafe</string>
+				<string>Granada</string>
+				<string>Leganes</string>
+				<string>Levante</string>
+				<string>Mallorca</string>
+				<string>Osasuna</string>
+				<string>Real Betis</string>
+				<string>Real Madrid</string>
+				<string>Real Sociedad</string>
+				<string>Sevilla</string>
+				<string>Valencia</string>
+				<string>Valladolid</string>
+				<string>Villarreal</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Favorite Seria A Team</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Key</key>
+			<string>seriaA</string>
+			<key>DefaultValue</key>
+			<string>Atalanta</string>
+			<key>Values</key>
+			<array>
+				<string>Atalanta</string>
+				<string>Bologna</string>
+				<string>Brescia</string>
+				<string>Cagliari</string>
+				<string>Fiorentina</string>
+				<string>Genoa</string>
+				<string>Hellas Verona</string>
+				<string>Internazionale</string>
+				<string>Juventus</string>
+				<string>Lazio</string>
+				<string>Lecce</string>
+				<string>Milan</string>
+				<string>Napoli</string>
+				<string>Parma</string>
+				<string>Roma</string>
+				<string>Sampdoria</string>
+				<string>Sassuolo</string>
+				<string>SPAL</string>
+				<string>Torino</string>
+				<string>Udinese</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Atalanta</string>
+				<string>Bologna</string>
+				<string>Brescia</string>
+				<string>Cagliari</string>
+				<string>Fiorentina</string>
+				<string>Genoa</string>
+				<string>Hellas Verona</string>
+				<string>Internazionale</string>
+				<string>Juventus</string>
+				<string>Lazio</string>
+				<string>Lecce</string>
+				<string>Milan</string>
+				<string>Napoli</string>
+				<string>Parma</string>
+				<string>Roma</string>
+				<string>Sampdoria</string>
+				<string>Sassuolo</string>
+				<string>SPAL</string>
+				<string>Torino</string>
+				<string>Udinese</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Favorite Bundesliga Team</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Key</key>
+			<string>bundesliga</string>
+			<key>DefaultValue</key>
+			<string>FC Augsburg</string>
+			<key>Values</key>
+			<array>
+				<string>FC Augsburg</string>
+				<string>Hertha BSC</string>
+				<string>Union Berlin</string>
+				<string>Werder Bremen</string>
+				<string>Borussia Dortmund</string>
+				<string>Fortuna Dusseldorf</string>
+				<string>Eintracht Frankfurt</string>
+				<string>SC Freiburg</string>
+				<string>1899 Hoffenheim</string>
+				<string>1. FC Koln</string>
+				<string>RB Leipzig</string>
+				<string>Bayer Leverkusen</string>
+				<string>Mainz 05</string>
+				<string>Borussia Monchengladbach</string>
+				<string>Bayern Munich</string>
+				<string>SC Paderborn</string>
+				<string>Schalke 04</string>
+				<string>Vfl Wolfsburg</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>FC Augsburg</string>
+				<string>Hertha BSC</string>
+				<string>Union Berlin</string>
+				<string>Werder Bremen</string>
+				<string>Borussia Dortmund</string>
+				<string>Fortuna Dusseldorf</string>
+				<string>Eintracht Frankfurt</string>
+				<string>SC Freiburg</string>
+				<string>1899 Hoffenheim</string>
+				<string>1. FC Koln</string>
+				<string>RB Leipzig</string>
+				<string>Bayer Leverkusen</string>
+				<string>Mainz 05</string>
+				<string>Borussia Monchengladbach</string>
+				<string>Bayern Munich</string>
+				<string>SC Paderborn</string>
+				<string>Schalke 04</string>
+				<string>Vfl Wolfsburg</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Favorite Ligue 1 Team</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Key</key>
+			<string>ligue1</string>
+			<key>DefaultValue</key>
+			<string>Amiens</string>
+			<key>Values</key>
+			<array>
+				<string>Amiens</string>
+				<string>Angers</string>
+				<string>Bordeaux</string>
+				<string>Brest</string>
+				<string>Dijon</string>
+				<string>Lille</string>
+				<string>Lyon</string>
+				<string>Marseille</string>
+				<string>Metz</string>
+				<string>Monaco</string>
+				<string>Montpellier</string>
+				<string>Nantes</string>
+				<string>Nice</string>
+				<string>Nimes</string>
+				<string>PSG</string>
+				<string>Reims</string>
+				<string>Rennes</string>
+				<string>Saint-Etienne</string>
+				<string>Strasbourg</string>
+				<string>Toulouse</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Amiens</string>
+				<string>Angers</string>
+				<string>Bordeaux</string>
+				<string>Brest</string>
+				<string>Dijon</string>
+				<string>Lille</string>
+				<string>Lyon</string>
+				<string>Marseille</string>
+				<string>Metz</string>
+				<string>Monaco</string>
+				<string>Montpellier</string>
+				<string>Nantes</string>
+				<string>Nice</string>
+				<string>Nimes</string>
+				<string>PSG</string>
+				<string>Reims</string>
+				<string>Rennes</string>
+				<string>Saint-Etienne</string>
+				<string>Strasbourg</string>
+				<string>Toulouse</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

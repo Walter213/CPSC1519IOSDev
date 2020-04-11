@@ -14,6 +14,7 @@
 		5B6ABC7823FDD539003CEF88 /* NSAttributedStringExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7723FDD539003CEF88 /* NSAttributedStringExtention.swift */; };
 		5B6ABC7C23FDF22D003CEF88 /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7B23FDF22D003CEF88 /* LaunchScreenController.swift */; };
 		5B6ABC7E23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */; };
+		5BEC283C2441233F00B87114 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC283B2441233F00B87114 /* Constants.swift */; };
 		E32AA72024183ADE00ECBACB /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = E32AA71F24183ADE00ECBACB /* sortednames.plist */; };
 		E32AA72224184D9800ECBACB /* SearchTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32AA72124184D9800ECBACB /* SearchTeamViewController.swift */; };
 		E343A8C62409D366007BDEF4 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E343A8C52409D366007BDEF4 /* SettingsController.swift */; };
@@ -37,6 +38,7 @@
 		5B6ABC7723FDD539003CEF88 /* NSAttributedStringExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtention.swift; sourceTree = "<group>"; };
 		5B6ABC7B23FDF22D003CEF88 /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
 		5B6ABC7D23FDF347003CEF88 /* LaunchScreenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenStoryboard.storyboard; sourceTree = "<group>"; };
+		5BEC283B2441233F00B87114 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E32AA71F24183ADE00ECBACB /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 		E32AA72124184D9800ECBACB /* SearchTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTeamViewController.swift; sourceTree = "<group>"; };
 		E343A8C52409D366007BDEF4 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				E32AA72124184D9800ECBACB /* SearchTeamViewController.swift */,
 				5B417AF8242AC67000D2410D /* RootTableViewController.swift */,
 				5B698CFE243CFC1B0015FD18 /* Settings.bundle */,
+				5BEC283B2441233F00B87114 /* Constants.swift */,
 			);
 			path = StreamNScore;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				5B417AF9242AC67000D2410D /* RootTableViewController.swift in Sources */,
 				E370D81B2411B733008AA835 /* ShowTeamTableController.swift in Sources */,
 				E3CC0E4023D11B6500C55503 /* AppDelegate.swift in Sources */,
+				5BEC283C2441233F00B87114 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

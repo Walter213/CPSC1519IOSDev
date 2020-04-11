@@ -66,6 +66,28 @@
 			<key>DefaultValue</key>
 			<false/>
 		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Favorite Teams</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Choose Favorite Teams</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Select Favorite Teams</string>
+			<key>Key</key>
+			<string></string>
+			<key>File</key>
+			<string>FavoriteTeams</string>
+		</dict>
 	</array>
 </dict>
 </plist>
