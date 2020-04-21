@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 class ViewController: UIViewController
 {
@@ -87,8 +88,8 @@ class ViewController: UIViewController
             
             let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                 let msg = self.fullNameText.text!.isEmpty
-                    ? "You will recieve notification when they are implemented"
-                    : "You will recieve notification when they are implemented"
+                    ? "leave the app and wait on the home screen, a notification should pop up in a few seconds"
+                    : "leave the app and wait on the home screen, a notification should pop up in a few seconds"
                 
                 let controller2 = UIAlertController(
                     title:"Done",
@@ -117,6 +118,25 @@ class ViewController: UIViewController
             }
             
             present(controller, animated: true, completion: nil)
+            
+            // Notifications Implementation
+            // https://www.youtube.com/watch?v=JuqQUP0pnZY and https://www.youtube.com/watch?v=oVjJKvNNbDs
+            let center = UNUserNotificationCenter.current()
+            
+            let content = UNMutableNotificationContent()
+            content.title = "Champions League Reminder"
+            content.body = "You will recieve notifications 15 minutes before a champions league begins"
+            content.sound = .default
+            
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 20, repeats: false)
+            
+            let request = UNNotificationRequest(identifier: "champions", content: content, trigger: trigger)
+            
+            center.add(request) { (error) in
+                if error != nil {
+                    print("Error = \(error?.localizedDescription ?? "error local notification")")
+                }
+            }
         }
         else
         {
@@ -125,8 +145,8 @@ class ViewController: UIViewController
             
             let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                 let msg = self.fullNameText.text!.isEmpty
-                    ? "You will now not recieve any notifications when they are implemented"
-                    : "You will now not recieve any notifications when they are implemented"
+                    ? "Notifications has been turned off (Not In Settings)"
+                    : "Notifications has been turned off (Not In Settings)"
                 
                 let controller2 = UIAlertController(
                     title:"Done",
@@ -170,8 +190,8 @@ class ViewController: UIViewController
             
             let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                 let msg = self.fullNameText.text!.isEmpty
-                    ? "You will recieve notification when they are implemented"
-                    : " You will recieve notification when they are implemented"
+                    ? "leave the app and wait on the home screen, a notification should pop up in a few seconds"
+                    : "leave the app and wait on the home screen, a notification should pop up in a few seconds"
                 
                 let controller2 = UIAlertController(
                     title:"Done",
@@ -202,6 +222,25 @@ class ViewController: UIViewController
             }
             
             present(controller, animated: true, completion: nil)
+            
+            // Notifications Implementation
+            // https://www.youtube.com/watch?v=JuqQUP0pnZY and https://www.youtube.com/watch?v=oVjJKvNNbDs
+            let center = UNUserNotificationCenter.current()
+            
+            let content = UNMutableNotificationContent()
+            content.title = "Europa League Reminder"
+            content.body = "You will recieve notifications 15 minutes before a europa league begins"
+            content.sound = .default
+            
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 20, repeats: false)
+            
+            let request = UNNotificationRequest(identifier: "europa", content: content, trigger: trigger)
+            
+            center.add(request) { (error) in
+                if error != nil {
+                    print("Error = \(error?.localizedDescription ?? "error local notification")")
+                }
+            }
         }
         else
         {
@@ -210,8 +249,8 @@ class ViewController: UIViewController
             
             let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                 let msg = self.fullNameText.text!.isEmpty
-                    ? "You will now not recieve any notifications when they are implemented"
-                    : " You will now not recieve any notifications when they are implemented"
+                    ? "Notifications has been turned off (Not In Settings)"
+                    : "Notifications has been turned off (Not In Settings)"
                 
                 let controller2 = UIAlertController(
                     title:"Done",
@@ -270,8 +309,8 @@ class ViewController: UIViewController
         
         let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
                                         let msg = self.fullNameText.text!.isEmpty
-                                            ? "You will recieve notification when they are implemented"
-                                            : "You will recieve notification when they are implemented"
+                                            ? "leave the app and wait on the home screen, a notification should pop up in a few seconds"
+                                            : "leave the app and wait on the home screen, a notification should pop up in a few seconds"
             
                                         let controller2 = UIAlertController(
                                             title:"Done",
@@ -284,6 +323,24 @@ class ViewController: UIViewController
             
                                         self.present(controller2, animated: true,
                                                      completion: nil)
+            // Notifications Implementation
+            // https://www.youtube.com/watch?v=JuqQUP0pnZY and https://www.youtube.com/watch?v=oVjJKvNNbDs
+            let center = UNUserNotificationCenter.current()
+            
+            let content = UNMutableNotificationContent()
+            content.title = "Champions League Reminder"
+            content.body = "You will recieve notifications 15 minutes before a champions league begins"
+            content.sound = .default
+            
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 20, repeats: false)
+            
+            let request = UNNotificationRequest(identifier: "champions", content: content, trigger: trigger)
+            
+            center.add(request) { (error) in
+                if error != nil {
+                    print("Error = \(error?.localizedDescription ?? "error local notification")")
+                }
+            }
         })
         
         let noAction = UIAlertAction(title: "No",
@@ -309,8 +366,8 @@ class ViewController: UIViewController
         
         let yesAction = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
             let msg = self.fullNameText.text!.isEmpty
-                ? "You will recieve notification when they are implemented"
-                : " You will recieve notification when they are implemented"
+                ? "leave the app and wait on the home screen, a notification should pop up in a few seconds"
+                : "leave the app and wait on the home screen, a notification should pop up in a few seconds"
             
             let controller2 = UIAlertController(
                 title:"Done",
@@ -323,6 +380,24 @@ class ViewController: UIViewController
             
             self.present(controller2, animated: true,
                          completion: nil)
+            // Notifications Implementation
+            // https://www.youtube.com/watch?v=JuqQUP0pnZY and https://www.youtube.com/watch?v=oVjJKvNNbDs
+            let center = UNUserNotificationCenter.current()
+            
+            let content = UNMutableNotificationContent()
+            content.title = "Europa League Reminder"
+            content.body = "You will recieve notifications 15 minutes before a europa league begins"
+            content.sound = .default
+            
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 20, repeats: false)
+            
+            let request = UNNotificationRequest(identifier: "europa", content: content, trigger: trigger)
+            
+            center.add(request) { (error) in
+                if error != nil {
+                    print("Error = \(error?.localizedDescription ?? "error local notification")")
+                }
+            }
         })
         
         let noAction = UIAlertAction(title: "No",
